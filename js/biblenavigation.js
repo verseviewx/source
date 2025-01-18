@@ -1,1 +1,171 @@
-var a0_0x6f73ab=a0_0x5908;(function(_0x189a58,_0x7b0c72){var _0xbb3d62=a0_0x5908,_0xdf71e3=_0x189a58();while(!![]){try{var _0x410598=parseInt(_0xbb3d62(0x101))/0x1+-parseInt(_0xbb3d62(0x109))/0x2+-parseInt(_0xbb3d62(0x126))/0x3*(-parseInt(_0xbb3d62(0xee))/0x4)+-parseInt(_0xbb3d62(0x12f))/0x5+parseInt(_0xbb3d62(0x107))/0x6+parseInt(_0xbb3d62(0x138))/0x7*(-parseInt(_0xbb3d62(0x121))/0x8)+parseInt(_0xbb3d62(0x10d))/0x9*(parseInt(_0xbb3d62(0xe8))/0xa);if(_0x410598===_0x7b0c72)break;else _0xdf71e3['push'](_0xdf71e3['shift']());}catch(_0x33018f){_0xdf71e3['push'](_0xdf71e3['shift']());}}}(a0_0x369f,0x358c6));let content1=[a0_0x6f73ab(0x112),a0_0x6f73ab(0x12d),a0_0x6f73ab(0x10a),a0_0x6f73ab(0x13b)],content2=[a0_0x6f73ab(0x108),a0_0x6f73ab(0xf2),a0_0x6f73ab(0x110),a0_0x6f73ab(0x132)];var highlightColor=a0_0x6f73ab(0xec),scroll_to_view=![],previousSelVerse=0x0;function nextBibleVerse(){var _0x188ef8=a0_0x6f73ab;const _0x4e67be=numofch[activePresentationData['bookindex']][activePresentationData[_0x188ef8(0xeb)]];let _0x35bf69=parseInt(activePresentationData['contentIndex'])+0x1;_0x35bf69>=_0x4e67be&&(_0x35bf69=0x0),presentationData['contentIndex']=_0x35bf69,activePresentationData[_0x188ef8(0x134)]=_0x35bf69,presentationData[_0x188ef8(0x139)]=activePresentationData[_0x188ef8(0x124)][_0x35bf69],presentationData[_0x188ef8(0x11f)]=activePresentationData[_0x188ef8(0x102)][_0x35bf69],presentationData[_0x188ef8(0x117)]=getNextVerseSlideContent(activePresentationData[_0x188ef8(0x124)],_0x35bf69),presentationData[_0x188ef8(0xf8)]=getNextVerseSlideContent(activePresentationData[_0x188ef8(0x102)],_0x35bf69),presentationData[_0x188ef8(0xfd)]=booknames[activePresentationData[_0x188ef8(0xe3)]-0x1]+'\x20'+activePresentationData[_0x188ef8(0xeb)],presentationData[_0x188ef8(0x11e)]=activePresentationData[_0x188ef8(0x11e)],window[_0x188ef8(0x129)]['update'](presentationData);}function prevBibleVerse(){var _0x1c6ea0=a0_0x6f73ab;const _0x18d8ec=numofch[activePresentationData[_0x1c6ea0(0xe3)]][activePresentationData[_0x1c6ea0(0xeb)]];let _0x43aa44=parseInt(activePresentationData[_0x1c6ea0(0x134)])-0x1;_0x43aa44<0x0&&(_0x43aa44=_0x18d8ec-0x1),presentationData[_0x1c6ea0(0x134)]=_0x43aa44,activePresentationData[_0x1c6ea0(0x134)]=_0x43aa44,presentationData[_0x1c6ea0(0x139)]=activePresentationData['content1Arr'][_0x43aa44],presentationData['content2']=activePresentationData[_0x1c6ea0(0x102)][_0x43aa44],presentationData[_0x1c6ea0(0x117)]=getNextVerseSlideContent(activePresentationData[_0x1c6ea0(0x124)],_0x43aa44),presentationData[_0x1c6ea0(0xf8)]=getNextVerseSlideContent(activePresentationData[_0x1c6ea0(0x102)],_0x43aa44),presentationData[_0x1c6ea0(0xfd)]=booknames[activePresentationData[_0x1c6ea0(0xe3)]-0x1]+'\x20'+activePresentationData[_0x1c6ea0(0xeb)],presentationData[_0x1c6ea0(0x11e)]=activePresentationData['presentationType'],window[_0x1c6ea0(0x129)]['update'](presentationData);}function getNextVerseSlideContent(_0x432fba,_0x3c3a9a){let _0x1cb5b5='';const _0x263718=_0x432fba['length'],_0x4be022=parseInt(_0x3c3a9a)+0x1;return _0x4be022>=_0x263718?_0x1cb5b5='':_0x1cb5b5=_0x432fba[_0x4be022],_0x1cb5b5;}function updateVerseContainer_continue(){var _0x190553=a0_0x6f73ab,_0x2939f3=bibleVersionJSON[_0x190553(0x133)][configJSON[_0x190553(0xe5)][0x0][_0x190553(0xff)]][_0x190553(0x137)],_0x3e89a7=bibleVersionJSON['version'][configJSON[_0x190553(0xe5)][0x0][_0x190553(0xf6)]][_0x190553(0x137)],_0x5d2c04=configJSON['configuration'][0x0]['BibleDualLanguageForNavigation'],_0x26d6bb=content1[_0x190553(0x12b)],_0x434eb2='';_0x434eb2+=_0x190553(0xf1),_0x434eb2+='<thead>',_0x434eb2+='\x20\x20<tr>',_0x434eb2+=_0x190553(0xfc),_0x434eb2+='\x20\x20\x20\x20<th\x20scope=\x22col\x22>'+_0x2939f3+'</th>';_0x5d2c04&&(_0x434eb2+=_0x190553(0xf3)+_0x3e89a7+_0x190553(0x10c));_0x434eb2+=_0x190553(0x104),_0x434eb2+=_0x190553(0x135),_0x434eb2+=_0x190553(0x11c);for(i=0x0;i<_0x26d6bb;i++){var _0x107250='TC_'+i;_0x434eb2+=_0x190553(0xf7)+_0x107250+'>',_0x434eb2+='<th\x20scope=\x22row\x22>',_0x434eb2+=_0x190553(0x10c);let _0x37a718='VC1_'+i;_0x434eb2+='<td\x20class=\x22primaryBibleClass\x22\x20id='+_0x37a718+_0x190553(0x111)+i+'>'+content1[i]+_0x190553(0xe4);if(_0x5d2c04){let _0x3513f7=_0x190553(0xef)+i;_0x434eb2+='<td\x20class=\x22secondaryBibleClass\x22\x20id='+_0x3513f7+_0x190553(0x111)+i+'>'+content2[i]+_0x190553(0xe4);}_0x434eb2+=_0x190553(0x105);}_0x434eb2=_0x434eb2+_0x190553(0xfb);const _0x5afd97=document[_0x190553(0xf4)]('.verses-tab-pane');_0x5afd97[_0x190553(0x11d)]=_0x434eb2,$('.primaryBibleClass')[_0x190553(0xf0)](_0x190553(0xe7),bibleVersionJSON[_0x190553(0x133)][configJSON[_0x190553(0xe5)][0x0]['version1']][_0x190553(0x103)]),$(_0x190553(0xe6))['css'](_0x190553(0xe7),bibleVersionJSON[_0x190553(0x133)][configJSON[_0x190553(0xe5)][0x0][_0x190553(0xf6)]]['selectedfont']);bibleVersionJSON['version'][configJSON[_0x190553(0xe5)][0x0][_0x190553(0xff)]][_0x190553(0x131)]==null?$(_0x190553(0x113))[_0x190553(0xf0)]('direction',_0x190553(0x13a)):bibleVersionJSON[_0x190553(0x133)][configJSON[_0x190553(0xe5)][0x0][_0x190553(0xff)]][_0x190553(0x131)]?$(_0x190553(0x113))[_0x190553(0xf0)](_0x190553(0xed),_0x190553(0x13a)):$('.primaryBibleClass')[_0x190553(0xf0)](_0x190553(0xed),_0x190553(0xf9));bibleVersionJSON[_0x190553(0x133)][configJSON[_0x190553(0xe5)][0x0][_0x190553(0xf6)]][_0x190553(0x131)]==null?$(_0x190553(0xe6))[_0x190553(0xf0)](_0x190553(0xed),'ltr'):bibleVersionJSON[_0x190553(0x133)][configJSON[_0x190553(0xe5)][0x0][_0x190553(0xf6)]][_0x190553(0x131)]?$(_0x190553(0xe6))['css'](_0x190553(0xed),_0x190553(0x13a)):$(_0x190553(0xe6))[_0x190553(0xf0)]('direction',_0x190553(0xf9));const _0x40ee21=$('#verseList')[_0x190553(0xfe)]()-0x1;highlightVerse(_0x40ee21),setTimeout(function(){scroll2top(_0x40ee21);},0xc8);for(i=0x0;i<_0x26d6bb;i++){if(_0x5d2c04)var _0x35b7cc=_0x190553(0xf5)+i+_0x190553(0x12a)+i;else var _0x35b7cc='#VC1_'+i;$(_0x35b7cc)['on']('click',async function(){var _0x23ac6e=_0x190553;const _0x43f80c=$(this)[_0x23ac6e(0x106)](_0x23ac6e(0x10e));biblePresentationLaunch(_0x43f80c),highlightVerse(_0x43f80c);});}}function a0_0x369f(){var _0x33f1e6=['VC2_','css','<table\x20class=\x22table\x20pointer\x22>','mVerse\x202','\x20\x20\x20\x20<th\x20scope=\x22col\x22>','querySelector','#VC1_','version2','<tr\x20class=\x22verseHighlightColor\x22\x20id=','content2next','rtl','getbooknamesForPresent','</tbody></table>','\x20\x20\x20\x20<th\x20scope=\x22col\x22></th>','title','val','version1','contentCopyright','157460kiGLor','content2Arr','selectedfont','\x20\x20</tr>','</tr>','attr','1246926EtePSl','1\x20ആദിയിൽ\x20ദൈവം\x20ആകാശവും\x20ഭൂമിയും\x20സൃഷ്ടി','16206zFBicv','Verse\x203','verseindex','</th>','63SUvcxO','index','TC_','mVerse\x203','\x20index=','1\x20In\x20the\x20beginning\x20God\x20created\x20the\x20heaven\x20and\x20the\x20earth.','.primaryBibleClass','public','presentationActive','content1Font','content1next','#0d6efd','\x20/\x20','showBothContent','Public\x20Domain','<tbody>','innerHTML','presentationType','content2','#verseList','152SXuUBu','chapterval','scrollIntoView','content1Arr','songid','354HrjuDT','BibleDualLanguageForNavigation','copyright','api',',#VC2_','length','scroll','Verse\x202','content2direction','1672150ajgSuj','content1direction','left2right','mVerse\x204','version','contentIndex','</thead>','bookval','name','115045OVgvrC','content1','ltr','Verse\x204','bookindex','</td>','configuration','.secondaryBibleClass','font-family','623090siCTNY','content2Font','color','chapterindex','#BAD0EF','direction','2464LQIOZY'];a0_0x369f=function(){return _0x33f1e6;};return a0_0x369f();}function biblePresentButton(){var _0x3bb178=a0_0x6f73ab;const _0xda016c=$(_0x3bb178(0x120))[_0x3bb178(0xfe)]()-0x1;biblePresentationLaunch(_0xda016c);}function biblePresentationLaunch(_0x4dbacd){var _0x4f33ab=a0_0x6f73ab;presentationData[_0x4f33ab(0x134)]=_0x4dbacd,$('#verseList')[_0x4f33ab(0xfe)](presentationData[_0x4f33ab(0x134)]*0x1+0x1),presentationData[_0x4f33ab(0x139)]=content1[presentationData[_0x4f33ab(0x134)]],presentationData[_0x4f33ab(0x11f)]=content2[presentationData[_0x4f33ab(0x134)]],presentationData[_0x4f33ab(0x117)]=getNextVerseSlideContent(content1,_0x4dbacd),presentationData[_0x4f33ab(0xf8)]=getNextVerseSlideContent(content2,_0x4dbacd),presentationData[_0x4f33ab(0xfd)]=booknameObj[_0x4f33ab(0xfa)](bibleGetData[_0x4f33ab(0x136)]-0x1)+'\x20'+bibleGetData['chapterval'],presentationData['content1Font']=bibleVersionJSON[_0x4f33ab(0x133)][configJSON[_0x4f33ab(0xe5)][0x0]['version1']][_0x4f33ab(0x103)],presentationData['content2Font']=bibleVersionJSON[_0x4f33ab(0x133)][configJSON[_0x4f33ab(0xe5)][0x0][_0x4f33ab(0xf6)]][_0x4f33ab(0x103)],presentationData[_0x4f33ab(0x11a)]=!configJSON[_0x4f33ab(0xe5)][0x0]['BibleDisplayOnlyPrimary'];const _0x55c088=getFooter();presentationData[_0x4f33ab(0x100)]=_0x55c088,presentationData[_0x4f33ab(0x11e)]=PRESENTATION_VERSE,presentationData[_0x4f33ab(0x130)]=bibleVersionJSON['version'][configJSON[_0x4f33ab(0xe5)][0x0][_0x4f33ab(0xff)]][_0x4f33ab(0x131)],presentationData[_0x4f33ab(0x12e)]=bibleVersionJSON[_0x4f33ab(0x133)][configJSON[_0x4f33ab(0xe5)][0x0][_0x4f33ab(0xf6)]][_0x4f33ab(0x131)],setupPresentation();const _0x46d9e3=bibleGetData[_0x4f33ab(0x136)],_0x5ce955=bibleGetData[_0x4f33ab(0x122)],_0x2ac6d1=presentationData[_0x4f33ab(0x134)]*0x1+0x1;bufferPresentationBibleData(_0x46d9e3,_0x5ce955,_0x2ac6d1,content1,content2),recent['addSelection'](_0x46d9e3-0x1,_0x5ce955*0x1-0x1,_0x2ac6d1*0x1-0x1);}function highlightVerse(_0x5da5e5){var _0xd88244=a0_0x6f73ab,_0x48a3da=configJSON[_0xd88244(0xe5)][0x0][_0xd88244(0x127)];if(_0x48a3da)var _0x2050bf='#VC1_'+previousSelVerse+',#VC2_'+previousSelVerse;else var _0x2050bf=_0xd88244(0xf5)+previousSelVerse;$(_0x2050bf)['css'](_0xd88244(0xea),'');if(_0x48a3da)var _0x2050bf=_0xd88244(0xf5)+_0x5da5e5+',#VC2_'+_0x5da5e5;else var _0x2050bf='#VC1_'+_0x5da5e5;$(_0x2050bf)[_0xd88244(0xf0)](_0xd88244(0xea),_0xd88244(0x118)),previousSelVerse=_0x5da5e5;}function scroll2top(_0x3d249c){var _0x3931b8=a0_0x6f73ab,_0x33ee52=_0x3931b8(0x10f)+_0x3d249c;scroll_to_view&&(document['getElementById'](_0x33ee52)[_0x3931b8(0x123)](),scroll_to_view=![]),window[_0x3931b8(0x12c)](0x0,0x0);}function a0_0x5908(_0x43ab37,_0xa0edc4){var _0x369f86=a0_0x369f();return a0_0x5908=function(_0x590847,_0x295101){_0x590847=_0x590847-0xe3;var _0x142dca=_0x369f86[_0x590847];return _0x142dca;},a0_0x5908(_0x43ab37,_0xa0edc4);}function getFooter(){var _0x324fd0=a0_0x6f73ab,_0x1430e2,_0xe996ee=bibleVersionJSON[_0x324fd0(0x133)][configJSON[_0x324fd0(0xe5)][0x0][_0x324fd0(0xff)]][_0x324fd0(0x128)],_0x45908d=bibleVersionJSON[_0x324fd0(0x133)][configJSON[_0x324fd0(0xe5)][0x0][_0x324fd0(0xf6)]][_0x324fd0(0x128)];return _0x1430e2=_0xe996ee+_0x324fd0(0x119)+_0x45908d,_0xe996ee==_0x324fd0(0x114)&&(_0xe996ee=_0x324fd0(0x11b)),_0x45908d==_0x324fd0(0x114)&&(_0x45908d=_0x324fd0(0x11b)),_0xe996ee==_0x324fd0(0x11b)&&_0x45908d==_0x324fd0(0x11b)&&(_0x1430e2=''),(_0xe996ee==_0x324fd0(0x11b)||_0xe996ee=='')&&_0x45908d!=_0x324fd0(0x11b)&&(_0x1430e2=_0x45908d),_0xe996ee!=_0x324fd0(0x11b)&&(_0x45908d==_0x324fd0(0x11b)||_0x45908d=='')&&(_0x1430e2=_0xe996ee),_0xe996ee==_0x45908d&&(_0x1430e2=_0xe996ee),_0x1430e2;}function bufferPresentationBibleData(_0x42c0bd,_0x3b9b0a,_0x3cee51,_0x226d92,_0x23b638){var _0x182614=a0_0x6f73ab;activePresentationData[_0x182614(0x115)]=!![],activePresentationData[_0x182614(0x11e)]=presentationData[_0x182614(0x11e)],activePresentationData[_0x182614(0xe3)]=_0x42c0bd,activePresentationData[_0x182614(0xeb)]=_0x3b9b0a,activePresentationData[_0x182614(0x10b)]=_0x3cee51,activePresentationData['contentIndex']=presentationData['contentIndex'],activePresentationData['title']=presentationData[_0x182614(0xfd)],activePresentationData[_0x182614(0x124)]=_0x226d92,activePresentationData[_0x182614(0x102)]=_0x23b638,activePresentationData[_0x182614(0x116)]=presentationData[_0x182614(0x116)],activePresentationData[_0x182614(0xe9)]=presentationData['content2Font'],activePresentationData[_0x182614(0x125)]=0x0,activePresentationData[_0x182614(0x128)]=presentationData[_0x182614(0x100)];}
+let content1 = [
+    '1 In the beginning God created the heaven and the earth.',
+    'Verse 2',
+    'Verse 3',
+    'Verse 4'
+];
+let content2 = [
+    '1 ആദിയിൽ ദൈവം ആകാശവും ഭൂമിയും സൃഷ്ടി',
+    'mVerse 2',
+    'mVerse 3',
+    'mVerse 4'
+];
+var highlightColor = '#BAD0EF';
+var scroll_to_view = false;
+var previousSelVerse = 0;
+function nextBibleVerse() {
+    const _0x4e67be = numofch[activePresentationData.bookindex][activePresentationData.chapterindex];
+    let _0x35bf69 = parseInt(activePresentationData.contentIndex) + 1;
+    _0x35bf69 >= _0x4e67be && (_0x35bf69 = 0);
+    presentationData.contentIndex = _0x35bf69;
+    activePresentationData.contentIndex = _0x35bf69;
+    presentationData.content1 = activePresentationData.content1Arr[_0x35bf69];
+    presentationData.content2 = activePresentationData.content2Arr[_0x35bf69];
+    presentationData.content1next = getNextVerseSlideContent(activePresentationData.content1Arr, _0x35bf69);
+    presentationData.content2next = getNextVerseSlideContent(activePresentationData.content2Arr, _0x35bf69);
+    presentationData.title = booknames[activePresentationData.bookindex - 1] + ' ' + activePresentationData.chapterindex;
+    presentationData.presentationType = activePresentationData.presentationType;
+    window.api.update(presentationData);
+}
+function prevBibleVerse() {
+    const _0x18d8ec = numofch[activePresentationData.bookindex][activePresentationData.chapterindex];
+    let _0x43aa44 = parseInt(activePresentationData.contentIndex) - 1;
+    _0x43aa44 < 0 && (_0x43aa44 = _0x18d8ec - 1);
+    presentationData.contentIndex = _0x43aa44;
+    activePresentationData.contentIndex = _0x43aa44;
+    presentationData.content1 = activePresentationData.content1Arr[_0x43aa44];
+    presentationData.content2 = activePresentationData.content2Arr[_0x43aa44];
+    presentationData.content1next = getNextVerseSlideContent(activePresentationData.content1Arr, _0x43aa44);
+    presentationData.content2next = getNextVerseSlideContent(activePresentationData.content2Arr, _0x43aa44);
+    presentationData.title = booknames[activePresentationData.bookindex - 1] + ' ' + activePresentationData.chapterindex;
+    presentationData.presentationType = activePresentationData.presentationType;
+    window.api.update(presentationData);
+}
+function getNextVerseSlideContent(_0x432fba, _0x3c3a9a) {
+    let _0x1cb5b5 = '';
+    const _0x263718 = _0x432fba.length;
+    const _0x4be022 = parseInt(_0x3c3a9a) + 1;
+    return _0x4be022 >= _0x263718 ? _0x1cb5b5 = '' : _0x1cb5b5 = _0x432fba[_0x4be022], _0x1cb5b5;
+}
+function updateVerseContainer_continue() {
+    var _0x2939f3 = bibleVersionJSON.version[configJSON.configuration[0].version1].name;
+    var _0x3e89a7 = bibleVersionJSON.version[configJSON.configuration[0].version2].name;
+    var _0x5d2c04 = configJSON.configuration[0].BibleDualLanguageForNavigation;
+    var _0x26d6bb = content1.length;
+    var _0x434eb2 = '';
+    _0x434eb2 += '<table class="table pointer">';
+    _0x434eb2 += '<thead>';
+    _0x434eb2 += '  <tr>';
+    _0x434eb2 += '    <th scope="col"></th>';
+    _0x434eb2 += '    <th scope="col">' + _0x2939f3 + '</th>';
+    _0x5d2c04 && (_0x434eb2 += '    <th scope="col">' + _0x3e89a7 + '</th>');
+    _0x434eb2 += '  </tr>';
+    _0x434eb2 += '</thead>';
+    _0x434eb2 += '<tbody>';
+    for (i = 0; i < _0x26d6bb; i++) {
+        var _0x107250 = 'TC_' + i;
+        _0x434eb2 += '<tr class="verseHighlightColor" id=' + _0x107250 + '>';
+        _0x434eb2 += '<th scope="row">';
+        _0x434eb2 += '</th>';
+        let _0x37a718 = 'VC1_' + i;
+        _0x434eb2 += '<td class="primaryBibleClass" id=' + _0x37a718 + ' index=' + i + '>' + content1[i] + '</td>';
+        if (_0x5d2c04) {
+            let _0x3513f7 = 'VC2_' + i;
+            _0x434eb2 += '<td class="secondaryBibleClass" id=' + _0x3513f7 + ' index=' + i + '>' + content2[i] + '</td>';
+        }
+        _0x434eb2 += '</tr>';
+    }
+    _0x434eb2 = _0x434eb2 + '</tbody></table>';
+    const _0x5afd97 = document.querySelector('.verses-tab-pane');
+    _0x5afd97.innerHTML = _0x434eb2;
+    $('.primaryBibleClass').css('font-family', bibleVersionJSON.version[configJSON.configuration[0].version1].selectedfont);
+    $('.secondaryBibleClass').css('font-family', bibleVersionJSON.version[configJSON.configuration[0].version2].selectedfont);
+    bibleVersionJSON.version[configJSON.configuration[0].version1].left2right == null ? $('.primaryBibleClass').css('direction', 'ltr') : bibleVersionJSON.version[configJSON.configuration[0].version1].left2right ? $('.primaryBibleClass').css('direction', 'ltr') : $('.primaryBibleClass').css('direction', 'rtl');
+    bibleVersionJSON.version[configJSON.configuration[0].version2].left2right == null ? $('.secondaryBibleClass').css('direction', 'ltr') : bibleVersionJSON.version[configJSON.configuration[0].version2].left2right ? $('.secondaryBibleClass').css('direction', 'ltr') : $('.secondaryBibleClass').css('direction', 'rtl');
+    const _0x40ee21 = $('#verseList').val() - 1;
+    highlightVerse(_0x40ee21);
+    setTimeout(function () {
+        scroll2top(_0x40ee21);
+    }, 200);
+    for (i = 0; i < _0x26d6bb; i++) {
+        if (_0x5d2c04) {
+            var _0x35b7cc = '#VC1_' + i + ',#VC2_' + i;
+        } else {
+            var _0x35b7cc = '#VC1_' + i;
+        }
+        $(_0x35b7cc).on('click', async function () {
+            const _0x43f80c = $(this).attr('index');
+            biblePresentationLaunch(_0x43f80c);
+            highlightVerse(_0x43f80c);
+        });
+    }
+}
+function biblePresentButton() {
+    const _0xda016c = $('#verseList').val() - 1;
+    biblePresentationLaunch(_0xda016c);
+}
+function biblePresentationLaunch(_0x4dbacd) {
+    presentationData.contentIndex = _0x4dbacd;
+    $('#verseList').val(presentationData.contentIndex * 1 + 1);
+    presentationData.content1 = content1[presentationData.contentIndex];
+    presentationData.content2 = content2[presentationData.contentIndex];
+    presentationData.content1next = getNextVerseSlideContent(content1, _0x4dbacd);
+    presentationData.content2next = getNextVerseSlideContent(content2, _0x4dbacd);
+    presentationData.title = booknameObj.getbooknamesForPresent(bibleGetData.bookval - 1) + ' ' + bibleGetData.chapterval;
+    presentationData.content1Font = bibleVersionJSON.version[configJSON.configuration[0].version1].selectedfont;
+    presentationData.content2Font = bibleVersionJSON.version[configJSON.configuration[0].version2].selectedfont;
+    presentationData.showBothContent = !configJSON.configuration[0].BibleDisplayOnlyPrimary;
+    const _0x55c088 = getFooter();
+    presentationData.contentCopyright = _0x55c088;
+    presentationData.presentationType = PRESENTATION_VERSE;
+    presentationData.content1direction = bibleVersionJSON.version[configJSON.configuration[0].version1].left2right;
+    presentationData.content2direction = bibleVersionJSON.version[configJSON.configuration[0].version2].left2right;
+    setupPresentation();
+    const _0x46d9e3 = bibleGetData.bookval;
+    const _0x5ce955 = bibleGetData.chapterval;
+    const _0x2ac6d1 = presentationData.contentIndex * 1 + 1;
+    bufferPresentationBibleData(_0x46d9e3, _0x5ce955, _0x2ac6d1, content1, content2);
+    recent.addSelection(_0x46d9e3 - 1, _0x5ce955 * 1 - 1, _0x2ac6d1 * 1 - 1);
+}
+function highlightVerse(_0x5da5e5) {
+    var _0x48a3da = configJSON.configuration[0].BibleDualLanguageForNavigation;
+    if (_0x48a3da) {
+        var _0x2050bf = '#VC1_' + previousSelVerse + ',#VC2_' + previousSelVerse;
+    } else {
+        var _0x2050bf = '#VC1_' + previousSelVerse;
+    }
+    $(_0x2050bf).css('color', '');
+    if (_0x48a3da) {
+        var _0x2050bf = '#VC1_' + _0x5da5e5 + ',#VC2_' + _0x5da5e5;
+    } else {
+        var _0x2050bf = '#VC1_' + _0x5da5e5;
+    }
+    $(_0x2050bf).css('color', '#0d6efd');
+    previousSelVerse = _0x5da5e5;
+}
+function scroll2top(_0x3d249c) {
+    var _0x33ee52 = 'TC_' + _0x3d249c;
+    scroll_to_view && (document.getElementById(_0x33ee52).scrollIntoView(), scroll_to_view = false);
+    window.scroll(0, 0);
+}
+function getFooter() {
+    var _0x1430e2;
+    var _0xe996ee = bibleVersionJSON.version[configJSON.configuration[0].version1].copyright;
+    var _0x45908d = bibleVersionJSON.version[configJSON.configuration[0].version2].copyright;
+    return _0x1430e2 = _0xe996ee + ' / ' + _0x45908d, _0xe996ee == 'public' && (_0xe996ee = 'Public Domain'), _0x45908d == 'public' && (_0x45908d = 'Public Domain'), _0xe996ee == 'Public Domain' && _0x45908d == 'Public Domain' && (_0x1430e2 = ''), (_0xe996ee == 'Public Domain' || _0xe996ee == '') && _0x45908d != 'Public Domain' && (_0x1430e2 = _0x45908d), _0xe996ee != 'Public Domain' && (_0x45908d == 'Public Domain' || _0x45908d == '') && (_0x1430e2 = _0xe996ee), _0xe996ee == _0x45908d && (_0x1430e2 = _0xe996ee), _0x1430e2;
+}
+function bufferPresentationBibleData(_0x42c0bd, _0x3b9b0a, _0x3cee51, _0x226d92, _0x23b638) {
+    activePresentationData.presentationActive = true;
+    activePresentationData.presentationType = presentationData.presentationType;
+    activePresentationData.bookindex = _0x42c0bd;
+    activePresentationData.chapterindex = _0x3b9b0a;
+    activePresentationData.verseindex = _0x3cee51;
+    activePresentationData.contentIndex = presentationData.contentIndex;
+    activePresentationData.title = presentationData.title;
+    activePresentationData.content1Arr = _0x226d92;
+    activePresentationData.content2Arr = _0x23b638;
+    activePresentationData.content1Font = presentationData.content1Font;
+    activePresentationData.content2Font = presentationData.content2Font;
+    activePresentationData.songid = 0;
+    activePresentationData.copyright = presentationData.contentCopyright;
+}

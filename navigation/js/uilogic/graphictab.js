@@ -1,1 +1,261 @@
-function a0_0x5943(_0x10e2d4,_0x462add){const _0x5a24fd=a0_0x5a24();return a0_0x5943=function(_0x5943b5,_0x560a47){_0x5943b5=_0x5943b5-0xea;let _0x1fed7b=_0x5a24fd[_0x5943b5];return _0x1fed7b;},a0_0x5943(_0x10e2d4,_0x462add);}function a0_0x5a24(){const _0x47443f=['#selectedVideoID','BackgroundImageIndex','Select\x20Text\x202\x20Color','Delete\x20Background','#selected_still_id','#changeText2ColorButton','#setVideoID','append','3659830ctsNbf','c.jpg','css','#selected_logostill_id','10925HgKvPZ','d.jpg','change','LayerColor','#playpauseButtonID','<div><input\x20type=\x22text\x22\x20id=\x22colorpicker\x22\x20/></div>','motionBkgndSelection','3PkCJsi','#addStillBkgndButtonID','#setAsBackgroundButtonID','8dmGwRX','.graphicsthumbnail','#still_animate','deletebkgnd','2922iMviHO','1234042HaNWzo','Are\x20you\x20sure\x20you\x20want\x20to\x20delete\x20this\x20background?','passPresentationSetup','#changeText1ColorButton','#selectedVideoDivID','#muteButtonID','val','#setAsLogoButtonID','#motionBkgndSelection\x20option:selected','#preview_still_id','src','MotionBackground','LogoImageIndex','Text2Color','#pauseButtonID','100%','focusout','BackgroundFolder','98728LbReLR','Text1Color','removeClass','Select\x20Text\x201\x20Color','<div\x20class=\x22row\x20py-2\x22>','#forward15ButtonID','#changeLayerColorButton','length','slice','width','></div>','Can\x20not\x20delete\x20active\x20background','attr','8298367UzErwg','html','addClass','hide','img-thumbnail','SelectedBackgroundFilename','lastIndexOf','configuration','split','BackgroundList','show','Graphics','click','99IkZxlN','bi-volume-up','7071687fObYCE','#motionBkgndSelection','</div>','bi-volume-mute','<option\x20value=','#delStillBkgndButton','b.jpg','toUpperCase','f.jpg','<label\x20class=\x22form-label\x22>STILL\x20BACKGROUND</label>','#selected_still_div_id','a.jpg','#Text2ColorBox','color','#Text1ColorBox','#FFFFFF','Could\x20not\x20delete\x20the\x20background','api','ShadedBackground','#resetOverlayColorButton','#000000','<div\x20class=\x22col-2\x22><img\x20src=\x22','updateAll','#LayerColorBox','#still_bkgnd_grid','spectrum','hidden','push','#resetTextColorButton','SelectedBackgroundIndex','#preview_video_id',':checked','1201856lerMhO','#rewind15ButtonID','getbkgndlist','appDataFolder','class','openFile'];a0_0x5a24=function(){return _0x47443f;};return a0_0x5a24();}const a0_0x13f998=a0_0x5943;(function(_0x3de2c0,_0x5e1373){const _0x44bc2a=a0_0x5943,_0x21954c=_0x3de2c0();while(!![]){try{const _0x31c79d=parseInt(_0x44bc2a(0x123))/0x1+parseInt(_0x44bc2a(0x135))/0x2*(-parseInt(_0x44bc2a(0x11b))/0x3)+-parseInt(_0x44bc2a(0x102))/0x4+parseInt(_0x44bc2a(0x114))/0x5*(parseInt(_0x44bc2a(0x122))/0x6)+parseInt(_0x44bc2a(0x142))/0x7+parseInt(_0x44bc2a(0x11e))/0x8*(parseInt(_0x44bc2a(0x151))/0x9)+parseInt(_0x44bc2a(0x110))/0xa*(-parseInt(_0x44bc2a(0x14f))/0xb);if(_0x31c79d===_0x5e1373)break;else _0x21954c['push'](_0x21954c['shift']());}catch(_0x3b48de){_0x21954c['push'](_0x21954c['shift']());}}}(a0_0x5a24,0x98c16));const CONTROL_PAUSE=0x1,CONTROL_BACKWARD=0x3,CONTROL_FORWARD=0x2,CONTROL_MUTE_UNMUTE=0x4;let graphicstab={'Text1Color':'#FFFFFF','Text2Color':'#FFFFFF','LayerColor':a0_0x13f998(0xf1),'MotionBackground':![],'RandomBackground':![],'ShadedBackground':!![],'TransparentBackground':![],'BackgroundList':[a0_0x13f998(0xed),'c.jpg',a0_0x13f998(0x115),a0_0x13f998(0x157),a0_0x13f998(0xea),a0_0x13f998(0x157),a0_0x13f998(0x111)],'SelectedBackgroundIndex':0x0,'BackgroundImageIndex':0x0,'LogoImageIndex':0x0,'BackgroundFolder':''},colorPickerColorGlobal=a0_0x13f998(0xf1);async function graphicstab_init(){const _0x3d2af7=a0_0x13f998;graphicstab[_0x3d2af7(0x14b)]=await window[_0x3d2af7(0xf3)][_0x3d2af7(0x104)](),graphicstab[_0x3d2af7(0x134)]=configJSON[_0x3d2af7(0x149)][0x0][_0x3d2af7(0x105)]+'background\x5cstill\x5c',graphicstab_getDataFromConfig(),graphicstab_setupBkgnd(),graphics_setupTextColors(),graphicstab_renderBkgnd(),graphicstab_setEvents();}function graphicstab_getDataFromConfig(){const _0x284374=a0_0x13f998;graphicstab['MotionBackground']=configJSON[_0x284374(0x149)][0x0][_0x284374(0x12e)],graphicstab[_0x284374(0x109)]=configJSON['configuration'][0x0][_0x284374(0xff)],graphicstab[_0x284374(0x12f)]=configJSON[_0x284374(0x149)][0x0][_0x284374(0x12f)],graphicstab[_0x284374(0x136)]=configJSON['configuration'][0x0][_0x284374(0x136)],graphicstab['Text2Color']=configJSON['configuration'][0x0]['Text2Color'],graphicstab['LayerColor']=configJSON[_0x284374(0x149)][0x0][_0x284374(0x117)],graphicstab[_0x284374(0xf4)]=configJSON[_0x284374(0x149)][0x0][_0x284374(0xf4)];}function graphics_setupTextColors(){const _0x2b0bb4=a0_0x13f998;$('#text1color')[_0x2b0bb4(0xfb)]({'color':graphicstab[_0x2b0bb4(0x136)],'flat':!![],'showInput':![],'showButtons':![]}),$(_0x2b0bb4(0xf0))['css']('color',graphicstab[_0x2b0bb4(0x136)]),$(_0x2b0bb4(0xee))[_0x2b0bb4(0x112)](_0x2b0bb4(0xef),graphicstab[_0x2b0bb4(0x130)]),$(_0x2b0bb4(0xf9))[_0x2b0bb4(0x112)](_0x2b0bb4(0xef),graphicstab[_0x2b0bb4(0x117)]);}function colorSetText1(){const _0x1be0c1=a0_0x13f998;graphicstab[_0x1be0c1(0x136)]=colorPickerColorGlobal,$(_0x1be0c1(0xf0))[_0x1be0c1(0x112)](_0x1be0c1(0xef),colorPickerColorGlobal),updateSaveConfig('Text1Color',graphicstab[_0x1be0c1(0x136)]);}function colorSetText2(){const _0x150674=a0_0x13f998;graphicstab[_0x150674(0x130)]=colorPickerColorGlobal,$(_0x150674(0xee))[_0x150674(0x112)](_0x150674(0xef),colorPickerColorGlobal),updateSaveConfig('Text2Color',graphicstab[_0x150674(0x130)]);}function colorSetLayer(){const _0x1ba907=a0_0x13f998;graphicstab[_0x1ba907(0x117)]=colorPickerColorGlobal,$('#LayerColorBox')[_0x1ba907(0x112)](_0x1ba907(0xef),colorPickerColorGlobal),graphicstab['ShadedBackground']=!![],updateSaveConfig(_0x1ba907(0x117),graphicstab['LayerColor']),updateSaveConfig(_0x1ba907(0xf4),graphicstab['ShadedBackground']);}function graphicstab_setEvents(){const _0x4e3c27=a0_0x13f998;$(_0x4e3c27(0x126))['on'](_0x4e3c27(0x14e),function(){const _0x539b53=_0x4e3c27;var _0xbdc432=_0x539b53(0x138),_0x6536f4='<div><input\x20type=\x22text\x22\x20id=\x22colorpicker\x22\x20/></div>';vvColorPicker(_0xbdc432,_0x6536f4,colorSetText1);}),$(_0x4e3c27(0x10d))['on'](_0x4e3c27(0x14e),function(){const _0x36a36f=_0x4e3c27;var _0x5a5556=_0x36a36f(0x10a),_0x22532b=_0x36a36f(0x119);vvColorPicker(_0x5a5556,_0x22532b,colorSetText2);}),$(_0x4e3c27(0x13b))['on']('click',function(){const _0x61a066=_0x4e3c27;var _0x462c16='Select\x20Background\x20Layer\x20Color',_0x4e7906=_0x61a066(0x119);vvColorPicker(_0x462c16,_0x4e7906,colorSetLayer);}),$(_0x4e3c27(0xfe))['on'](_0x4e3c27(0x14e),function(){const _0x22613a=_0x4e3c27;graphicstab[_0x22613a(0x136)]=_0x22613a(0xf1),graphicstab[_0x22613a(0x130)]=_0x22613a(0xf1),$(_0x22613a(0xf0))[_0x22613a(0x112)](_0x22613a(0xef),graphicstab[_0x22613a(0x136)]),$(_0x22613a(0xee))[_0x22613a(0x112)](_0x22613a(0xef),graphicstab[_0x22613a(0x130)]),updateSaveConfig(_0x22613a(0x136),graphicstab[_0x22613a(0x136)]),updateSaveConfig(_0x22613a(0x130),graphicstab[_0x22613a(0x130)]);}),$(_0x4e3c27(0xf5))['on'](_0x4e3c27(0x14e),function(){const _0x2a9fff=_0x4e3c27;graphicstab[_0x2a9fff(0x117)]=_0x2a9fff(0xf6),graphicstab[_0x2a9fff(0xf4)]=![],$(_0x2a9fff(0xf9))[_0x2a9fff(0x112)](_0x2a9fff(0xef),graphicstab[_0x2a9fff(0x117)]),updateSaveConfig(_0x2a9fff(0x117),graphicstab[_0x2a9fff(0x117)]),updateSaveConfig(_0x2a9fff(0xf4),graphicstab[_0x2a9fff(0xf4)]);}),$(_0x4e3c27(0x11c))['on'](_0x4e3c27(0x14e),async function(){const _0x53f8bd=_0x4e3c27,_0x57be55=await window[_0x53f8bd(0xf3)][_0x53f8bd(0x107)]();_0x57be55!=null&&(graphicstab[_0x53f8bd(0x14b)]=_0x57be55,graphicstab_renderBkgnd());}),$(_0x4e3c27(0x156))['on'](_0x4e3c27(0x14e),async function(){const _0x42c963=_0x4e3c27,_0x4f4509=graphicstab[_0x42c963(0x14b)][graphicstab[_0x42c963(0xff)]],_0xa4b379=graphicstab[_0x42c963(0x134)]+graphicstab[_0x42c963(0x14b)][graphicstab[_0x42c963(0x109)]];if(graphicstab['SelectedBackgroundIndex']==graphicstab[_0x42c963(0x109)])vvDialog(_0x42c963(0x14d),_0x42c963(0x140));else{if(graphicstab['SelectedBackgroundIndex']==graphicstab[_0x42c963(0x12f)])vvDialog(_0x42c963(0x14d),'Can\x20not\x20delete\x20active\x20logo');else{var _0x385021=_0x42c963(0x10b),_0x229ed8=_0x42c963(0x124);vvConfirm(_0x385021,_0x229ed8,_0x5b7657);async function _0x5b7657(){const _0x5b6e8f=_0x42c963;!isJpgPng(_0x4f4509)&&$(_0x5b6e8f(0x108))[_0x5b6e8f(0x141)]('src','');const _0x98a281=await window[_0x5b6e8f(0xf3)][_0x5b6e8f(0x121)](_0x4f4509);_0x98a281?(graphicstab['BackgroundList']=await window[_0x5b6e8f(0xf3)]['getbkgndlist'](),graphicstab[_0x5b6e8f(0xff)]<graphicstab[_0x5b6e8f(0x109)]&&(graphicstab[_0x5b6e8f(0x109)]--,updateSaveConfig(_0x5b6e8f(0xff),graphicstab[_0x5b6e8f(0x109)])),graphicstab[_0x5b6e8f(0xff)]<graphicstab['LogoImageIndex']&&(graphicstab[_0x5b6e8f(0x12f)]--,updateSaveConfig('LogoImageIndex',graphicstab[_0x5b6e8f(0x12f)])),graphicstab[_0x5b6e8f(0xff)]=0x0,graphicstab_setupBkgnd(),graphicstab_renderBkgnd()):vvDialog('Graphics',_0x5b6e8f(0xf2));}}}}),$(_0x4e3c27(0x11d))['on']('click',function(){const _0x35c7d4=_0x4e3c27;graphicstab['BackgroundImageIndex']=graphicstab[_0x35c7d4(0xff)];const _0x318d4c=graphicstab['BackgroundList'][graphicstab[_0x35c7d4(0x109)]],_0x385076=graphicstab[_0x35c7d4(0x134)]+graphicstab[_0x35c7d4(0x14b)][graphicstab['BackgroundImageIndex']];isJpgPng(_0x318d4c)?($(_0x35c7d4(0x127))['hide'](),$(_0x35c7d4(0xec))[_0x35c7d4(0x14c)](),$(_0x35c7d4(0x10c))[_0x35c7d4(0x144)]('img-thumbnail'),$(_0x35c7d4(0x10c))[_0x35c7d4(0x141)](_0x35c7d4(0x12d),_0x385076),graphicstab['MotionBackground']=![]):($(_0x35c7d4(0xec))[_0x35c7d4(0x145)](),$(_0x35c7d4(0xec))[_0x35c7d4(0x137)](_0x35c7d4(0x146)),$(_0x35c7d4(0x127))[_0x35c7d4(0x14c)](),$(_0x35c7d4(0x108))['attr']('src',_0x385076),graphicstab[_0x35c7d4(0x12e)]=!![]),presentationData[_0x35c7d4(0xf8)]=!![],updateSaveConfig(_0x35c7d4(0x12e),graphicstab[_0x35c7d4(0x12e)]),updateSaveConfig(_0x35c7d4(0x147),_0x318d4c),updateSaveConfig('SelectedBackgroundIndex',graphicstab[_0x35c7d4(0x109)]);}),$(_0x4e3c27(0x12a))['on'](_0x4e3c27(0x14e),function(){const _0x1640f1=_0x4e3c27,_0x1c0740=graphicstab[_0x1640f1(0x14b)][graphicstab['SelectedBackgroundIndex']];if(isJpgPng(_0x1c0740)){graphicstab[_0x1640f1(0x12f)]=graphicstab[_0x1640f1(0xff)];const _0x50b27e=graphicstab[_0x1640f1(0x134)]+graphicstab[_0x1640f1(0x14b)][graphicstab[_0x1640f1(0x12f)]];$('#selected_logostill_id')[_0x1640f1(0x141)](_0x1640f1(0x12d),_0x50b27e),updateSaveConfig(_0x1640f1(0x12f),graphicstab[_0x1640f1(0x12f)]);}else vvDialog('Graphics','Please\x20select\x20still\x20backgrounds\x20for\x20Logo');}),$(_0x4e3c27(0x131))['on'](_0x4e3c27(0x14e),function(){const _0x20c7d4=_0x4e3c27;let _0x4e3ac7={'iscontrol':!![],'command':CONTROL_PAUSE};window['api'][_0x20c7d4(0x125)](_0x4e3ac7);}),$(_0x4e3c27(0x103))['on'](_0x4e3c27(0x14e),function(){const _0x3eaa8d=_0x4e3c27;let _0x2ecb33={'iscontrol':!![],'command':CONTROL_BACKWARD};window['api'][_0x3eaa8d(0x125)](_0x2ecb33);}),$(_0x4e3c27(0x13a))['on']('click',function(){const _0x1ab8dc=_0x4e3c27;let _0x59eb03={'iscontrol':!![],'command':CONTROL_FORWARD};window[_0x1ab8dc(0xf3)][_0x1ab8dc(0x125)](_0x59eb03);}),$(_0x4e3c27(0x128))['on'](_0x4e3c27(0x14e),function(){const _0x386103=_0x4e3c27;let _0x3e0166={'iscontrol':!![],'command':CONTROL_MUTE_UNMUTE},_0xb83cba=$('#muteButtonIconID');_0xb83cba[_0x386103(0x141)](_0x386103(0x106))==_0x386103(0x154)?(_0xb83cba[_0x386103(0x137)](_0x386103(0x154)),_0xb83cba[_0x386103(0x144)](_0x386103(0x150))):(_0xb83cba['removeClass'](_0x386103(0x150)),_0xb83cba['addClass']('bi-volume-mute')),window[_0x386103(0xf3)][_0x386103(0x125)](_0x3e0166);}),$(_0x4e3c27(0x118))['on']('click',function(){const _0x86b4d2=_0x4e3c27,_0x4b240c=graphicstab[_0x86b4d2(0x14b)][graphicstab[_0x86b4d2(0xff)]],_0x3bdb43=graphicstab[_0x86b4d2(0x134)]+graphicstab['BackgroundList'][graphicstab['SelectedBackgroundIndex']];presentationData[_0x86b4d2(0xf8)]=!![];let _0x1cf5bd=graphicstab[_0x86b4d2(0x12e)];isJpgPng(_0x4b240c)?(graphicstab[_0x86b4d2(0x12e)]=![],stillPlayback(_0x3bdb43)):(graphicstab[_0x86b4d2(0x12e)]=!![],videoPlayback(_0x3bdb43)),graphicstab[_0x86b4d2(0x12e)]=_0x1cf5bd;}),$(_0x4e3c27(0x120))['on'](_0x4e3c27(0x14e),function(){const _0x2938bc=_0x4e3c27;$(_0x2938bc(0x120))['is'](_0x2938bc(0x101))?graphicstab['MotionBackground']=!![]:graphicstab[_0x2938bc(0x12e)]=![];});}function graphicstab_setupBkgnd(){const _0x33109b=a0_0x13f998,_0x3339ae=graphicstab[_0x33109b(0x134)]+graphicstab[_0x33109b(0x14b)][graphicstab[_0x33109b(0x109)]],_0x10cefb=graphicstab[_0x33109b(0x14b)][graphicstab[_0x33109b(0x109)]];isJpgPng(_0x10cefb)?($(_0x33109b(0x127))[_0x33109b(0x145)](),$(_0x33109b(0xec))[_0x33109b(0x14c)](),$(_0x33109b(0x10c))['addClass'](_0x33109b(0x146)),$(_0x33109b(0x10c))[_0x33109b(0x141)](_0x33109b(0x12d),_0x3339ae),graphicstab[_0x33109b(0x12e)]=![]):($(_0x33109b(0xec))['hide'](),$('#selected_still_div_id')[_0x33109b(0x137)]('img-thumbnail'),$(_0x33109b(0x127))[_0x33109b(0x14c)](),$('#selectedVideoID')[_0x33109b(0x141)](_0x33109b(0x12d),_0x3339ae),graphicstab['MotionBackground']=!![]);const _0x5224d4=graphicstab[_0x33109b(0x134)]+graphicstab['BackgroundList'][graphicstab['LogoImageIndex']];$(_0x33109b(0x113))[_0x33109b(0x141)](_0x33109b(0x12d),_0x5224d4),isJpgPng(_0x10cefb)?($('#selectedx_still_id')[_0x33109b(0x141)](_0x33109b(0x12d),_0x3339ae),$(_0x33109b(0x100))[_0x33109b(0x145)](),$(_0x33109b(0x12c))[_0x33109b(0x14c)]()):($('#setVideoID')[_0x33109b(0x141)](_0x33109b(0x13e),_0x33109b(0x132)),$('#setVideoID')[_0x33109b(0x141)]('overflow','hidden'),$(_0x33109b(0x10e))[_0x33109b(0x141)](_0x33109b(0x12d),_0x3339ae),$(_0x33109b(0x100))[_0x33109b(0x14c)](),$('#preview_still_id')['hide']());}function graphicstab_renderBkgnd(){const _0x4c5a34=a0_0x13f998;let _0x151562=new Array(),_0x133b0c=new Array();const _0x1fb4f9=graphicstab[_0x4c5a34(0x14b)][_0x4c5a34(0x13c)];for(let _0x209fdc=0x0;_0x209fdc<_0x1fb4f9;_0x209fdc++){let _0x192b7d=isJpgPng(graphicstab['BackgroundList'][_0x209fdc]);_0x192b7d?_0x151562[_0x4c5a34(0xfd)](graphicstab[_0x4c5a34(0x14b)][_0x209fdc]):_0x133b0c[_0x4c5a34(0xfd)](graphicstab[_0x4c5a34(0x14b)][_0x209fdc]);}const _0x4fa882=_0x151562[_0x4c5a34(0x13c)],_0x2f3c8d=0x6;let _0x232cfa=0x0,_0x5dcdc8=0x0,_0x22f3c2='',_0x1792cb='';clearSelectList(_0x4c5a34(0x11a)),_0x22f3c2+=_0x4c5a34(0xeb),_0x22f3c2+=_0x4c5a34(0x139);for(_0x5dcdc8=0x0;_0x5dcdc8<_0x1fb4f9;_0x5dcdc8++){if(isJpgPng(graphicstab[_0x4c5a34(0x14b)][_0x5dcdc8]))_0x22f3c2+=_0x4c5a34(0xf7)+graphicstab['BackgroundFolder']+graphicstab[_0x4c5a34(0x14b)][_0x5dcdc8]+'\x22\x20class=\x22img-thumbnail\x20graphicsthumbnail\x22\x20vv-index='+_0x5dcdc8+_0x4c5a34(0x13f),_0x232cfa++;else{let _0x55929d=graphicstab[_0x4c5a34(0x14b)][_0x5dcdc8][_0x4c5a34(0x148)]('.mp4');_0x55929d=graphicstab['BackgroundList'][_0x5dcdc8][_0x4c5a34(0x13d)](0x0,_0x55929d),_0x1792cb+=_0x4c5a34(0x155)+_0x5dcdc8+'>'+_0x55929d[_0x4c5a34(0x158)]()+'</option>';}_0x232cfa%_0x2f3c8d==0x0&&(_0x22f3c2+=_0x4c5a34(0x153),_0x22f3c2+=_0x4c5a34(0x139));}_0x232cfa%_0x2f3c8d!=0x0&&(_0x22f3c2+=_0x4c5a34(0x153)),$(_0x4c5a34(0xfa))[_0x4c5a34(0x143)](_0x22f3c2),$(_0x4c5a34(0x152))[_0x4c5a34(0x10f)](_0x1792cb),$(_0x4c5a34(0x11f))['on'](_0x4c5a34(0x14e),function(){const _0x618101=_0x4c5a34;graphicstab['SelectedBackgroundIndex']=parseInt(this['getAttribute']('vv-index'));const _0x2dc103=graphicstab[_0x618101(0x134)]+graphicstab['BackgroundList'][graphicstab['SelectedBackgroundIndex']];$('#selectedx_still_id')[_0x618101(0x141)]('src',_0x2dc103),$(_0x618101(0x100))[_0x618101(0x145)](),$('#preview_still_id')['show']();}),$('#motionBkgndSelection')['on'](_0x4c5a34(0x133),function(){const _0x36b76e=_0x4c5a34;$(_0x36b76e(0x152))['val'](-0x1);}),$(_0x4c5a34(0x152))['on'](_0x4c5a34(0x116),function(){const _0x258896=_0x4c5a34;graphicstab['SelectedBackgroundIndex']=$(_0x258896(0x12b))[_0x258896(0x129)](),$(_0x258896(0x10e))['attr'](_0x258896(0x13e),_0x258896(0x132)),$(_0x258896(0x10e))['attr']('overflow',_0x258896(0xfc));const _0x2f7c55=graphicstab['BackgroundFolder']+graphicstab['BackgroundList'][graphicstab[_0x258896(0xff)]];$('#setVideoID')['attr'](_0x258896(0x12d),_0x2f7c55),$('#preview_video_id')[_0x258896(0x14c)](),$(_0x258896(0x12c))[_0x258896(0x145)]();});}function isJpgPng(_0x3be487){const _0x2f5927=a0_0x13f998;var _0x34813f=![];let _0x2bf78f=_0x3be487[_0x2f5927(0x14a)]('.');return _0x2bf78f[_0x2bf78f['length']-0x1]!='mp4'&&(_0x34813f=!![]),_0x34813f;}
+const CONTROL_PAUSE = 1;
+const CONTROL_BACKWARD = 3;
+const CONTROL_FORWARD = 2;
+const CONTROL_MUTE_UNMUTE = 4;
+let graphicstab = {
+    Text1Color: '#FFFFFF',
+    Text2Color: '#FFFFFF',
+    LayerColor: '#FFFFFF',
+    MotionBackground: false,
+    RandomBackground: false,
+    ShadedBackground: true,
+    TransparentBackground: false,
+    BackgroundList: [
+        'a.jpg',
+        'c.jpg',
+        'd.jpg',
+        'b.jpg',
+        'f.jpg',
+        'b.jpg',
+        'c.jpg'
+    ],
+    SelectedBackgroundIndex: 0,
+    BackgroundImageIndex: 0,
+    LogoImageIndex: 0,
+    BackgroundFolder: ''
+};
+let colorPickerColorGlobal = '#FFFFFF';
+async function graphicstab_init() {
+    graphicstab.BackgroundList = await window.api.getbkgndlist();
+    graphicstab.BackgroundFolder = configJSON.configuration[0].appDataFolder + 'background\\still\\';
+    graphicstab_getDataFromConfig();
+    graphicstab_setupBkgnd();
+    graphics_setupTextColors();
+    graphicstab_renderBkgnd();
+    graphicstab_setEvents();
+}
+function graphicstab_getDataFromConfig() {
+    graphicstab.MotionBackground = configJSON.configuration[0].MotionBackground;
+    graphicstab.BackgroundImageIndex = configJSON.configuration[0].SelectedBackgroundIndex;
+    graphicstab.LogoImageIndex = configJSON.configuration[0].LogoImageIndex;
+    graphicstab.Text1Color = configJSON.configuration[0].Text1Color;
+    graphicstab.Text2Color = configJSON.configuration[0].Text2Color;
+    graphicstab.LayerColor = configJSON.configuration[0].LayerColor;
+    graphicstab.ShadedBackground = configJSON.configuration[0].ShadedBackground;
+}
+function graphics_setupTextColors() {
+    $('#text1color').spectrum({
+        color: graphicstab.Text1Color,
+        flat: true,
+        showInput: false,
+        showButtons: false
+    });
+    $('#Text1ColorBox').css('color', graphicstab.Text1Color);
+    $('#Text2ColorBox').css('color', graphicstab.Text2Color);
+    $('#LayerColorBox').css('color', graphicstab.LayerColor);
+}
+function colorSetText1() {
+    graphicstab.Text1Color = colorPickerColorGlobal;
+    $('#Text1ColorBox').css('color', colorPickerColorGlobal);
+    updateSaveConfig('Text1Color', graphicstab.Text1Color);
+}
+function colorSetText2() {
+    graphicstab.Text2Color = colorPickerColorGlobal;
+    $('#Text2ColorBox').css('color', colorPickerColorGlobal);
+    updateSaveConfig('Text2Color', graphicstab.Text2Color);
+}
+function colorSetLayer() {
+    graphicstab.LayerColor = colorPickerColorGlobal;
+    $('#LayerColorBox').css('color', colorPickerColorGlobal);
+    graphicstab.ShadedBackground = true;
+    updateSaveConfig('LayerColor', graphicstab.LayerColor);
+    updateSaveConfig('ShadedBackground', graphicstab.ShadedBackground);
+}
+function graphicstab_setEvents() {
+    $('#changeText1ColorButton').on('click', function () {
+        var _0xbdc432 = 'Select Text 1 Color';
+        var _0x6536f4 = '<div><input type="text" id="colorpicker" /></div>';
+        vvColorPicker(_0xbdc432, _0x6536f4, colorSetText1);
+    });
+    $('#changeText2ColorButton').on('click', function () {
+        var _0x5a5556 = 'Select Text 2 Color';
+        var _0x22532b = '<div><input type="text" id="colorpicker" /></div>';
+        vvColorPicker(_0x5a5556, _0x22532b, colorSetText2);
+    });
+    $('#changeLayerColorButton').on('click', function () {
+        var _0x462c16 = 'Select Background Layer Color';
+        var _0x4e7906 = '<div><input type="text" id="colorpicker" /></div>';
+        vvColorPicker(_0x462c16, _0x4e7906, colorSetLayer);
+    });
+    $('#resetTextColorButton').on('click', function () {
+        graphicstab.Text1Color = '#FFFFFF';
+        graphicstab.Text2Color = '#FFFFFF';
+        $('#Text1ColorBox').css('color', graphicstab.Text1Color);
+        $('#Text2ColorBox').css('color', graphicstab.Text2Color);
+        updateSaveConfig('Text1Color', graphicstab.Text1Color);
+        updateSaveConfig('Text2Color', graphicstab.Text2Color);
+    });
+    $('#resetOverlayColorButton').on('click', function () {
+        graphicstab.LayerColor = '#000000';
+        graphicstab.ShadedBackground = false;
+        $('#LayerColorBox').css('color', graphicstab.LayerColor);
+        updateSaveConfig('LayerColor', graphicstab.LayerColor);
+        updateSaveConfig('ShadedBackground', graphicstab.ShadedBackground);
+    });
+    $('#addStillBkgndButtonID').on('click', async function () {
+        const _0x57be55 = await window.api.openFile();
+        if (_0x57be55 != null) {
+            graphicstab.BackgroundList = _0x57be55;
+            graphicstab_renderBkgnd();
+        }
+    });
+    $('#delStillBkgndButton').on('click', async function () {
+        const _0x4f4509 = graphicstab.BackgroundList[graphicstab.SelectedBackgroundIndex];
+        const _0xa4b379 = graphicstab.BackgroundFolder + graphicstab.BackgroundList[graphicstab.BackgroundImageIndex];
+        if (graphicstab.SelectedBackgroundIndex == graphicstab.BackgroundImageIndex) {
+            vvDialog('Graphics', 'Can not delete active background');
+        } else {
+            if (graphicstab.SelectedBackgroundIndex == graphicstab.LogoImageIndex) {
+                vvDialog('Graphics', 'Can not delete active logo');
+            } else {
+                var _0x385021 = 'Delete Background';
+                var _0x229ed8 = 'Are you sure you want to delete this background?';
+                vvConfirm(_0x385021, _0x229ed8, _0x5b7657);
+                async function _0x5b7657() {
+                    !isJpgPng(_0x4f4509) && $('#selectedVideoID').attr('src', '');
+                    const _0x98a281 = await window.api.deletebkgnd(_0x4f4509);
+                    _0x98a281 ? (graphicstab.BackgroundList = await window.api.getbkgndlist(), graphicstab.SelectedBackgroundIndex < graphicstab.BackgroundImageIndex && (graphicstab.BackgroundImageIndex--, updateSaveConfig('SelectedBackgroundIndex', graphicstab.BackgroundImageIndex)), graphicstab.SelectedBackgroundIndex < graphicstab.LogoImageIndex && (graphicstab.LogoImageIndex--, updateSaveConfig('LogoImageIndex', graphicstab.LogoImageIndex)), graphicstab.SelectedBackgroundIndex = 0, graphicstab_setupBkgnd(), graphicstab_renderBkgnd()) : vvDialog('Graphics', 'Could not delete the background');
+                }
+            }
+        }
+    });
+    $('#setAsBackgroundButtonID').on('click', function () {
+        graphicstab.BackgroundImageIndex = graphicstab.SelectedBackgroundIndex;
+        const _0x318d4c = graphicstab.BackgroundList[graphicstab.BackgroundImageIndex];
+        const _0x385076 = graphicstab.BackgroundFolder + graphicstab.BackgroundList[graphicstab.BackgroundImageIndex];
+        isJpgPng(_0x318d4c) ? ($('#selectedVideoDivID').hide(), $('#selected_still_div_id').show(), $('#selected_still_id').addClass('img-thumbnail'), $('#selected_still_id').attr('src', _0x385076), graphicstab.MotionBackground = false) : ($('#selected_still_div_id').hide(), $('#selected_still_div_id').removeClass('img-thumbnail'), $('#selectedVideoDivID').show(), $('#selectedVideoID').attr('src', _0x385076), graphicstab.MotionBackground = true);
+        presentationData.updateAll = true;
+        updateSaveConfig('MotionBackground', graphicstab.MotionBackground);
+        updateSaveConfig('SelectedBackgroundFilename', _0x318d4c);
+        updateSaveConfig('SelectedBackgroundIndex', graphicstab.BackgroundImageIndex);
+    });
+    $('#setAsLogoButtonID').on('click', function () {
+        const _0x1c0740 = graphicstab.BackgroundList[graphicstab.SelectedBackgroundIndex];
+        if (isJpgPng(_0x1c0740)) {
+            graphicstab.LogoImageIndex = graphicstab.SelectedBackgroundIndex;
+            const _0x50b27e = graphicstab.BackgroundFolder + graphicstab.BackgroundList[graphicstab.LogoImageIndex];
+            $('#selected_logostill_id').attr('src', _0x50b27e);
+            updateSaveConfig('LogoImageIndex', graphicstab.LogoImageIndex);
+        } else {
+            vvDialog('Graphics', 'Please select still backgrounds for Logo');
+        }
+    });
+    $('#pauseButtonID').on('click', function () {
+        let _0x4e3ac7 = {
+            iscontrol: true,
+            command: CONTROL_PAUSE
+        };
+        window.api.passPresentationSetup(_0x4e3ac7);
+    });
+    $('#rewind15ButtonID').on('click', function () {
+        let _0x2ecb33 = {
+            iscontrol: true,
+            command: CONTROL_BACKWARD
+        };
+        window.api.passPresentationSetup(_0x2ecb33);
+    });
+    $('#forward15ButtonID').on('click', function () {
+        let _0x59eb03 = {
+            iscontrol: true,
+            command: CONTROL_FORWARD
+        };
+        window.api.passPresentationSetup(_0x59eb03);
+    });
+    $('#muteButtonID').on('click', function () {
+        let _0x3e0166 = {
+            iscontrol: true,
+            command: CONTROL_MUTE_UNMUTE
+        };
+        let _0xb83cba = $('#muteButtonIconID');
+        _0xb83cba.attr('class') == 'bi-volume-mute' ? (_0xb83cba.removeClass('bi-volume-mute'), _0xb83cba.addClass('bi-volume-up')) : (_0xb83cba.removeClass('bi-volume-up'), _0xb83cba.addClass('bi-volume-mute'));
+        window.api.passPresentationSetup(_0x3e0166);
+    });
+    $('#playpauseButtonID').on('click', function () {
+        const _0x4b240c = graphicstab.BackgroundList[graphicstab.SelectedBackgroundIndex];
+        const _0x3bdb43 = graphicstab.BackgroundFolder + graphicstab.BackgroundList[graphicstab.SelectedBackgroundIndex];
+        presentationData.updateAll = true;
+        let _0x1cf5bd = graphicstab.MotionBackground;
+        isJpgPng(_0x4b240c) ? (graphicstab.MotionBackground = false, stillPlayback(_0x3bdb43)) : (graphicstab.MotionBackground = true, videoPlayback(_0x3bdb43));
+        graphicstab.MotionBackground = _0x1cf5bd;
+    });
+    $('#still_animate').on('click', function () {
+        $('#still_animate').is(':checked') ? graphicstab.MotionBackground = true : graphicstab.MotionBackground = false;
+    });
+}
+function graphicstab_setupBkgnd() {
+    const _0x3339ae = graphicstab.BackgroundFolder + graphicstab.BackgroundList[graphicstab.BackgroundImageIndex];
+    const _0x10cefb = graphicstab.BackgroundList[graphicstab.BackgroundImageIndex];
+    isJpgPng(_0x10cefb) ? ($('#selectedVideoDivID').hide(), $('#selected_still_div_id').show(), $('#selected_still_id').addClass('img-thumbnail'), $('#selected_still_id').attr('src', _0x3339ae), graphicstab.MotionBackground = false) : ($('#selected_still_div_id').hide(), $('#selected_still_div_id').removeClass('img-thumbnail'), $('#selectedVideoDivID').show(), $('#selectedVideoID').attr('src', _0x3339ae), graphicstab.MotionBackground = true);
+    const _0x5224d4 = graphicstab.BackgroundFolder + graphicstab.BackgroundList[graphicstab.LogoImageIndex];
+    $('#selected_logostill_id').attr('src', _0x5224d4);
+    isJpgPng(_0x10cefb) ? ($('#selectedx_still_id').attr('src', _0x3339ae), $('#preview_video_id').hide(), $('#preview_still_id').show()) : ($('#setVideoID').attr('width', '100%'), $('#setVideoID').attr('overflow', 'hidden'), $('#setVideoID').attr('src', _0x3339ae), $('#preview_video_id').show(), $('#preview_still_id').hide());
+}
+function graphicstab_renderBkgnd() {
+    let _0x151562 = new Array();
+    let _0x133b0c = new Array();
+    const _0x1fb4f9 = graphicstab.BackgroundList.length;
+    for (let _0x209fdc = 0; _0x209fdc < _0x1fb4f9; _0x209fdc++) {
+        let _0x192b7d = isJpgPng(graphicstab.BackgroundList[_0x209fdc]);
+        _0x192b7d ? _0x151562.push(graphicstab.BackgroundList[_0x209fdc]) : _0x133b0c.push(graphicstab.BackgroundList[_0x209fdc]);
+    }
+    const _0x4fa882 = _0x151562.length;
+    const _0x2f3c8d = 6;
+    let _0x232cfa = 0;
+    let _0x5dcdc8 = 0;
+    let _0x22f3c2 = '';
+    let _0x1792cb = '';
+    clearSelectList('motionBkgndSelection');
+    _0x22f3c2 += '<label class="form-label">STILL BACKGROUND</label>';
+    _0x22f3c2 += '<div class="row py-2">';
+    for (_0x5dcdc8 = 0; _0x5dcdc8 < _0x1fb4f9; _0x5dcdc8++) {
+        if (isJpgPng(graphicstab.BackgroundList[_0x5dcdc8])) {
+            _0x22f3c2 += '<div class="col-2"><img src="' + graphicstab.BackgroundFolder + graphicstab.BackgroundList[_0x5dcdc8] + '" class="img-thumbnail graphicsthumbnail" vv-index=' + _0x5dcdc8 + '></div>';
+            _0x232cfa++;
+        } else {
+            let _0x55929d = graphicstab.BackgroundList[_0x5dcdc8].lastIndexOf('.mp4');
+            _0x55929d = graphicstab.BackgroundList[_0x5dcdc8].slice(0, _0x55929d);
+            _0x1792cb += '<option value=' + _0x5dcdc8 + '>' + _0x55929d.toUpperCase() + '</option>';
+        }
+        if (_0x232cfa % _0x2f3c8d == 0) {
+            _0x22f3c2 += '</div>';
+            _0x22f3c2 += '<div class="row py-2">';
+        }
+    }
+    _0x232cfa % _0x2f3c8d != 0 && (_0x22f3c2 += '</div>');
+    $('#still_bkgnd_grid').html(_0x22f3c2);
+    $('#motionBkgndSelection').append(_0x1792cb);
+    $('.graphicsthumbnail').on('click', function () {
+        graphicstab.SelectedBackgroundIndex = parseInt(this.getAttribute('vv-index'));
+        const _0x2dc103 = graphicstab.BackgroundFolder + graphicstab.BackgroundList[graphicstab.SelectedBackgroundIndex];
+        $('#selectedx_still_id').attr('src', _0x2dc103);
+        $('#preview_video_id').hide();
+        $('#preview_still_id').show();
+    });
+    $('#motionBkgndSelection').on('focusout', function () {
+        $('#motionBkgndSelection').val(-1);
+    });
+    $('#motionBkgndSelection').on('change', function () {
+        graphicstab.SelectedBackgroundIndex = $('#motionBkgndSelection option:selected').val();
+        $('#setVideoID').attr('width', '100%');
+        $('#setVideoID').attr('overflow', 'hidden');
+        const _0x2f7c55 = graphicstab.BackgroundFolder + graphicstab.BackgroundList[graphicstab.SelectedBackgroundIndex];
+        $('#setVideoID').attr('src', _0x2f7c55);
+        $('#preview_video_id').show();
+        $('#preview_still_id').hide();
+    });
+}
+function isJpgPng(_0x3be487) {
+    var _0x34813f = false;
+    let _0x2bf78f = _0x3be487.split('.');
+    return _0x2bf78f[_0x2bf78f.length - 1] != 'mp4' && (_0x34813f = true), _0x34813f;
+}

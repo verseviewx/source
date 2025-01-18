@@ -1,1 +1,104 @@
-function a0_0x246c(){const _0x31a0a0=['BibleNavigationFontSize','change','NavigationFontSize','BibleDualLanguageForNavigation','BibleDisplay2VersesPerSlide','api','click','#version2Menu','DisplayOnlyPrimary','BibleDisplayOnlyPrimary','Display2VersesPerSlide','prop','</option>','#multipleVerseID','#booknameStyle\x20option:selected','#navDualLanguageID','9wNxKKO','val','version2Menu','BookNameStyleIndex','append','282390VrmPmr','version2','#sliderNavFontSize','896565qyhXgR','BibleBookSelectionInEnglish',':checked','AvailableBibleList','SecondaryBibleIndex','731956BZPdUE','2398352qiAbSX','version','configuration','#singleVersionBoxID','35ZlIZdb','BookSelectionInEnglish','checked','<option\x20value=','getbooknamesForList','version1','799068TVunZo','#booknameStyle','#version2Menu\x20option:selected','750849RPiskF','version1Menu','file','DualLanguageForNavigation','PrimaryBibleIndex','forEach','#englishList','setBibleVersion','BibleBookNameStyleIndex','110986FPkKoi'];a0_0x246c=function(){return _0x31a0a0;};return a0_0x246c();}function a0_0x12a7(_0x2503b8,_0x5640ea){const _0x246c74=a0_0x246c();return a0_0x12a7=function(_0x12a7d8,_0x4edc3d){_0x12a7d8=_0x12a7d8-0xeb;let _0x121076=_0x246c74[_0x12a7d8];return _0x121076;},a0_0x12a7(_0x2503b8,_0x5640ea);}(function(_0x3d8d74,_0x5a5aad){const _0x4ef27f=a0_0x12a7,_0x49398e=_0x3d8d74();while(!![]){try{const _0x2e3126=-parseInt(_0x4ef27f(0x10e))/0x1+parseInt(_0x4ef27f(0x102))/0x2+parseInt(_0x4ef27f(0x105))/0x3+-parseInt(_0x4ef27f(0xf7))/0x4+-parseInt(_0x4ef27f(0xf2))/0x5+parseInt(_0x4ef27f(0xef))/0x6*(-parseInt(_0x4ef27f(0xfc))/0x7)+parseInt(_0x4ef27f(0xf8))/0x8*(parseInt(_0x4ef27f(0x11f))/0x9);if(_0x2e3126===_0x5a5aad)break;else _0x49398e['push'](_0x49398e['shift']());}catch(_0x57c40f){_0x49398e['push'](_0x49398e['shift']());}}}(a0_0x246c,0x3ad66));let bibleVersionSelectPanel={'AvailableBibleList':'','PrimaryBibleIndex':0x0,'SecondaryBibleIndex':0x0,'DisplayOnlyPrimary':![],'Display2VersesPerSlide':![],'BookNameStyleIndex':0x0,'BookSelectionInEnglish':![],'DualLanguageForNavigation':![],'NavigationFontSize':0x14};function bibleVersionSelect_init(){bibleVersionSelect_setValues(),bibleVersionSelect_setui(),bibleVersionSelect_setevents();}function bibleVersionSelect_setValues(){const _0x235c6e=a0_0x12a7;let _0x579b95=bibleVersion_getInstalledBibleNames();bibleVersionSelectPanel[_0x235c6e(0xf5)]=_0x579b95,bibleVersionSelectPanel[_0x235c6e(0x109)]=configJSON['configuration'][0x0][_0x235c6e(0x101)],bibleVersionSelectPanel['SecondaryBibleIndex']=configJSON[_0x235c6e(0xfa)][0x0][_0x235c6e(0xf0)],bibleVersionSelectPanel[_0x235c6e(0x117)]=configJSON['configuration'][0x0][_0x235c6e(0x118)],bibleVersionSelectPanel[_0x235c6e(0x119)]=configJSON['configuration'][0x0]['BibleDisplay2VersesPerSlide'],bibleVersionSelectPanel[_0x235c6e(0xed)]=configJSON[_0x235c6e(0xfa)][0x0][_0x235c6e(0x10d)],bibleVersionSelectPanel[_0x235c6e(0xfd)]=configJSON[_0x235c6e(0xfa)][0x0][_0x235c6e(0xf3)],bibleVersionSelectPanel[_0x235c6e(0x108)]=configJSON[_0x235c6e(0xfa)][0x0][_0x235c6e(0x112)],bibleVersionSelectPanel['NavigationFontSize']=configJSON['configuration'][0x0][_0x235c6e(0x10f)];const _0x39ee34=$('#version1Menu'),_0x458126=$('#version2Menu');let _0x5129a4='';clearSelectList(_0x235c6e(0x106)),clearSelectList(_0x235c6e(0xec));let _0x5dd96c=0x0;_0x579b95[_0x235c6e(0x10a)](function(_0x3eb7f6){const _0x25c215=_0x235c6e;_0x5129a4+=_0x25c215(0xff)+_0x5dd96c+'>'+_0x3eb7f6+_0x25c215(0x11b),_0x5dd96c++;}),_0x39ee34[_0x235c6e(0xee)](_0x5129a4),_0x39ee34[_0x235c6e(0xeb)](bibleVersionSelectPanel[_0x235c6e(0x109)]),_0x458126[_0x235c6e(0xee)](_0x5129a4),_0x458126[_0x235c6e(0xeb)](bibleVersionSelectPanel[_0x235c6e(0xf6)]);}function bibleVersionSelect_setui(){const _0x2d5638=a0_0x12a7;$(_0x2d5638(0xfb))[_0x2d5638(0x11a)]('checked',bibleVersionSelectPanel[_0x2d5638(0x117)]),$('#multipleVerseID')[_0x2d5638(0x11a)](_0x2d5638(0xfe),bibleVersionSelectPanel[_0x2d5638(0x119)]),$(_0x2d5638(0x10b))[_0x2d5638(0x11a)](_0x2d5638(0xfe),bibleVersionSelectPanel[_0x2d5638(0xfd)]),$(_0x2d5638(0x11e))['prop'](_0x2d5638(0xfe),bibleVersionSelectPanel[_0x2d5638(0x108)]),$(_0x2d5638(0x103))[_0x2d5638(0xeb)](bibleVersionSelectPanel[_0x2d5638(0xed)]);}function bibleVersionSelect_setevents(){const _0x2f6ee4=a0_0x12a7;$('#version1Menu')['on']('change',function(){const _0x2170c8=a0_0x12a7;bibleVersionSelectPanel[_0x2170c8(0x109)]=$('#version1Menu\x20option:selected')['val']();const _0x3b65db={'versionnum':0x1,'versionfname':bibleVersionJSON[_0x2170c8(0xf9)][bibleVersionSelectPanel[_0x2170c8(0x109)]][_0x2170c8(0x107)]};window['api'][_0x2170c8(0x10c)](_0x3b65db),bibletab_fillverseText(),updateSaveConfig('version1',bibleVersionSelectPanel['PrimaryBibleIndex']),booknames=booknameObj[_0x2170c8(0x100)](),bibletab_fillBooksList();}),$(_0x2f6ee4(0x116))['on'](_0x2f6ee4(0x110),function(){const _0x45496b=_0x2f6ee4;bibleVersionSelectPanel['SecondaryBibleIndex']=$(_0x45496b(0x104))[_0x45496b(0xeb)]();const _0x573b0c={'versionnum':0x2,'versionfname':bibleVersionJSON['version'][bibleVersionSelectPanel['SecondaryBibleIndex']][_0x45496b(0x107)]};window[_0x45496b(0x114)][_0x45496b(0x10c)](_0x573b0c),bibletab_fillverseText(),updateSaveConfig('version2',bibleVersionSelectPanel['SecondaryBibleIndex']),booknames=booknameObj['getbooknamesForList'](),bibletab_fillBooksList();}),$(_0x2f6ee4(0x103))['on']('change',function(){const _0x2447e1=_0x2f6ee4;bibleVersionSelectPanel[_0x2447e1(0xed)]=$(_0x2447e1(0x11d))[_0x2447e1(0xeb)](),updateSaveConfig(_0x2447e1(0x10d),bibleVersionSelectPanel[_0x2447e1(0xed)]),booknames=booknameObj['getbooknamesForList'](),bibletab_fillBooksList();}),$('#singleVersionBoxID')['on'](_0x2f6ee4(0x115),function(){const _0x5c32cd=_0x2f6ee4;bibleVersionSelectPanel[_0x5c32cd(0x117)]=$(this)['is'](_0x5c32cd(0xf4)),updateSaveConfig('BibleDisplayOnlyPrimary',bibleVersionSelectPanel[_0x5c32cd(0x117)]);}),$(_0x2f6ee4(0x11c))['on']('click',function(){const _0x4eb224=_0x2f6ee4;bibleVersionSelectPanel[_0x4eb224(0x119)]=$(this)['is'](_0x4eb224(0xf4)),updateSaveConfig(_0x4eb224(0x113),bibleVersionSelectPanel[_0x4eb224(0x119)]);}),$(_0x2f6ee4(0x10b))['on']('click',function(){const _0x183b7e=_0x2f6ee4;bibleVersionSelectPanel[_0x183b7e(0xfd)]=$(this)['is'](':checked'),updateSaveConfig('BibleBookSelectionInEnglish',bibleVersionSelectPanel[_0x183b7e(0xfd)]),booknames=booknameObj[_0x183b7e(0x100)](),bibletab_fillBooksList();}),$(_0x2f6ee4(0x11e))['on'](_0x2f6ee4(0x115),function(){const _0x1926c2=_0x2f6ee4;bibleVersionSelectPanel[_0x1926c2(0x108)]=$(this)['is'](_0x1926c2(0xf4)),updateSaveConfig(_0x1926c2(0x112),bibleVersionSelectPanel[_0x1926c2(0x108)]),bibletab_fillverseText();}),$(_0x2f6ee4(0xf1))['on']('change',function(){const _0x947dd9=_0x2f6ee4;bibleVersionSelectPanel['NavigationFontSize']=$(this)[_0x947dd9(0xeb)](),updateSaveConfig(_0x947dd9(0x10f),bibleVersionSelectPanel[_0x947dd9(0x111)]);});}
+let bibleVersionSelectPanel = {
+    AvailableBibleList: '',
+    PrimaryBibleIndex: 0,
+    SecondaryBibleIndex: 0,
+    DisplayOnlyPrimary: false,
+    Display2VersesPerSlide: false,
+    BookNameStyleIndex: 0,
+    BookSelectionInEnglish: false,
+    DualLanguageForNavigation: false,
+    NavigationFontSize: 20
+};
+function bibleVersionSelect_init() {
+    bibleVersionSelect_setValues();
+    bibleVersionSelect_setui();
+    bibleVersionSelect_setevents();
+}
+function bibleVersionSelect_setValues() {
+    let _0x579b95 = bibleVersion_getInstalledBibleNames();
+    bibleVersionSelectPanel.AvailableBibleList = _0x579b95;
+    bibleVersionSelectPanel.PrimaryBibleIndex = configJSON.configuration[0].version1;
+    bibleVersionSelectPanel.SecondaryBibleIndex = configJSON.configuration[0].version2;
+    bibleVersionSelectPanel.DisplayOnlyPrimary = configJSON.configuration[0].BibleDisplayOnlyPrimary;
+    bibleVersionSelectPanel.Display2VersesPerSlide = configJSON.configuration[0].BibleDisplay2VersesPerSlide;
+    bibleVersionSelectPanel.BookNameStyleIndex = configJSON.configuration[0].BibleBookNameStyleIndex;
+    bibleVersionSelectPanel.BookSelectionInEnglish = configJSON.configuration[0].BibleBookSelectionInEnglish;
+    bibleVersionSelectPanel.DualLanguageForNavigation = configJSON.configuration[0].BibleDualLanguageForNavigation;
+    bibleVersionSelectPanel.NavigationFontSize = configJSON.configuration[0].BibleNavigationFontSize;
+    const _0x39ee34 = $('#version1Menu');
+    const _0x458126 = $('#version2Menu');
+    let _0x5129a4 = '';
+    clearSelectList('version1Menu');
+    clearSelectList('version2Menu');
+    let _0x5dd96c = 0;
+    _0x579b95.forEach(function (_0x3eb7f6) {
+        _0x5129a4 += '<option value=' + _0x5dd96c + '>' + _0x3eb7f6 + '</option>';
+        _0x5dd96c++;
+    });
+    _0x39ee34.append(_0x5129a4);
+    _0x39ee34.val(bibleVersionSelectPanel.PrimaryBibleIndex);
+    _0x458126.append(_0x5129a4);
+    _0x458126.val(bibleVersionSelectPanel.SecondaryBibleIndex);
+}
+function bibleVersionSelect_setui() {
+    $('#singleVersionBoxID').prop('checked', bibleVersionSelectPanel.DisplayOnlyPrimary);
+    $('#multipleVerseID').prop('checked', bibleVersionSelectPanel.Display2VersesPerSlide);
+    $('#englishList').prop('checked', bibleVersionSelectPanel.BookSelectionInEnglish);
+    $('#navDualLanguageID').prop('checked', bibleVersionSelectPanel.DualLanguageForNavigation);
+    $('#booknameStyle').val(bibleVersionSelectPanel.BookNameStyleIndex);
+}
+function bibleVersionSelect_setevents() {
+    $('#version1Menu').on('change', function () {
+        bibleVersionSelectPanel.PrimaryBibleIndex = $('#version1Menu option:selected').val();
+        const _0x3b65db = {
+            versionnum: 1,
+            versionfname: bibleVersionJSON.version[bibleVersionSelectPanel.PrimaryBibleIndex].file
+        };
+        window.api.setBibleVersion(_0x3b65db);
+        bibletab_fillverseText();
+        updateSaveConfig('version1', bibleVersionSelectPanel.PrimaryBibleIndex);
+        booknames = booknameObj.getbooknamesForList();
+        bibletab_fillBooksList();
+    });
+    $('#version2Menu').on('change', function () {
+        bibleVersionSelectPanel.SecondaryBibleIndex = $('#version2Menu option:selected').val();
+        const _0x573b0c = {
+            versionnum: 2,
+            versionfname: bibleVersionJSON.version[bibleVersionSelectPanel.SecondaryBibleIndex].file
+        };
+        window.api.setBibleVersion(_0x573b0c);
+        bibletab_fillverseText();
+        updateSaveConfig('version2', bibleVersionSelectPanel.SecondaryBibleIndex);
+        booknames = booknameObj.getbooknamesForList();
+        bibletab_fillBooksList();
+    });
+    $('#booknameStyle').on('change', function () {
+        bibleVersionSelectPanel.BookNameStyleIndex = $('#booknameStyle option:selected').val();
+        updateSaveConfig('BibleBookNameStyleIndex', bibleVersionSelectPanel.BookNameStyleIndex);
+        booknames = booknameObj.getbooknamesForList();
+        bibletab_fillBooksList();
+    });
+    $('#singleVersionBoxID').on('click', function () {
+        bibleVersionSelectPanel.DisplayOnlyPrimary = $(this).is(':checked');
+        updateSaveConfig('BibleDisplayOnlyPrimary', bibleVersionSelectPanel.DisplayOnlyPrimary);
+    });
+    $('#multipleVerseID').on('click', function () {
+        bibleVersionSelectPanel.Display2VersesPerSlide = $(this).is(':checked');
+        updateSaveConfig('BibleDisplay2VersesPerSlide', bibleVersionSelectPanel.Display2VersesPerSlide);
+    });
+    $('#englishList').on('click', function () {
+        bibleVersionSelectPanel.BookSelectionInEnglish = $(this).is(':checked');
+        updateSaveConfig('BibleBookSelectionInEnglish', bibleVersionSelectPanel.BookSelectionInEnglish);
+        booknames = booknameObj.getbooknamesForList();
+        bibletab_fillBooksList();
+    });
+    $('#navDualLanguageID').on('click', function () {
+        bibleVersionSelectPanel.DualLanguageForNavigation = $(this).is(':checked');
+        updateSaveConfig('BibleDualLanguageForNavigation', bibleVersionSelectPanel.DualLanguageForNavigation);
+        bibletab_fillverseText();
+    });
+    $('#sliderNavFontSize').on('change', function () {
+        bibleVersionSelectPanel.NavigationFontSize = $(this).val();
+        updateSaveConfig('BibleNavigationFontSize', bibleVersionSelectPanel.NavigationFontSize);
+    });
+}

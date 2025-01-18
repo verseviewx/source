@@ -1,1 +1,384 @@
-function a0_0x1661(_0x27a1eb,_0x305f88){const _0x15e85d=a0_0x15e8();return a0_0x1661=function(_0x1661e1,_0xcfc510){_0x1661e1=_0x1661e1-0x8f;let _0x4e483a=_0x15e85d[_0x1661e1];return _0x4e483a;},a0_0x1661(_0x27a1eb,_0x305f88);}function a0_0x15e8(){const _0x217f4f=['Please\x20set\x20font\x20size\x20between\x2030\x20and\x20200.','#screen_mainPresentationEnableHeaderBox','prop','EnableShadow','MainMarginLeft','mainPreset','append','www.verseview.info','#screen_mainPresentationEnableBlackBox','xScreen\x201\x201920x1080','html','StageScreenSelectionValue','967440wHhUHA','#stageviewGreenWindow','width','#screen_mainPresentationSwapTranslations','topMargin','show','StageWindowSize','EnableBlackBox','#screen_mainPresentationOnTop','ShowLyricsTwoLines','#stageviewMiniWindowCol','hide','#screen_mainPresentationEnableShadow','#screen_justificationLeft','#stageMessageShow','#screen_mainPresentationShowPrimaryLang','#screen_mainMarginLeft','setStageView','EnableHeaderBox','stage','EnableMainPresentation','#stageSettingShowTime','<option\x20value=','leftMargin','LogoLine2','4591585nBCHsV','#screen_mainMaximumFontSizeValue','MainMarginBottom','Presentation','EnableOutEnableUppercaseline','SwapTranslations','1574232ThldnU','ShowDate','val','xScreen\x202\x201920x1080','ShowCustomLogo','EnableBorder','#screen_mainPresentationSong2Lines','#screen_mainPresentationShowStanzaNumber','JustificationValue','mainScreenEnable','EnableUppercase','#screen_mainMarginBottom','9IQkCUN','ShowPrimaryLang','click','EnableTransition','#screen_stageviewScreenSelection','MainMarginTop','EnableStagePresentation','#screen_mainScreenSelection\x20option:selected','LineHeight','StageShowTime','StageGreenScreen','MainScreenSelectionValue','#screen_stageviewPreset','#screen_mainPresentationShowCustomLogo','2PTzpzg','HideStanzaNumber','EnableLineWrap','#screen_justificationRight','#screen_enableMainPresentation','4495925VgKydG','checked','Enable\x20Remote\x20VerseVIEW\x20for\x20Stageview','#screen_mainPreset','LogoLine1','#screen_mainPresentationShowVVLogo','#screen_mainPresentationEnableTransition','#stageviewMiniWindow','vvdisplay','4074636VAqUie','maxFontSize','#screen_mainPresentationShowDate','STAGEVIEW','configuration','length','bottomMargin','VerseVIEW','#screen_mainPresentationEnableOutline','#screen_mainScreenSelection','LyricsPresentationStyle','ShowSongTitle','StageWindowView','#screen_mainLogoLine1','StageAlertMessage','MainMarginRight','bounds','ShowVVLogo','VersePresenationStyle','EnableOutline','stageviewFile','392713nQDkMx','</option>','rightMargin','#screen_mainLogoLine2','PresentationOnTop','#screen_mainPresentationEnableUppercase','screen_mainPreset',':checked','#stageConfigMessage','#screen_enableStageviewPresentation','275160GPOgDJ','MaxFontSize','change','#screen_mainPresentationEnableBorder','#screen_justificationCenter','api','stageScreenEnable','#stageviewWindow'];a0_0x15e8=function(){return _0x217f4f;};return a0_0x15e8();}const a0_0xdcdfed=a0_0x1661;(function(_0x5af46e,_0x39772b){const _0x2893c5=a0_0x1661,_0xab7df0=_0x5af46e();while(!![]){try{const _0x535a0=parseInt(_0x2893c5(0xee))/0x1*(parseInt(_0x2893c5(0xcb))/0x2)+parseInt(_0x2893c5(0xf8))/0x3+parseInt(_0x2893c5(0x92))/0x4+parseInt(_0x2893c5(0xab))/0x5+-parseInt(_0x2893c5(0xd9))/0x6+-parseInt(_0x2893c5(0xd0))/0x7+-parseInt(_0x2893c5(0xb1))/0x8*(-parseInt(_0x2893c5(0xbd))/0x9);if(_0x535a0===_0x39772b)break;else _0xab7df0['push'](_0xab7df0['shift']());}catch(_0xa8b963){_0xab7df0['push'](_0xab7df0['shift']());}}}(a0_0x15e8,0x7ef48));let screentab={'EnableMainPresentation':!![],'EnableStagePresentation':![],'MainScreenSelectionValue':0x0,'StageScreenSelectionValue':0x0,'mainPreset':0x0,'MainMarginTop':0x32,'MainMarginLeft':0x32,'MainMarginBottom':0x32,'MainMarginRight':0x32,'MaxFontSize':0x50,'JustificationValue':0x2,'PresentationOnTop':!![],'EnableTransition':!![],'EnableOutline':!![],'ShowDate':!![],'ShowVVLogo':!![],'ShowCustomLogo':![],'LogoLine1':a0_0xdcdfed(0xe0),'LogoLine2':a0_0xdcdfed(0x107),'LyricsPresentationStyle':!![],'ShowSongTitle':![],'ShowPrimaryLang':![],'EnableUppercase':![],'EnableBorder':![],'EnableBlackBox':![],'SwapTranslations':![],'ShowLyricsTwoLines':![],'HideStanzaNumber':![],'EnableLineWrap':![],'EnableShadow':!![],'EnableHeaderBox':!![],'VersePresenationStyle':!![],'StageWindowView':!![],'StageWindowSize':!![],'StageGreenScreen':!![],'StageOpacity':0x1,'StageLowerThridHeight':0x21,'StageMaxFontSize':0x32,'StageTextColor':0x0,'StageBackgroundColor':0x1e,'StageShowPrimary':![],'StageShowSecondary':![],'StageAlignLeft':![],'StageAlignCenter':![],'StageHorizontal':!![],'StageAutoTextOutline':!![],'StageTextShadow':!![],'StageShowTime':!![],'StageAlertMessage':'','stageviewFile':a0_0xdcdfed(0xa5)},screentab_screen_list=new Array(a0_0xdcdfed(0x8f),a0_0xdcdfed(0xb4));function screenstab_init(){screenstab_setValues(),screenstab_setui(),screenstab_setevents(),screentab_getstagesettings();}function screenstab_setValues(){const _0x2d9be8=a0_0xdcdfed;screentab[_0x2d9be8(0xa6)]=configJSON[_0x2d9be8(0xdd)][0x0]['mainScreenEnable'],screentab[_0x2d9be8(0xc3)]=configJSON['configuration'][0x0][_0x2d9be8(0xfe)],screentab['MainScreenSelectionValue']=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xc8)],screentab['StageScreenSelectionValue']=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0x91)],screentab_screen_list=new Array();const _0x6881ad=configJSON[_0x2d9be8(0xd8)][_0x2d9be8(0xde)];for(let _0x12c606=0x0;_0x12c606<_0x6881ad;_0x12c606++){let _0x28b6ea='Screen\x20'+(_0x12c606+0x1)+'\x20&rarr;\x20'+configJSON[_0x2d9be8(0xd8)][_0x12c606][_0x2d9be8(0xe9)][_0x2d9be8(0x94)]+'x'+configJSON['vvdisplay'][_0x12c606][_0x2d9be8(0xe9)]['height'];screentab_screen_list['push'](_0x28b6ea);}screentab[_0x2d9be8(0x105)]=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0x105)],screentab[_0x2d9be8(0xc2)]=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0x96)],screentab[_0x2d9be8(0x104)]=configJSON['configuration'][0x0][_0x2d9be8(0xa9)],screentab['MainMarginBottom']=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xdf)],screentab[_0x2d9be8(0xe8)]=configJSON['configuration'][0x0][_0x2d9be8(0xf0)],screentab['MaxFontSize']=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xda)],screentab[_0x2d9be8(0xb9)]=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xb9)],screentab[_0x2d9be8(0xf2)]=configJSON['configuration'][0x0][_0x2d9be8(0xf2)],screentab[_0x2d9be8(0xc0)]=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xc0)],screentab['EnableOutline']=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xec)],screentab[_0x2d9be8(0xbe)]=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xbe)],screentab['EnableUppercase']=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xbb)],screentab['EnableBorder']=configJSON[_0x2d9be8(0xdd)][0x0]['EnableBorder'],screentab[_0x2d9be8(0x99)]=configJSON['configuration'][0x0][_0x2d9be8(0x99)],screentab[_0x2d9be8(0xcd)]=configJSON['configuration'][0x0][_0x2d9be8(0xcd)],screentab[_0x2d9be8(0x103)]=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0x103)],screentab[_0x2d9be8(0xa4)]=configJSON['configuration'][0x0][_0x2d9be8(0xa4)],screentab[_0x2d9be8(0xb2)]=configJSON[_0x2d9be8(0xdd)][0x0]['ShowDate'],screentab[_0x2d9be8(0xea)]=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xea)],screentab['ShowCustomLogo']=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xb5)],screentab[_0x2d9be8(0xd4)]=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xd4)],screentab[_0x2d9be8(0xaa)]=configJSON['configuration'][0x0][_0x2d9be8(0xaa)],screentab[_0x2d9be8(0xe3)]=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xe3)],screentab['ShowSongTitle']=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xe4)],screentab[_0x2d9be8(0xbe)]=configJSON['configuration'][0x0][_0x2d9be8(0xbe)],screentab['ShowLyricsTwoLines']=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0x9b)],screentab[_0x2d9be8(0xcc)]=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xcc)],screentab[_0x2d9be8(0xcd)]=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xcd)],screentab[_0x2d9be8(0x103)]=configJSON['configuration'][0x0]['EnableShadow'],screentab[_0x2d9be8(0xa4)]=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xa4)],screentab[_0x2d9be8(0xeb)]=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xeb)],configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xed)]!=null?screentab[_0x2d9be8(0xed)]=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xed)]:screentab[_0x2d9be8(0xed)]=_0x2d9be8(0xa5),$(_0x2d9be8(0xc9))[_0x2d9be8(0xb3)](screentab[_0x2d9be8(0xed)]),screentab['StageWindowView']=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xe5)],screentab[_0x2d9be8(0x98)]=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0x98)],screentab['StageGreenScreen']=configJSON[_0x2d9be8(0xdd)][0x0][_0x2d9be8(0xc7)],screentab['StageShowTime']=configJSON['configuration'][0x0][_0x2d9be8(0xc6)],screentab[_0x2d9be8(0xe7)]=configJSON['configuration'][0x0]['StageAlertMessage'];}function screenstab_loadThemeList(){const _0x39e9c9=a0_0xdcdfed,_0x6745b1=themeArray[_0x39e9c9(0xde)];let _0x405d80='';clearSelectList(_0x39e9c9(0xf4));for(var _0x34eb07=0x0;_0x34eb07<_0x6745b1;_0x34eb07++){_0x405d80+=_0x39e9c9(0xa8)+_0x34eb07+'>'+themeArray[_0x34eb07]['themeName']+'</option>';}$(_0x39e9c9(0xd3))[_0x39e9c9(0x106)](_0x405d80);}function screenstab_setui(){const _0x5eaab5=a0_0xdcdfed;let _0x40b153='',_0x3d9410=$('#screen_mainScreenSelection');$(_0x5eaab5(0xe2))['html']('');for(var _0x30b0d7=0x0;_0x30b0d7<screentab_screen_list[_0x5eaab5(0xde)];_0x30b0d7++){_0x40b153+=_0x5eaab5(0xa8)+_0x30b0d7+'>'+screentab_screen_list[_0x30b0d7]+_0x5eaab5(0xef);}_0x3d9410['append'](_0x40b153);screentab[_0x5eaab5(0xc8)]>screentab_screen_list['length']-0x1?(screentab[_0x5eaab5(0xc8)]=0x0,_0x3d9410['val'](0x0)):_0x3d9410[_0x5eaab5(0xb3)](screentab[_0x5eaab5(0xc8)]);_0x3d9410=$(_0x5eaab5(0xc1)),$('#screen_stageviewScreenSelection')[_0x5eaab5(0x90)](''),_0x3d9410['append'](_0x40b153);screentab['StageScreenSelectionValue']>screentab_screen_list['length']-0x1?(screentab[_0x5eaab5(0x91)]=0x0,_0x3d9410[_0x5eaab5(0xb3)](0x0)):_0x3d9410['val'](screentab[_0x5eaab5(0x91)]);$(_0x5eaab5(0xcf))[_0x5eaab5(0x102)]('checked',screentab[_0x5eaab5(0xa6)]),$(_0x5eaab5(0xf7))[_0x5eaab5(0x102)](_0x5eaab5(0xd1),screentab[_0x5eaab5(0xc3)]),screenstab_loadThemeList(),$(_0x5eaab5(0xd3))[_0x5eaab5(0xb3)](screentab[_0x5eaab5(0x105)]),$('#screen_mainMarginTop')[_0x5eaab5(0xb3)](screentab[_0x5eaab5(0xc2)]),$(_0x5eaab5(0xa2))['val'](screentab[_0x5eaab5(0x104)]),$('#screen_mainMarginBottom')[_0x5eaab5(0xb3)](screentab['MainMarginBottom']),$('#screen_mainMarginRight')[_0x5eaab5(0xb3)](screentab[_0x5eaab5(0xe8)]),$(_0x5eaab5(0xac))[_0x5eaab5(0xb3)](screentab[_0x5eaab5(0xf9)]);switch(screentab[_0x5eaab5(0xb9)]){case 0x0:$(_0x5eaab5(0x9f))[_0x5eaab5(0x102)](_0x5eaab5(0xd1),!![]);break;default:case 0x1:$(_0x5eaab5(0xfc))[_0x5eaab5(0x102)](_0x5eaab5(0xd1),!![]);break;case 0x2:$(_0x5eaab5(0xce))[_0x5eaab5(0x102)](_0x5eaab5(0xd1),!![]);break;}$(_0x5eaab5(0x9a))[_0x5eaab5(0x102)](_0x5eaab5(0xd1),screentab[_0x5eaab5(0xf2)]),$(_0x5eaab5(0xd6))[_0x5eaab5(0x102)]('checked',screentab[_0x5eaab5(0xc0)]),$(_0x5eaab5(0xe1))[_0x5eaab5(0x102)](_0x5eaab5(0xd1),screentab[_0x5eaab5(0xec)]),$(_0x5eaab5(0xf3))['prop'](_0x5eaab5(0xd1),screentab[_0x5eaab5(0xbb)]),$(_0x5eaab5(0xfb))[_0x5eaab5(0x102)](_0x5eaab5(0xd1),screentab[_0x5eaab5(0xb6)]),$(_0x5eaab5(0x108))['prop'](_0x5eaab5(0xd1),screentab[_0x5eaab5(0x99)]),$('#screen_mainPresentationEnableLineWrap')['prop'](_0x5eaab5(0xd1),screentab[_0x5eaab5(0xcd)]),$(_0x5eaab5(0x9e))[_0x5eaab5(0x102)]('checked',screentab[_0x5eaab5(0x103)]),$(_0x5eaab5(0x101))['prop'](_0x5eaab5(0xd1),screentab[_0x5eaab5(0xa4)]),$(_0x5eaab5(0xa1))['prop'](_0x5eaab5(0xd1),screentab[_0x5eaab5(0xbe)]),$(_0x5eaab5(0x95))['prop'](_0x5eaab5(0xd1),screentab[_0x5eaab5(0xb0)]),$(_0x5eaab5(0xdb))[_0x5eaab5(0x102)](_0x5eaab5(0xd1),screentab[_0x5eaab5(0xb2)]),$(_0x5eaab5(0xd5))[_0x5eaab5(0x102)](_0x5eaab5(0xd1),screentab[_0x5eaab5(0xea)]),$(_0x5eaab5(0xca))['prop'](_0x5eaab5(0xd1),screentab[_0x5eaab5(0xb5)]);screentab['ShowCustomLogo']?($(_0x5eaab5(0xe6))[_0x5eaab5(0x97)](),$(_0x5eaab5(0xf1))['show']()):($('#screen_mainLogoLine1')[_0x5eaab5(0x9d)](),$('#screen_mainLogoLine2')[_0x5eaab5(0x9d)]());$(_0x5eaab5(0xe6))[_0x5eaab5(0xb3)](screentab[_0x5eaab5(0xd4)]),$('#screen_mainLogoLine2')['val'](screentab[_0x5eaab5(0xaa)]);if(screentab['LyricsPresentationStyle']){}else{}$(_0x5eaab5(0xb7))['prop'](_0x5eaab5(0xd1),screentab['ShowLyricsTwoLines']),$(_0x5eaab5(0xb8))['prop'](_0x5eaab5(0xd1),screentab['HideStanzaNumber']),$(_0x5eaab5(0xff))[_0x5eaab5(0x102)](_0x5eaab5(0xd1),screentab[_0x5eaab5(0xe5)]),$(_0x5eaab5(0xd7))[_0x5eaab5(0x102)]('checked',screentab[_0x5eaab5(0x98)]),$('#stageviewGreenWindow')[_0x5eaab5(0x102)]('checked',screentab[_0x5eaab5(0xc7)]),$(_0x5eaab5(0xa7))[_0x5eaab5(0x102)](_0x5eaab5(0xd1),screentab['StageShowTime']),$(_0x5eaab5(0xf6))[_0x5eaab5(0xb3)](configJSON[_0x5eaab5(0xdd)][0x0][_0x5eaab5(0xe7)]);}function screentab_setpresets(){const _0x2b662e=a0_0xdcdfed;screentab['ShowPrimaryLang']=themeArray[screentab[_0x2b662e(0x105)]][_0x2b662e(0xbe)],screentab[_0x2b662e(0xbb)]=themeArray[screentab[_0x2b662e(0x105)]][_0x2b662e(0xbb)],screentab[_0x2b662e(0xb6)]=themeArray[screentab[_0x2b662e(0x105)]]['EnableBorder'],screentab['EnableBlackBox']=themeArray[screentab['mainPreset']][_0x2b662e(0x99)],screentab['EnableLineWrap']=themeArray[screentab[_0x2b662e(0x105)]][_0x2b662e(0xcd)],screentab[_0x2b662e(0x103)]=themeArray[screentab[_0x2b662e(0x105)]][_0x2b662e(0x103)],screentab[_0x2b662e(0xa4)]=themeArray[screentab[_0x2b662e(0x105)]][_0x2b662e(0xa4)],screentab[_0x2b662e(0xc5)]=themeArray[screentab[_0x2b662e(0x105)]][_0x2b662e(0xc5)],updateSaveConfig(_0x2b662e(0xbe),screentab['ShowPrimaryLang']),updateSaveConfig(_0x2b662e(0xaf),screentab[_0x2b662e(0xbb)]),updateSaveConfig(_0x2b662e(0xb6),screentab[_0x2b662e(0xb6)]),updateSaveConfig(_0x2b662e(0x99),screentab['EnableBlackBox']),updateSaveConfig(_0x2b662e(0xcd),screentab['EnableLineWrap']),updateSaveConfig(_0x2b662e(0x103),screentab[_0x2b662e(0x103)]),updateSaveConfig(_0x2b662e(0xa4),screentab[_0x2b662e(0xa4)]);}function screenstab_disable_stageview(){const _0x41b170=a0_0xdcdfed;$(_0x41b170(0xf7))[_0x41b170(0x102)](_0x41b170(0xd1),![]),screentab[_0x41b170(0xc3)]=$(this)['is'](_0x41b170(0xf5)),updateSaveConfig(_0x41b170(0xfe),screentab[_0x41b170(0xc3)]);}function screenstab_setevents(){const _0x522d61=a0_0xdcdfed;$(_0x522d61(0xcf))['on']('click',function(){const _0x3bd314=_0x522d61;screentab[_0x3bd314(0xa6)]=$(this)['is'](_0x3bd314(0xf5)),updateSaveConfig(_0x3bd314(0xba),screentab[_0x3bd314(0xa6)]);}),$(_0x522d61(0xf7))['on'](_0x522d61(0xbf),function(){const _0xa135b3=_0x522d61;configJSON[_0xa135b3(0xdd)][0x0]['remoteenable']?(screentab[_0xa135b3(0xc3)]=$(this)['is'](_0xa135b3(0xf5)),updateSaveConfig(_0xa135b3(0xfe),screentab[_0xa135b3(0xc3)])):(vvDialog(_0xa135b3(0xdc),_0xa135b3(0xd2)),screenstab_disable_stageview());}),$(_0x522d61(0xe2))['on']('change',function(){const _0x5e15e2=_0x522d61;screentab[_0x5e15e2(0xc8)]=$(_0x5e15e2(0xc4))[_0x5e15e2(0xb3)](),updateSaveConfig(_0x5e15e2(0xc8),screentab['MainScreenSelectionValue']);}),$('#screen_stageviewScreenSelection')['on'](_0x522d61(0xfa),function(){const _0x136089=_0x522d61;screentab[_0x136089(0x91)]=$('#screen_stageviewScreenSelection\x20option:selected')['val'](),updateSaveConfig('StageScreenSelectionValue',screentab[_0x136089(0x91)]);}),$(_0x522d61(0xd3))['on'](_0x522d61(0xfa),function(){const _0x2c64c2=_0x522d61;screentab['mainPreset']=$(this)[_0x2c64c2(0xb3)](),updateSaveConfig(_0x2c64c2(0x105),screentab[_0x2c64c2(0x105)]),screentab_setpresets(),screenstab_setui();}),$('#screen_mainMarginTop')['on']('change',function(){const _0x4ee7de=_0x522d61;screentab[_0x4ee7de(0xc2)]=$(this)[_0x4ee7de(0xb3)](),updateSaveConfig(_0x4ee7de(0x96),screentab[_0x4ee7de(0xc2)]);}),$(_0x522d61(0xa2))['on']('change',function(){const _0x5a7a40=_0x522d61;screentab[_0x5a7a40(0x104)]=$(this)[_0x5a7a40(0xb3)](),updateSaveConfig(_0x5a7a40(0xa9),screentab[_0x5a7a40(0x104)]);}),$(_0x522d61(0xbc))['on']('change',function(){const _0x3025e4=_0x522d61;screentab[_0x3025e4(0xad)]=$(this)[_0x3025e4(0xb3)](),updateSaveConfig(_0x3025e4(0xdf),screentab[_0x3025e4(0xad)]);}),$('#screen_mainMarginRight')['on'](_0x522d61(0xfa),function(){const _0x194cf2=_0x522d61;screentab['MainMarginRight']=$(this)[_0x194cf2(0xb3)](),updateSaveConfig(_0x194cf2(0xf0),screentab[_0x194cf2(0xe8)]);}),$(_0x522d61(0xac))['on'](_0x522d61(0xfa),function(){const _0x135467=_0x522d61,_0x4b8d67=$(this)['val']();_0x4b8d67<0x1e||_0x4b8d67>0xc8?($(_0x135467(0xac))[_0x135467(0xb3)](screentab['MaxFontSize']),vvDialog(_0x135467(0xae),_0x135467(0x100))):(screentab[_0x135467(0xf9)]=$(this)[_0x135467(0xb3)](),updateSaveConfig(_0x135467(0xda),screentab['MaxFontSize']));}),$(_0x522d61(0x9f))['on'](_0x522d61(0xfa),function(){const _0x46ebe0=_0x522d61;$(this)['is'](_0x46ebe0(0xf5))&&(screentab[_0x46ebe0(0xb9)]=0x0,updateSaveConfig(_0x46ebe0(0xb9),screentab['JustificationValue']));}),$('#screen_justificationCenter')['on'](_0x522d61(0xfa),function(){const _0x164b11=_0x522d61;$(this)['is'](':checked')&&(screentab[_0x164b11(0xb9)]=0x1,updateSaveConfig(_0x164b11(0xb9),screentab[_0x164b11(0xb9)]));}),$('#screen_justificationRight')['on'](_0x522d61(0xfa),function(){const _0x441385=_0x522d61;$(this)['is'](':checked')&&(screentab[_0x441385(0xb9)]=0x2,updateSaveConfig(_0x441385(0xb9),screentab[_0x441385(0xb9)]));}),$(_0x522d61(0x9a))['on'](_0x522d61(0xfa),function(){const _0x5823cb=_0x522d61;screentab[_0x5823cb(0xf2)]=$(this)['is'](':checked'),updateSaveConfig('PresentationOnTop',screentab[_0x5823cb(0xf2)]);}),$(_0x522d61(0xd6))['on'](_0x522d61(0xfa),function(){const _0x3f2e31=_0x522d61;screentab[_0x3f2e31(0xc0)]=$(this)['is'](_0x3f2e31(0xf5)),updateSaveConfig('EnableTransition',screentab[_0x3f2e31(0xc0)]);}),$(_0x522d61(0xe1))['on'](_0x522d61(0xfa),function(){const _0x103013=_0x522d61;screentab[_0x103013(0xec)]=$(this)['is'](_0x103013(0xf5)),updateSaveConfig(_0x103013(0xec),screentab[_0x103013(0xec)]);}),$(_0x522d61(0xf3))['on'](_0x522d61(0xfa),function(){const _0x1f1e41=_0x522d61;screentab[_0x1f1e41(0xbb)]=$(this)['is'](_0x1f1e41(0xf5)),updateSaveConfig(_0x1f1e41(0xbb),screentab['EnableUppercase']);}),$(_0x522d61(0xfb))['on'](_0x522d61(0xfa),function(){const _0x5c8cff=_0x522d61;screentab['EnableBorder']=$(this)['is'](':checked'),updateSaveConfig('EnableBorder',screentab[_0x5c8cff(0xb6)]);}),$(_0x522d61(0x108))['on']('change',function(){const _0x426743=_0x522d61;screentab[_0x426743(0x99)]=$(this)['is'](_0x426743(0xf5)),updateSaveConfig('EnableBlackBox',screentab[_0x426743(0x99)]);}),$('#screen_mainPresentationSwapTranslations')['on']('change',function(){const _0xc32722=_0x522d61;screentab[_0xc32722(0xb0)]=$(this)['is'](':checked'),updateSaveConfig(_0xc32722(0xb0),screentab[_0xc32722(0xb0)]);}),$('#screen_mainPresentationShowDate')['on']('change',function(){const _0x357742=_0x522d61;screentab['ShowDate']=$(this)['is'](_0x357742(0xf5)),updateSaveConfig(_0x357742(0xb2),screentab[_0x357742(0xb2)]);}),$(_0x522d61(0xd5))['on'](_0x522d61(0xfa),function(){const _0x1d17d8=_0x522d61;screentab[_0x1d17d8(0xea)]=$(this)['is'](_0x1d17d8(0xf5)),updateSaveConfig('ShowVVLogo',screentab['ShowVVLogo']),$(_0x1d17d8(0xca))[_0x1d17d8(0x102)](_0x1d17d8(0xd1),![]),screentab[_0x1d17d8(0xb5)]=![],updateSaveConfig(_0x1d17d8(0xb5),screentab[_0x1d17d8(0xb5)]);}),$(_0x522d61(0xca))['on'](_0x522d61(0xfa),function(){const _0x25b0a5=_0x522d61;screentab[_0x25b0a5(0xb5)]=$(this)['is'](_0x25b0a5(0xf5)),updateSaveConfig('ShowCustomLogo',screentab[_0x25b0a5(0xb5)]),screentab[_0x25b0a5(0xb5)]?($('#screen_mainLogoLine1')[_0x25b0a5(0x97)](),$(_0x25b0a5(0xf1))[_0x25b0a5(0x97)]()):($(_0x25b0a5(0xe6))[_0x25b0a5(0x9d)](),$(_0x25b0a5(0xf1))[_0x25b0a5(0x9d)]()),$('#screen_mainPresentationShowVVLogo')[_0x25b0a5(0x102)](_0x25b0a5(0xd1),![]),screentab[_0x25b0a5(0xea)]=![],updateSaveConfig(_0x25b0a5(0xea),screentab[_0x25b0a5(0xea)]);}),$(_0x522d61(0xe6))['on'](_0x522d61(0xfa),function(){const _0x3d5ba8=_0x522d61;screentab[_0x3d5ba8(0xd4)]=$(this)[_0x3d5ba8(0xb3)](),updateSaveConfig(_0x3d5ba8(0xd4),screentab[_0x3d5ba8(0xd4)]);}),$(_0x522d61(0xf1))['on']('change',function(){const _0x3b2408=_0x522d61;screentab['LogoLine2']=$(this)['val'](),updateSaveConfig(_0x3b2408(0xaa),screentab[_0x3b2408(0xaa)]);}),$('#screen_mainPresentationShowSongTitle')['on']('change',function(){const _0x4f6699=_0x522d61;screentab[_0x4f6699(0xe4)]=$(this)['is'](_0x4f6699(0xf5)),updateSaveConfig(_0x4f6699(0xe4),screentab[_0x4f6699(0xe4)]);}),$(_0x522d61(0xa1))['on']('change',function(){const _0x1e1513=_0x522d61;screentab[_0x1e1513(0xbe)]=$(this)['is'](_0x1e1513(0xf5)),updateSaveConfig('ShowPrimaryLang',screentab[_0x1e1513(0xbe)]);}),$(_0x522d61(0xb7))['on'](_0x522d61(0xfa),function(){const _0x1c8d51=_0x522d61;screentab[_0x1c8d51(0x9b)]=$(this)['is'](_0x1c8d51(0xf5)),updateSaveConfig(_0x1c8d51(0x9b),screentab[_0x1c8d51(0x9b)]),songtab_fillSongLyrics(songtab_activeSong,![]);}),$(_0x522d61(0xb8))['on'](_0x522d61(0xfa),function(){const _0xe1b2a4=_0x522d61;screentab[_0xe1b2a4(0xcc)]=$(this)['is'](':checked'),updateSaveConfig('HideStanzaNumber',screentab['HideStanzaNumber']),songtab_fillSongLyrics(songtab_activeSong,![]);}),$('#screen_mainPresentationEnableLineWrap')['on'](_0x522d61(0xfa),function(){const _0x3a81f3=_0x522d61;screentab['EnableLineWrap']=$(this)['is'](_0x3a81f3(0xf5)),updateSaveConfig(_0x3a81f3(0xcd),screentab[_0x3a81f3(0xcd)]);}),$('#screen_mainPresentationEnableShadow')['on'](_0x522d61(0xfa),function(){const _0x5c3e38=_0x522d61;screentab[_0x5c3e38(0x103)]=$(this)['is'](_0x5c3e38(0xf5)),updateSaveConfig(_0x5c3e38(0x103),screentab[_0x5c3e38(0x103)]);}),$(_0x522d61(0x101))['on'](_0x522d61(0xfa),function(){const _0x337881=_0x522d61;screentab[_0x337881(0xa4)]=$(this)['is'](':checked'),updateSaveConfig(_0x337881(0xa4),screentab['EnableHeaderBox']);}),$(_0x522d61(0xff))['on']('change',function(){const _0x387dda=_0x522d61;screentab[_0x387dda(0xe5)]=$(this)['is'](_0x387dda(0xf5)),screentab_getstagesettings(),updateSaveConfig(_0x387dda(0xe5),screentab['StageWindowView']),screentab['StageWindowView']?$(_0x387dda(0x9c))['show']():$(_0x387dda(0x9c))[_0x387dda(0x9d)]();}),$(_0x522d61(0xc9))['on']('change',function(){const _0x122dcc=_0x522d61;screentab[_0x122dcc(0xed)]=$(this)[_0x122dcc(0xb3)](),updateSaveConfig(_0x122dcc(0xed),screentab[_0x122dcc(0xed)]);}),$(_0x522d61(0xd7))['on'](_0x522d61(0xfa),function(){const _0x56db0a=_0x522d61;screentab[_0x56db0a(0x98)]=$(this)['is'](_0x56db0a(0xf5)),screentab_getstagesettings(),updateSaveConfig(_0x56db0a(0x98),screentab[_0x56db0a(0x98)]);}),$(_0x522d61(0x93))['on']('change',function(){const _0x516764=_0x522d61;screentab[_0x516764(0xc7)]=$(this)['is'](_0x516764(0xf5)),screentab_getstagesettings(),updateSaveConfig('StageGreenScreen',screentab[_0x516764(0xc7)]);}),$(_0x522d61(0xa7))['on'](_0x522d61(0xfa),function(){const _0x57f521=_0x522d61;screentab[_0x57f521(0xc6)]=$(this)['is'](_0x57f521(0xf5)),screentab_getstagesettings(),updateSaveConfig(_0x57f521(0xc6),screentab['StageShowTime']);}),$('#stageMessageHide')['on'](_0x522d61(0xbf),function(){const _0x2322f=_0x522d61;screentab[_0x2322f(0xe7)]='',screentab_getstagesettings(),updateSaveConfig('StageAlertMessage',screentab[_0x2322f(0xe7)]);}),$(_0x522d61(0xa0))['on'](_0x522d61(0xbf),function(){const _0x33eff5=_0x522d61;screentab['StageAlertMessage']=$(_0x33eff5(0xf6))[_0x33eff5(0xb3)](),screentab_getstagesettings(),updateSaveConfig(_0x33eff5(0xe7),screentab[_0x33eff5(0xe7)]);});}function screentab_getstagesettings(){const _0x35bcb0=a0_0xdcdfed;let _0x5b40b6={};_0x5b40b6[_0x35bcb0(0xe7)]=screentab[_0x35bcb0(0xe7)],_0x5b40b6[_0x35bcb0(0xc6)]=screentab[_0x35bcb0(0xc6)],_0x5b40b6[_0x35bcb0(0xc7)]=screentab['StageGreenScreen'],_0x5b40b6[_0x35bcb0(0x98)]=screentab['StageWindowSize'],_0x5b40b6['StageWindowView']=screentab['StageWindowView'],window[_0x35bcb0(0xfd)][_0x35bcb0(0xa3)](_0x5b40b6);}
+let screentab = {
+    EnableMainPresentation: true,
+    EnableStagePresentation: false,
+    MainScreenSelectionValue: 0,
+    StageScreenSelectionValue: 0,
+    mainPreset: 0,
+    MainMarginTop: 50,
+    MainMarginLeft: 50,
+    MainMarginBottom: 50,
+    MainMarginRight: 50,
+    MaxFontSize: 80,
+    JustificationValue: 2,
+    PresentationOnTop: true,
+    EnableTransition: true,
+    EnableOutline: true,
+    ShowDate: true,
+    ShowVVLogo: true,
+    ShowCustomLogo: false,
+    LogoLine1: 'VerseVIEW',
+    LogoLine2: 'www.verseview.info',
+    LyricsPresentationStyle: true,
+    ShowSongTitle: false,
+    ShowPrimaryLang: false,
+    EnableUppercase: false,
+    EnableBorder: false,
+    EnableBlackBox: false,
+    SwapTranslations: false,
+    ShowLyricsTwoLines: false,
+    HideStanzaNumber: false,
+    EnableLineWrap: false,
+    EnableShadow: true,
+    EnableHeaderBox: true,
+    VersePresenationStyle: true,
+    StageWindowView: true,
+    StageWindowSize: true,
+    StageGreenScreen: true,
+    StageOpacity: 1,
+    StageLowerThridHeight: 33,
+    StageMaxFontSize: 50,
+    StageTextColor: 0,
+    StageBackgroundColor: 30,
+    StageShowPrimary: false,
+    StageShowSecondary: false,
+    StageAlignLeft: false,
+    StageAlignCenter: false,
+    StageHorizontal: true,
+    StageAutoTextOutline: true,
+    StageTextShadow: true,
+    StageShowTime: true,
+    StageAlertMessage: '',
+    stageviewFile: 'stage'
+};
+let screentab_screen_list = new Array('xScreen 1 1920x1080', 'xScreen 2 1920x1080');
+function screenstab_init() {
+    screenstab_setValues();
+    screenstab_setui();
+    screenstab_setevents();
+    screentab_getstagesettings();
+}
+function screenstab_setValues() {
+    screentab.EnableMainPresentation = configJSON.configuration[0].mainScreenEnable;
+    screentab.EnableStagePresentation = configJSON.configuration[0].stageScreenEnable;
+    screentab.MainScreenSelectionValue = configJSON.configuration[0].MainScreenSelectionValue;
+    screentab.StageScreenSelectionValue = configJSON.configuration[0].StageScreenSelectionValue;
+    screentab_screen_list = new Array();
+    const _0x6881ad = configJSON.vvdisplay.length;
+    for (let _0x12c606 = 0; _0x12c606 < _0x6881ad; _0x12c606++) {
+        let _0x28b6ea = 'Screen ' + (_0x12c606 + 1) + ' &rarr; ' + configJSON.vvdisplay[_0x12c606].bounds.width + 'x' + configJSON.vvdisplay[_0x12c606].bounds.height;
+        screentab_screen_list.push(_0x28b6ea);
+    }
+    screentab.mainPreset = configJSON.configuration[0].mainPreset;
+    screentab.MainMarginTop = configJSON.configuration[0].topMargin;
+    screentab.MainMarginLeft = configJSON.configuration[0].leftMargin;
+    screentab.MainMarginBottom = configJSON.configuration[0].bottomMargin;
+    screentab.MainMarginRight = configJSON.configuration[0].rightMargin;
+    screentab.MaxFontSize = configJSON.configuration[0].maxFontSize;
+    screentab.JustificationValue = configJSON.configuration[0].JustificationValue;
+    screentab.PresentationOnTop = configJSON.configuration[0].PresentationOnTop;
+    screentab.EnableTransition = configJSON.configuration[0].EnableTransition;
+    screentab.EnableOutline = configJSON.configuration[0].EnableOutline;
+    screentab.ShowPrimaryLang = configJSON.configuration[0].ShowPrimaryLang;
+    screentab.EnableUppercase = configJSON.configuration[0].EnableUppercase;
+    screentab.EnableBorder = configJSON.configuration[0].EnableBorder;
+    screentab.EnableBlackBox = configJSON.configuration[0].EnableBlackBox;
+    screentab.EnableLineWrap = configJSON.configuration[0].EnableLineWrap;
+    screentab.EnableShadow = configJSON.configuration[0].EnableShadow;
+    screentab.EnableHeaderBox = configJSON.configuration[0].EnableHeaderBox;
+    screentab.ShowDate = configJSON.configuration[0].ShowDate;
+    screentab.ShowVVLogo = configJSON.configuration[0].ShowVVLogo;
+    screentab.ShowCustomLogo = configJSON.configuration[0].ShowCustomLogo;
+    screentab.LogoLine1 = configJSON.configuration[0].LogoLine1;
+    screentab.LogoLine2 = configJSON.configuration[0].LogoLine2;
+    screentab.LyricsPresentationStyle = configJSON.configuration[0].LyricsPresentationStyle;
+    screentab.ShowSongTitle = configJSON.configuration[0].ShowSongTitle;
+    screentab.ShowPrimaryLang = configJSON.configuration[0].ShowPrimaryLang;
+    screentab.ShowLyricsTwoLines = configJSON.configuration[0].ShowLyricsTwoLines;
+    screentab.HideStanzaNumber = configJSON.configuration[0].HideStanzaNumber;
+    screentab.EnableLineWrap = configJSON.configuration[0].EnableLineWrap;
+    screentab.EnableShadow = configJSON.configuration[0].EnableShadow;
+    screentab.EnableHeaderBox = configJSON.configuration[0].EnableHeaderBox;
+    screentab.VersePresenationStyle = configJSON.configuration[0].VersePresenationStyle;
+    configJSON.configuration[0].stageviewFile != null ? screentab.stageviewFile = configJSON.configuration[0].stageviewFile : screentab.stageviewFile = 'stage';
+    $('#screen_stageviewPreset').val(screentab.stageviewFile);
+    screentab.StageWindowView = configJSON.configuration[0].StageWindowView;
+    screentab.StageWindowSize = configJSON.configuration[0].StageWindowSize;
+    screentab.StageGreenScreen = configJSON.configuration[0].StageGreenScreen;
+    screentab.StageShowTime = configJSON.configuration[0].StageShowTime;
+    screentab.StageAlertMessage = configJSON.configuration[0].StageAlertMessage;
+}
+function screenstab_loadThemeList() {
+    const _0x6745b1 = themeArray.length;
+    let _0x405d80 = '';
+    clearSelectList('screen_mainPreset');
+    for (var _0x34eb07 = 0; _0x34eb07 < _0x6745b1; _0x34eb07++) {
+        _0x405d80 += '<option value=' + _0x34eb07 + '>' + themeArray[_0x34eb07].themeName + '</option>';
+    }
+    $('#screen_mainPreset').append(_0x405d80);
+}
+function screenstab_setui() {
+    let _0x40b153 = '';
+    let _0x3d9410 = $('#screen_mainScreenSelection');
+    $('#screen_mainScreenSelection').html('');
+    for (var _0x30b0d7 = 0; _0x30b0d7 < screentab_screen_list.length; _0x30b0d7++) {
+        _0x40b153 += '<option value=' + _0x30b0d7 + '>' + screentab_screen_list[_0x30b0d7] + '</option>';
+    }
+    _0x3d9410.append(_0x40b153);
+    screentab.MainScreenSelectionValue > screentab_screen_list.length - 1 ? (screentab.MainScreenSelectionValue = 0, _0x3d9410.val(0)) : _0x3d9410.val(screentab.MainScreenSelectionValue);
+    _0x3d9410 = $('#screen_stageviewScreenSelection');
+    $('#screen_stageviewScreenSelection').html('');
+    _0x3d9410.append(_0x40b153);
+    screentab.StageScreenSelectionValue > screentab_screen_list.length - 1 ? (screentab.StageScreenSelectionValue = 0, _0x3d9410.val(0)) : _0x3d9410.val(screentab.StageScreenSelectionValue);
+    $('#screen_enableMainPresentation').prop('checked', screentab.EnableMainPresentation);
+    $('#screen_enableStageviewPresentation').prop('checked', screentab.EnableStagePresentation);
+    screenstab_loadThemeList();
+    $('#screen_mainPreset').val(screentab.mainPreset);
+    $('#screen_mainMarginTop').val(screentab.MainMarginTop);
+    $('#screen_mainMarginLeft').val(screentab.MainMarginLeft);
+    $('#screen_mainMarginBottom').val(screentab.MainMarginBottom);
+    $('#screen_mainMarginRight').val(screentab.MainMarginRight);
+    $('#screen_mainMaximumFontSizeValue').val(screentab.MaxFontSize);
+    switch (screentab.JustificationValue) {
+    case 0:
+        $('#screen_justificationLeft').prop('checked', true);
+        break;
+    default:
+    case 1:
+        $('#screen_justificationCenter').prop('checked', true);
+        break;
+    case 2:
+        $('#screen_justificationRight').prop('checked', true);
+        break;
+    }
+    $('#screen_mainPresentationOnTop').prop('checked', screentab.PresentationOnTop);
+    $('#screen_mainPresentationEnableTransition').prop('checked', screentab.EnableTransition);
+    $('#screen_mainPresentationEnableOutline').prop('checked', screentab.EnableOutline);
+    $('#screen_mainPresentationEnableUppercase').prop('checked', screentab.EnableUppercase);
+    $('#screen_mainPresentationEnableBorder').prop('checked', screentab.EnableBorder);
+    $('#screen_mainPresentationEnableBlackBox').prop('checked', screentab.EnableBlackBox);
+    $('#screen_mainPresentationEnableLineWrap').prop('checked', screentab.EnableLineWrap);
+    $('#screen_mainPresentationEnableShadow').prop('checked', screentab.EnableShadow);
+    $('#screen_mainPresentationEnableHeaderBox').prop('checked', screentab.EnableHeaderBox);
+    $('#screen_mainPresentationShowPrimaryLang').prop('checked', screentab.ShowPrimaryLang);
+    $('#screen_mainPresentationSwapTranslations').prop('checked', screentab.SwapTranslations);
+    $('#screen_mainPresentationShowDate').prop('checked', screentab.ShowDate);
+    $('#screen_mainPresentationShowVVLogo').prop('checked', screentab.ShowVVLogo);
+    $('#screen_mainPresentationShowCustomLogo').prop('checked', screentab.ShowCustomLogo);
+    screentab.ShowCustomLogo ? ($('#screen_mainLogoLine1').show(), $('#screen_mainLogoLine2').show()) : ($('#screen_mainLogoLine1').hide(), $('#screen_mainLogoLine2').hide());
+    $('#screen_mainLogoLine1').val(screentab.LogoLine1);
+    $('#screen_mainLogoLine2').val(screentab.LogoLine2);
+    if (screentab.LyricsPresentationStyle) {
+    } else {
+    }
+    $('#screen_mainPresentationSong2Lines').prop('checked', screentab.ShowLyricsTwoLines);
+    $('#screen_mainPresentationShowStanzaNumber').prop('checked', screentab.HideStanzaNumber);
+    $('#stageviewWindow').prop('checked', screentab.StageWindowView);
+    $('#stageviewMiniWindow').prop('checked', screentab.StageWindowSize);
+    $('#stageviewGreenWindow').prop('checked', screentab.StageGreenScreen);
+    $('#stageSettingShowTime').prop('checked', screentab.StageShowTime);
+    $('#stageConfigMessage').val(configJSON.configuration[0].StageAlertMessage);
+}
+function screentab_setpresets() {
+    screentab.ShowPrimaryLang = themeArray[screentab.mainPreset].ShowPrimaryLang;
+    screentab.EnableUppercase = themeArray[screentab.mainPreset].EnableUppercase;
+    screentab.EnableBorder = themeArray[screentab.mainPreset].EnableBorder;
+    screentab.EnableBlackBox = themeArray[screentab.mainPreset].EnableBlackBox;
+    screentab.EnableLineWrap = themeArray[screentab.mainPreset].EnableLineWrap;
+    screentab.EnableShadow = themeArray[screentab.mainPreset].EnableShadow;
+    screentab.EnableHeaderBox = themeArray[screentab.mainPreset].EnableHeaderBox;
+    screentab.LineHeight = themeArray[screentab.mainPreset].LineHeight;
+    updateSaveConfig('ShowPrimaryLang', screentab.ShowPrimaryLang);
+    updateSaveConfig('EnableOutEnableUppercaseline', screentab.EnableUppercase);
+    updateSaveConfig('EnableBorder', screentab.EnableBorder);
+    updateSaveConfig('EnableBlackBox', screentab.EnableBlackBox);
+    updateSaveConfig('EnableLineWrap', screentab.EnableLineWrap);
+    updateSaveConfig('EnableShadow', screentab.EnableShadow);
+    updateSaveConfig('EnableHeaderBox', screentab.EnableHeaderBox);
+}
+function screenstab_disable_stageview() {
+    $('#screen_enableStageviewPresentation').prop('checked', false);
+    screentab.EnableStagePresentation = $(this).is(':checked');
+    updateSaveConfig('stageScreenEnable', screentab.EnableStagePresentation);
+}
+function screenstab_setevents() {
+    $('#screen_enableMainPresentation').on('click', function () {
+        screentab.EnableMainPresentation = $(this).is(':checked');
+        updateSaveConfig('mainScreenEnable', screentab.EnableMainPresentation);
+    });
+    $('#screen_enableStageviewPresentation').on('click', function () {
+        configJSON.configuration[0].remoteenable ? (screentab.EnableStagePresentation = $(this).is(':checked'), updateSaveConfig('stageScreenEnable', screentab.EnableStagePresentation)) : (vvDialog('STAGEVIEW', 'Enable Remote VerseVIEW for Stageview'), screenstab_disable_stageview());
+    });
+    $('#screen_mainScreenSelection').on('change', function () {
+        screentab.MainScreenSelectionValue = $('#screen_mainScreenSelection option:selected').val();
+        updateSaveConfig('MainScreenSelectionValue', screentab.MainScreenSelectionValue);
+    });
+    $('#screen_stageviewScreenSelection').on('change', function () {
+        screentab.StageScreenSelectionValue = $('#screen_stageviewScreenSelection option:selected').val();
+        updateSaveConfig('StageScreenSelectionValue', screentab.StageScreenSelectionValue);
+    });
+    $('#screen_mainPreset').on('change', function () {
+        screentab.mainPreset = $(this).val();
+        updateSaveConfig('mainPreset', screentab.mainPreset);
+        screentab_setpresets();
+        screenstab_setui();
+    });
+    $('#screen_mainMarginTop').on('change', function () {
+        screentab.MainMarginTop = $(this).val();
+        updateSaveConfig('topMargin', screentab.MainMarginTop);
+    });
+    $('#screen_mainMarginLeft').on('change', function () {
+        screentab.MainMarginLeft = $(this).val();
+        updateSaveConfig('leftMargin', screentab.MainMarginLeft);
+    });
+    $('#screen_mainMarginBottom').on('change', function () {
+        screentab.MainMarginBottom = $(this).val();
+        updateSaveConfig('bottomMargin', screentab.MainMarginBottom);
+    });
+    $('#screen_mainMarginRight').on('change', function () {
+        screentab.MainMarginRight = $(this).val();
+        updateSaveConfig('rightMargin', screentab.MainMarginRight);
+    });
+    $('#screen_mainMaximumFontSizeValue').on('change', function () {
+        const _0x4b8d67 = $(this).val();
+        _0x4b8d67 < 30 || _0x4b8d67 > 200 ? ($('#screen_mainMaximumFontSizeValue').val(screentab.MaxFontSize), vvDialog('Presentation', 'Please set font size between 30 and 200.')) : (screentab.MaxFontSize = $(this).val(), updateSaveConfig('maxFontSize', screentab.MaxFontSize));
+    });
+    $('#screen_justificationLeft').on('change', function () {
+        $(this).is(':checked') && (screentab.JustificationValue = 0, updateSaveConfig('JustificationValue', screentab.JustificationValue));
+    });
+    $('#screen_justificationCenter').on('change', function () {
+        $(this).is(':checked') && (screentab.JustificationValue = 1, updateSaveConfig('JustificationValue', screentab.JustificationValue));
+    });
+    $('#screen_justificationRight').on('change', function () {
+        $(this).is(':checked') && (screentab.JustificationValue = 2, updateSaveConfig('JustificationValue', screentab.JustificationValue));
+    });
+    $('#screen_mainPresentationOnTop').on('change', function () {
+        screentab.PresentationOnTop = $(this).is(':checked');
+        updateSaveConfig('PresentationOnTop', screentab.PresentationOnTop);
+    });
+    $('#screen_mainPresentationEnableTransition').on('change', function () {
+        screentab.EnableTransition = $(this).is(':checked');
+        updateSaveConfig('EnableTransition', screentab.EnableTransition);
+    });
+    $('#screen_mainPresentationEnableOutline').on('change', function () {
+        screentab.EnableOutline = $(this).is(':checked');
+        updateSaveConfig('EnableOutline', screentab.EnableOutline);
+    });
+    $('#screen_mainPresentationEnableUppercase').on('change', function () {
+        screentab.EnableUppercase = $(this).is(':checked');
+        updateSaveConfig('EnableUppercase', screentab.EnableUppercase);
+    });
+    $('#screen_mainPresentationEnableBorder').on('change', function () {
+        screentab.EnableBorder = $(this).is(':checked');
+        updateSaveConfig('EnableBorder', screentab.EnableBorder);
+    });
+    $('#screen_mainPresentationEnableBlackBox').on('change', function () {
+        screentab.EnableBlackBox = $(this).is(':checked');
+        updateSaveConfig('EnableBlackBox', screentab.EnableBlackBox);
+    });
+    $('#screen_mainPresentationSwapTranslations').on('change', function () {
+        screentab.SwapTranslations = $(this).is(':checked');
+        updateSaveConfig('SwapTranslations', screentab.SwapTranslations);
+    });
+    $('#screen_mainPresentationShowDate').on('change', function () {
+        screentab.ShowDate = $(this).is(':checked');
+        updateSaveConfig('ShowDate', screentab.ShowDate);
+    });
+    $('#screen_mainPresentationShowVVLogo').on('change', function () {
+        screentab.ShowVVLogo = $(this).is(':checked');
+        updateSaveConfig('ShowVVLogo', screentab.ShowVVLogo);
+        $('#screen_mainPresentationShowCustomLogo').prop('checked', false);
+        screentab.ShowCustomLogo = false;
+        updateSaveConfig('ShowCustomLogo', screentab.ShowCustomLogo);
+    });
+    $('#screen_mainPresentationShowCustomLogo').on('change', function () {
+        screentab.ShowCustomLogo = $(this).is(':checked');
+        updateSaveConfig('ShowCustomLogo', screentab.ShowCustomLogo);
+        screentab.ShowCustomLogo ? ($('#screen_mainLogoLine1').show(), $('#screen_mainLogoLine2').show()) : ($('#screen_mainLogoLine1').hide(), $('#screen_mainLogoLine2').hide());
+        $('#screen_mainPresentationShowVVLogo').prop('checked', false);
+        screentab.ShowVVLogo = false;
+        updateSaveConfig('ShowVVLogo', screentab.ShowVVLogo);
+    });
+    $('#screen_mainLogoLine1').on('change', function () {
+        screentab.LogoLine1 = $(this).val();
+        updateSaveConfig('LogoLine1', screentab.LogoLine1);
+    });
+    $('#screen_mainLogoLine2').on('change', function () {
+        screentab.LogoLine2 = $(this).val();
+        updateSaveConfig('LogoLine2', screentab.LogoLine2);
+    });
+    $('#screen_mainPresentationShowSongTitle').on('change', function () {
+        screentab.ShowSongTitle = $(this).is(':checked');
+        updateSaveConfig('ShowSongTitle', screentab.ShowSongTitle);
+    });
+    $('#screen_mainPresentationShowPrimaryLang').on('change', function () {
+        screentab.ShowPrimaryLang = $(this).is(':checked');
+        updateSaveConfig('ShowPrimaryLang', screentab.ShowPrimaryLang);
+    });
+    $('#screen_mainPresentationSong2Lines').on('change', function () {
+        screentab.ShowLyricsTwoLines = $(this).is(':checked');
+        updateSaveConfig('ShowLyricsTwoLines', screentab.ShowLyricsTwoLines);
+        songtab_fillSongLyrics(songtab_activeSong, false);
+    });
+    $('#screen_mainPresentationShowStanzaNumber').on('change', function () {
+        screentab.HideStanzaNumber = $(this).is(':checked');
+        updateSaveConfig('HideStanzaNumber', screentab.HideStanzaNumber);
+        songtab_fillSongLyrics(songtab_activeSong, false);
+    });
+    $('#screen_mainPresentationEnableLineWrap').on('change', function () {
+        screentab.EnableLineWrap = $(this).is(':checked');
+        updateSaveConfig('EnableLineWrap', screentab.EnableLineWrap);
+    });
+    $('#screen_mainPresentationEnableShadow').on('change', function () {
+        screentab.EnableShadow = $(this).is(':checked');
+        updateSaveConfig('EnableShadow', screentab.EnableShadow);
+    });
+    $('#screen_mainPresentationEnableHeaderBox').on('change', function () {
+        screentab.EnableHeaderBox = $(this).is(':checked');
+        updateSaveConfig('EnableHeaderBox', screentab.EnableHeaderBox);
+    });
+    $('#stageviewWindow').on('change', function () {
+        screentab.StageWindowView = $(this).is(':checked');
+        screentab_getstagesettings();
+        updateSaveConfig('StageWindowView', screentab.StageWindowView);
+        screentab.StageWindowView ? $('#stageviewMiniWindowCol').show() : $('#stageviewMiniWindowCol').hide();
+    });
+    $('#screen_stageviewPreset').on('change', function () {
+        screentab.stageviewFile = $(this).val();
+        updateSaveConfig('stageviewFile', screentab.stageviewFile);
+    });
+    $('#stageviewMiniWindow').on('change', function () {
+        screentab.StageWindowSize = $(this).is(':checked');
+        screentab_getstagesettings();
+        updateSaveConfig('StageWindowSize', screentab.StageWindowSize);
+    });
+    $('#stageviewGreenWindow').on('change', function () {
+        screentab.StageGreenScreen = $(this).is(':checked');
+        screentab_getstagesettings();
+        updateSaveConfig('StageGreenScreen', screentab.StageGreenScreen);
+    });
+    $('#stageSettingShowTime').on('change', function () {
+        screentab.StageShowTime = $(this).is(':checked');
+        screentab_getstagesettings();
+        updateSaveConfig('StageShowTime', screentab.StageShowTime);
+    });
+    $('#stageMessageHide').on('click', function () {
+        screentab.StageAlertMessage = '';
+        screentab_getstagesettings();
+        updateSaveConfig('StageAlertMessage', screentab.StageAlertMessage);
+    });
+    $('#stageMessageShow').on('click', function () {
+        screentab.StageAlertMessage = $('#stageConfigMessage').val();
+        screentab_getstagesettings();
+        updateSaveConfig('StageAlertMessage', screentab.StageAlertMessage);
+    });
+}
+function screentab_getstagesettings() {
+    let _0x5b40b6 = {
+        StageAlertMessage: screentab.StageAlertMessage,
+        StageShowTime: screentab.StageShowTime,
+        StageGreenScreen: screentab.StageGreenScreen,
+        StageWindowSize: screentab.StageWindowSize,
+        StageWindowView: screentab.StageWindowView
+    };
+    window.api.setStageView(_0x5b40b6);
+}

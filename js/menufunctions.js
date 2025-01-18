@@ -1,1 +1,44 @@
-var a0_0x5e71ad=a0_0x4099;(function(_0x139d46,_0x3fd2f1){var _0x17cf68=a0_0x4099,_0x3eb659=_0x139d46();while(!![]){try{var _0x32c217=parseInt(_0x17cf68(0x182))/0x1*(-parseInt(_0x17cf68(0x180))/0x2)+parseInt(_0x17cf68(0x184))/0x3+-parseInt(_0x17cf68(0x17d))/0x4*(-parseInt(_0x17cf68(0x17c))/0x5)+-parseInt(_0x17cf68(0x187))/0x6+parseInt(_0x17cf68(0x17e))/0x7*(-parseInt(_0x17cf68(0x181))/0x8)+parseInt(_0x17cf68(0x17f))/0x9*(-parseInt(_0x17cf68(0x18b))/0xa)+parseInt(_0x17cf68(0x186))/0xb;if(_0x32c217===_0x3fd2f1)break;else _0x3eb659['push'](_0x3eb659['shift']());}catch(_0x10bb42){_0x3eb659['push'](_0x3eb659['shift']());}}}(a0_0x3794,0x834fc),window[a0_0x5e71ad(0x185)][a0_0x5e71ad(0x17b)]((_0x516e86,_0x137903)=>{var _0x37fdf5=a0_0x5e71ad;let _0x514572=![];switch(_0x137903){case 0x1:var _0xfbde01=new bootstrap['Modal'](document[_0x37fdf5(0x18a)]('p1'),{'keyboard':![]});_0xfbde01[_0x37fdf5(0x189)]();break;case 0xb:var _0x17d919=new bootstrap[(_0x37fdf5(0x188))](document[_0x37fdf5(0x18a)]('p6'),{'keyboard':![]});_0x17d919[_0x37fdf5(0x189)]();break;case 0x2:var _0x7a6c79=new bootstrap[(_0x37fdf5(0x188))](document[_0x37fdf5(0x18a)]('p2'),{'keyboard':![]});_0x7a6c79[_0x37fdf5(0x189)]();break;case 0x3:var _0x270ec9=new bootstrap[(_0x37fdf5(0x188))](document[_0x37fdf5(0x18a)]('p3'),{'keyboard':![]});_0x270ec9[_0x37fdf5(0x189)]();break;case 0x4:bibleVersionManage_browse();break;case 0x5:_0x514572=![],songEditObj['editSongLyrics'](_0x514572);break;case 0x6:_0x514572=!![],songEditObj[_0x37fdf5(0x183)](_0x514572);break;case 0x7:songEditObj['deleteSong']();break;case 0x8:songEditObj[_0x37fdf5(0x17a)]();break;case 0x9:songEditObj['exportCategory']();break;case 0xa:songEditObj[_0x37fdf5(0x18c)]();break;default:console[_0x37fdf5(0x179)]('Should\x20not\x20have\x20reached\x20here');}}));function a0_0x4099(_0x140b85,_0x1fa7ec){var _0x37940e=a0_0x3794();return a0_0x4099=function(_0x40991e,_0x5adc5b){_0x40991e=_0x40991e-0x179;var _0x143d82=_0x37940e[_0x40991e];return _0x143d82;},a0_0x4099(_0x140b85,_0x1fa7ec);}function a0_0x3794(){var _0x8e3121=['Modal','show','getElementById','20EOVUbG','importSongXML','log','deleteCategory','vvmenuCall','380tuZNid','4016kJAEvT','56539HVqaeD','4349385XgyUXh','1085954tfuZNp','8Uaimtd','1uQFGpU','editSongLyrics','2961177DGWkDf','api','11674806IJHQch','415638ITVJPN'];a0_0x3794=function(){return _0x8e3121;};return a0_0x3794();}
+window.api.vvmenuCall((_0x516e86, _0x137903) => {
+    let _0x514572 = false;
+    switch (_0x137903) {
+    case 1:
+        var _0xfbde01 = new bootstrap.Modal(document.getElementById('p1'), { keyboard: false });
+        _0xfbde01.show();
+        break;
+    case 11:
+        var _0x17d919 = new bootstrap.Modal(document.getElementById('p6'), { keyboard: false });
+        _0x17d919.show();
+        break;
+    case 2:
+        var _0x7a6c79 = new bootstrap.Modal(document.getElementById('p2'), { keyboard: false });
+        _0x7a6c79.show();
+        break;
+    case 3:
+        var _0x270ec9 = new bootstrap.Modal(document.getElementById('p3'), { keyboard: false });
+        _0x270ec9.show();
+        break;
+    case 4:
+        bibleVersionManage_browse();
+        break;
+    case 5:
+        _0x514572 = false, songEditObj.editSongLyrics(_0x514572);
+        break;
+    case 6:
+        _0x514572 = true, songEditObj.editSongLyrics(_0x514572);
+        break;
+    case 7:
+        songEditObj.deleteSong();
+        break;
+    case 8:
+        songEditObj.deleteCategory();
+        break;
+    case 9:
+        songEditObj.exportCategory();
+        break;
+    case 10:
+        songEditObj.importSongXML();
+        break;
+    default:
+        console.log('Should not have reached here');
+    }
+});

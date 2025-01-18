@@ -1,1 +1,52 @@
-const a0_0x43ee9c=a0_0x2b93;(function(_0x1deb5e,_0x2ee14d){const _0x179d1c=a0_0x2b93,_0x20e283=_0x1deb5e();while(!![]){try{const _0x50aed3=-parseInt(_0x179d1c(0x17f))/0x1+-parseInt(_0x179d1c(0x188))/0x2*(-parseInt(_0x179d1c(0x183))/0x3)+parseInt(_0x179d1c(0x192))/0x4*(-parseInt(_0x179d1c(0x18d))/0x5)+parseInt(_0x179d1c(0x18a))/0x6*(-parseInt(_0x179d1c(0x199))/0x7)+parseInt(_0x179d1c(0x18b))/0x8+parseInt(_0x179d1c(0x195))/0x9+parseInt(_0x179d1c(0x194))/0xa*(-parseInt(_0x179d1c(0x18c))/0xb);if(_0x50aed3===_0x2ee14d)break;else _0x20e283['push'](_0x20e283['shift']());}catch(_0x106f06){_0x20e283['push'](_0x20e283['shift']());}}}(a0_0x3980,0x94fc6));function a0_0x2b93(_0x1a1eaa,_0x5ea13d){const _0x3980e0=a0_0x3980();return a0_0x2b93=function(_0x2b93ed,_0x9043a4){_0x2b93ed=_0x2b93ed-0x17d;let _0x4bc14b=_0x3980e0[_0x2b93ed];return _0x4bc14b;},a0_0x2b93(_0x1a1eaa,_0x5ea13d);}const sqlite3=require(a0_0x43ee9c(0x193)),{open}=require(a0_0x43ee9c(0x198));function bibledb(){const _0x528227=a0_0x43ee9c;this[_0x528227(0x18f)]=_0x498b91,this[_0x528227(0x187)]=_0x444505,this['bibledb_readWithID']=_0xb8752c,this[_0x528227(0x17e)]=_0x5a75b7,this[_0x528227(0x186)]=_0x780cd0,this[_0x528227(0x182)]=_0x3745e5;let _0x1b00a7='./kjv.db',_0x22bad0=null;const _0x31c395=0x64;function _0x498b91(_0x492c45){this['filename']=_0x492c45,_0x22bad0=null;}async function _0x444505(){const _0x580146=_0x528227;return _0x22bad0=await open({'filename':this[_0x580146(0x18e)],'driver':sqlite3[_0x580146(0x191)]}),!![];}async function _0x780cd0(){const _0x413a00=_0x528227;await _0x1db038(_0x31c395);const _0xc6d032=await _0x22bad0[_0x413a00(0x181)](_0x413a00(0x180));return _0xc6d032;}function _0xb8752c(_0x1041d3){const _0x104f46=_0x528227;_0x22bad0['each'](_0x104f46(0x19a),function(_0x5ce114,_0x11004d){});}async function _0x5a75b7(_0x479392,_0x5359e8){const _0x366217=_0x528227;await _0x1db038(_0x31c395);const _0x56013e=await _0x22bad0['all'](_0x366217(0x197)+_0x479392+'\x20AND\x20chNum\x20=\x20'+_0x5359e8+_0x366217(0x196));return _0x56013e;}async function _0x39679a(_0xaebf8f,_0xf45b12){const _0x3d353d=_0x528227,_0x55cee0=await _0x22bad0[_0x3d353d(0x190)]('SELECT\x20*\x20FROM\x20words\x20WHERE\x20wordId=?',0x3);return _0x55cee0[_0x3d353d(0x184)];}async function _0x3745e5(_0x4bde1f,_0x28d1b8){const _0x43006a=_0x528227;await _0x1db038(_0x31c395);let _0x32ebff=null;return _0x28d1b8==0x0?_0x32ebff=await _0x22bad0[_0x43006a(0x181)](_0x43006a(0x17d)+_0x4bde1f+'\x27'):_0x32ebff=await _0x22bad0[_0x43006a(0x181)](_0x43006a(0x17d)+_0x4bde1f+_0x43006a(0x185)+_0x28d1b8),_0x32ebff;}function _0x1db038(_0xdfd980){return new Promise(_0x4422e6=>{_0x22bad0==null?setTimeout(_0x4422e6,_0xdfd980):setTimeout(_0x4422e6,0xa);});}}module[a0_0x43ee9c(0x189)]={'bibledb':bibledb};function a0_0x3980(){const _0x3200bb=['sqlite','112AjYieI','SELECT\x20*\x20FROM\x20words\x20WHERE\x20wordId=3','SELECT\x20*\x20FROM\x20words\x20WHERE\x20word\x20LIKE\x20\x27','readChapter','297956PcHhYL','SELECT\x20*\x20FROM\x20configuration','all','search','12QBnCqS','word','\x27\x20AND\x20bookNum\x20=\x20','bibledb_readconfig','connect','337322DZdhkT','exports','177570zhMcNw','9680616kbAOdd','121PAdzsM','2375kXvGOK','filename','init','get','Database','3344CrcSSk','sqlite3','983340YmTJix','8781975OYBjUn','\x20ORDER\x20BY\x20verseNum\x20ASC','SELECT\x20word\x20FROM\x20words\x20WHERE\x20bookNum\x20=\x20'];a0_0x3980=function(){return _0x3200bb;};return a0_0x3980();}
+const sqlite3 = require('sqlite3');
+const {open} = require('sqlite');
+function bibledb() {
+    this.init = _0x498b91;
+    this.connect = _0x444505;
+    this.bibledb_readWithID = _0xb8752c;
+    this.readChapter = _0x5a75b7;
+    this.bibledb_readconfig = _0x780cd0;
+    this.search = _0x3745e5;
+    let _0x1b00a7 = './kjv.db';
+    let _0x22bad0 = null;
+    const _0x31c395 = 100;
+    function _0x498b91(_0x492c45) {
+        this.filename = _0x492c45;
+        _0x22bad0 = null;
+    }
+    async function _0x444505() {
+        return _0x22bad0 = await open({
+            filename: this.filename,
+            driver: sqlite3.Database
+        }), true;
+    }
+    async function _0x780cd0() {
+        await _0x1db038(_0x31c395);
+        const _0xc6d032 = await _0x22bad0.all('SELECT * FROM configuration');
+        return _0xc6d032;
+    }
+    function _0xb8752c(_0x1041d3) {
+        _0x22bad0.each('SELECT * FROM words WHERE wordId=3', function (_0x5ce114, _0x11004d) {
+        });
+    }
+    async function _0x5a75b7(_0x479392, _0x5359e8) {
+        await _0x1db038(_0x31c395);
+        const _0x56013e = await _0x22bad0.all('SELECT word FROM words WHERE bookNum = ' + _0x479392 + ' AND chNum = ' + _0x5359e8 + ' ORDER BY verseNum ASC');
+        return _0x56013e;
+    }
+    async function _0x39679a(_0xaebf8f, _0xf45b12) {
+        const _0x55cee0 = await _0x22bad0.get('SELECT * FROM words WHERE wordId=?', 3);
+        return _0x55cee0.word;
+    }
+    async function _0x3745e5(_0x4bde1f, _0x28d1b8) {
+        await _0x1db038(_0x31c395);
+        let _0x32ebff = null;
+        return _0x28d1b8 == 0 ? _0x32ebff = await _0x22bad0.all('SELECT * FROM words WHERE word LIKE \'' + _0x4bde1f + '\'') : _0x32ebff = await _0x22bad0.all('SELECT * FROM words WHERE word LIKE \'' + _0x4bde1f + '\' AND bookNum = ' + _0x28d1b8), _0x32ebff;
+    }
+    function _0x1db038(_0xdfd980) {
+        return new Promise(_0x4422e6 => {
+            _0x22bad0 == null ? setTimeout(_0x4422e6, _0xdfd980) : setTimeout(_0x4422e6, 10);
+        });
+    }
+}
+module.exports = { bibledb: bibledb };

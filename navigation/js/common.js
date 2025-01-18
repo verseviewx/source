@@ -1,1 +1,105 @@
-(function(_0x44ca5e,_0x55af98){var _0x21ddf8=a0_0x1f68,_0x2b461a=_0x44ca5e();while(!![]){try{var _0x4fb747=parseInt(_0x21ddf8(0x8c))/0x1+-parseInt(_0x21ddf8(0x8f))/0x2+-parseInt(_0x21ddf8(0x70))/0x3+parseInt(_0x21ddf8(0x68))/0x4*(parseInt(_0x21ddf8(0x6d))/0x5)+-parseInt(_0x21ddf8(0x96))/0x6*(parseInt(_0x21ddf8(0x74))/0x7)+-parseInt(_0x21ddf8(0x90))/0x8*(-parseInt(_0x21ddf8(0x7d))/0x9)+parseInt(_0x21ddf8(0x7a))/0xa*(-parseInt(_0x21ddf8(0x76))/0xb);if(_0x4fb747===_0x55af98)break;else _0x2b461a['push'](_0x2b461a['shift']());}catch(_0x32505d){_0x2b461a['push'](_0x2b461a['shift']());}}}(a0_0x57b9,0x3ff99));function a0_0x1f68(_0x1e363e,_0x463723){var _0x57b9d7=a0_0x57b9();return a0_0x1f68=function(_0x1f6859,_0x2c10f2){_0x1f6859=_0x1f6859-0x65;var _0x475a2d=_0x57b9d7[_0x1f6859];return _0x475a2d;},a0_0x1f68(_0x1e363e,_0x463723);}function setupTimer(_0x851358){const _0x59d72c=setInterval(function(){var _0x4f951d=a0_0x1f68;saveConfigFlag&&(saveConfigFlag=![],window[_0x4f951d(0x66)][_0x4f951d(0x7c)](configJSON));if(saveBookmarksFlag){saveBookmarksFlag=![];const _0x271545=scheduleObj['getScheduleData']();window[_0x4f951d(0x66)][_0x4f951d(0x71)](_0x271545);}saveThemeFlag&&(saveThemeFlag=![],window[_0x4f951d(0x66)][_0x4f951d(0x8e)](themeJSON));},_0x851358);}function vvConfirmSetup(){var _0x303ee2=a0_0x1f68;$(_0x303ee2(0x89))[_0x303ee2(0x7e)](_0x303ee2(0x77)),$(_0x303ee2(0x89))[_0x303ee2(0x8b)]({'height':_0x303ee2(0x6c)}),$(_0x303ee2(0x89))[_0x303ee2(0x8b)]({'width':_0x303ee2(0x85)}),$(_0x303ee2(0x89))['css']({'margin':_0x303ee2(0x88)});}function vvConfirm(_0x290c13,_0x50f1e3,_0x11b142,_0x5b1e50){var _0x47a90f=a0_0x1f68;$('#vvConfirm_yes')['off'](),$('#vvConfirm_no')['off'](),$(_0x47a90f(0x69))[_0x47a90f(0x6b)]('click',function(){var _0x2abdca=_0x47a90f;_0x11b142!=null&&_0x11b142(),$(_0x2abdca(0x89))[_0x2abdca(0x7e)](_0x2abdca(0x77));}),$(_0x47a90f(0x82))[_0x47a90f(0x6b)](_0x47a90f(0x79),function(){var _0x67fe22=_0x47a90f;_0x5b1e50!=null&&_0x5b1e50(),$('#vvConfirm_main')['modal'](_0x67fe22(0x77));}),$('#vvConfirm_header')[_0x47a90f(0x95)](_0x290c13),$('#vvConfirm_message')['html'](_0x50f1e3),$('#vvConfirm_main')['modal'](_0x47a90f(0x80));}function vvDialogSetup(){var _0x5336bd=a0_0x1f68;$(_0x5336bd(0x7b))[_0x5336bd(0x77)](),$(_0x5336bd(0x7b))[_0x5336bd(0x8b)]({'height':'100px'}),$(_0x5336bd(0x7b))[_0x5336bd(0x8b)]({'width':_0x5336bd(0x85)}),$(_0x5336bd(0x7b))[_0x5336bd(0x8b)]({'marginTop':_0x5336bd(0x72)});}function vvDialog(_0x1bc95e,_0x2ee048){var _0x3db0af=a0_0x1f68;$(_0x3db0af(0x6f))['off'](_0x3db0af(0x79)),$(_0x3db0af(0x78))[_0x3db0af(0x95)](_0x1bc95e),$(_0x3db0af(0x91))[_0x3db0af(0x95)](_0x2ee048),$(_0x3db0af(0x7b))[_0x3db0af(0x80)](),$('#toast_button_close')['on'](_0x3db0af(0x79),function(){var _0x4bbb68=_0x3db0af;$(_0x4bbb68(0x7b))['hide']();}),setTimeout(function(){var _0x543fca=_0x3db0af;$('#somemessage')[_0x543fca(0x77)]();},0x1f40);}function IsNumeric(_0x1f3a57){var _0x4f5269=a0_0x1f68,_0x50c463='0123456789',_0x5c317c=!![],_0x381d48;for(i=0x0;i<_0x1f3a57['length']&&_0x5c317c==!![];i++){_0x381d48=_0x1f3a57[_0x4f5269(0x93)](i),_0x50c463['indexOf'](_0x381d48)==-0x1&&(_0x5c317c=![]);}return _0x5c317c;}function withinRange(_0x3ee98e,_0x496ecd,_0x120d29){return _0x120d29>=_0x3ee98e&&_0x120d29<=_0x496ecd?!![]:![];}function vvColorPickerSetup(){var _0x3900b3=a0_0x1f68;$(_0x3900b3(0x6e))['modal'](_0x3900b3(0x77)),$('#vvColorPicker_main')['css']({'height':_0x3900b3(0x92)}),$(_0x3900b3(0x6e))['css']({'width':_0x3900b3(0x6c)}),$(_0x3900b3(0x6e))[_0x3900b3(0x8b)]({'margin':'20px'});}function a0_0x57b9(){var _0x5756c8=['#vvdialog_message','500px','charAt','off','html','330jcogSd','replace','slice','api','map','20CMsObx','#vvConfirm_yes','Tooltip','one','300px','499135qvYSiM','#vvColorPicker_main','#toast_button_close','1090134sWEuVp','saveScheduleJSON','-=100px','toHexString','25963LusrqW','#vvColorPicker_message','11ushfjF','hide','#vvdialog_header','click','763580CRxbQU','#somemessage','saveConfigJSON','69453OtuHfR','modal','call','show','spectrum','#vvConfirm_no','#vvColorPicker_cancel','#vvColorPicker_header','400px','Text1Color','#vvColorPicker_set','20px','#vvConfirm_main','#colorpicker','css','387305crkJCE','[data-bs-toggle=\x22tooltip\x22]','saveThemeJSON','393488WRMnOz','224cEQqoF'];a0_0x57b9=function(){return _0x5756c8;};return a0_0x57b9();}function vvColorPicker(_0x2e9bb3,_0x568a79,_0xc0f4b4,_0x1ff69c){var _0x21057c=a0_0x1f68;$(_0x21057c(0x87))[_0x21057c(0x94)](),$(_0x21057c(0x83))[_0x21057c(0x94)](),$(_0x21057c(0x87))['one'](_0x21057c(0x79),function(){var _0x34cde7=_0x21057c;colorPickerColorGlobal=$(_0x34cde7(0x8a))['spectrum']('get')[_0x34cde7(0x73)](),_0xc0f4b4!=null&&_0xc0f4b4(),$(_0x34cde7(0x6e))[_0x34cde7(0x7e)]('hide');}),$(_0x21057c(0x83))[_0x21057c(0x6b)](_0x21057c(0x79),function(){var _0x33c126=_0x21057c;_0x1ff69c!=null&&_0x1ff69c(),$(_0x33c126(0x6e))[_0x33c126(0x7e)](_0x33c126(0x77));}),$(_0x21057c(0x84))[_0x21057c(0x95)](_0x2e9bb3),$(_0x21057c(0x75))['html'](_0x568a79),$(_0x21057c(0x8a))[_0x21057c(0x81)]({'color':graphicstab[_0x21057c(0x86)],'flat':!![],'showInput':![],'showButtons':![]}),$(_0x21057c(0x6e))['modal'](_0x21057c(0x80));}function validatetext(_0x30c460){var _0x6ab4d9=a0_0x1f68;let _0x3a6dd8=_0x30c460[_0x6ab4d9(0x97)](/^\s+|\s+$/g,'');_0x3a6dd8=_0x3a6dd8[_0x6ab4d9(0x97)](/\s\s+/g,'\x20');if(_0x3a6dd8=='')return![];return _0x3a6dd8;}function initToolTips(){var _0x5276aa=a0_0x1f68,_0x1b77a5=[][_0x5276aa(0x65)][_0x5276aa(0x7f)](document['querySelectorAll'](_0x5276aa(0x8d))),_0x780b6f=_0x1b77a5[_0x5276aa(0x67)](function(_0x3b7112){var _0x51be30=_0x5276aa;return new bootstrap[(_0x51be30(0x6a))](_0x3b7112,{'trigger':'hover'});});}
+function setupTimer(_0x851358) {
+    const _0x59d72c = setInterval(function () {
+        saveConfigFlag && (saveConfigFlag = false, window.api.saveConfigJSON(configJSON));
+        if (saveBookmarksFlag) {
+            saveBookmarksFlag = false;
+            const _0x271545 = scheduleObj.getScheduleData();
+            window.api.saveScheduleJSON(_0x271545);
+        }
+        saveThemeFlag && (saveThemeFlag = false, window.api.saveThemeJSON(themeJSON));
+    }, _0x851358);
+}
+function vvConfirmSetup() {
+    $('#vvConfirm_main').modal('hide');
+    $('#vvConfirm_main').css({ height: '300px' });
+    $('#vvConfirm_main').css({ width: '400px' });
+    $('#vvConfirm_main').css({ margin: '20px' });
+}
+function vvConfirm(_0x290c13, _0x50f1e3, _0x11b142, _0x5b1e50) {
+    $('#vvConfirm_yes').off();
+    $('#vvConfirm_no').off();
+    $('#vvConfirm_yes').one('click', function () {
+        _0x11b142 != null && _0x11b142();
+        $('#vvConfirm_main').modal('hide');
+    });
+    $('#vvConfirm_no').one('click', function () {
+        _0x5b1e50 != null && _0x5b1e50();
+        $('#vvConfirm_main').modal('hide');
+    });
+    $('#vvConfirm_header').html(_0x290c13);
+    $('#vvConfirm_message').html(_0x50f1e3);
+    $('#vvConfirm_main').modal('show');
+}
+function vvDialogSetup() {
+    $('#somemessage').hide();
+    $('#somemessage').css({ height: '100px' });
+    $('#somemessage').css({ width: '400px' });
+    $('#somemessage').css({ marginTop: '-=100px' });
+}
+function vvDialog(_0x1bc95e, _0x2ee048) {
+    $('#toast_button_close').off('click');
+    $('#vvdialog_header').html(_0x1bc95e);
+    $('#vvdialog_message').html(_0x2ee048);
+    $('#somemessage').show();
+    $('#toast_button_close').on('click', function () {
+        $('#somemessage').hide();
+    });
+    setTimeout(function () {
+        $('#somemessage').hide();
+    }, 8000);
+}
+function IsNumeric(_0x1f3a57) {
+    var _0x50c463 = '0123456789';
+    var _0x5c317c = true;
+    var _0x381d48;
+    for (i = 0; i < _0x1f3a57.length && _0x5c317c == true; i++) {
+        _0x381d48 = _0x1f3a57.charAt(i);
+        _0x50c463.indexOf(_0x381d48) == -1 && (_0x5c317c = false);
+    }
+    return _0x5c317c;
+}
+function withinRange(_0x3ee98e, _0x496ecd, _0x120d29) {
+    return _0x120d29 >= _0x3ee98e && _0x120d29 <= _0x496ecd ? true : false;
+}
+function vvColorPickerSetup() {
+    $('#vvColorPicker_main').modal('hide');
+    $('#vvColorPicker_main').css({ height: '500px' });
+    $('#vvColorPicker_main').css({ width: '300px' });
+    $('#vvColorPicker_main').css({ margin: '20px' });
+}
+function vvColorPicker(_0x2e9bb3, _0x568a79, _0xc0f4b4, _0x1ff69c) {
+    $('#vvColorPicker_set').off();
+    $('#vvColorPicker_cancel').off();
+    $('#vvColorPicker_set').one('click', function () {
+        colorPickerColorGlobal = $('#colorpicker').spectrum('get').toHexString();
+        _0xc0f4b4 != null && _0xc0f4b4();
+        $('#vvColorPicker_main').modal('hide');
+    });
+    $('#vvColorPicker_cancel').one('click', function () {
+        _0x1ff69c != null && _0x1ff69c();
+        $('#vvColorPicker_main').modal('hide');
+    });
+    $('#vvColorPicker_header').html(_0x2e9bb3);
+    $('#vvColorPicker_message').html(_0x568a79);
+    $('#colorpicker').spectrum({
+        color: graphicstab.Text1Color,
+        flat: true,
+        showInput: false,
+        showButtons: false
+    });
+    $('#vvColorPicker_main').modal('show');
+}
+function validatetext(_0x30c460) {
+    let _0x3a6dd8 = _0x30c460.replace(/^\s+|\s+$/g, '');
+    _0x3a6dd8 = _0x3a6dd8.replace(/\s\s+/g, ' ');
+    if (_0x3a6dd8 == '') {
+        return false;
+    }
+    return _0x3a6dd8;
+}
+function initToolTips() {
+    var _0x1b77a5 = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    var _0x780b6f = _0x1b77a5.map(function (_0x3b7112) {
+        return new bootstrap.Tooltip(_0x3b7112, { trigger: 'hover' });
+    });
+}

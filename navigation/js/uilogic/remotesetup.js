@@ -1,1 +1,180 @@
-function a0_0x410f(_0x3fa0ae,_0x1e1bd8){const _0x48a433=a0_0x48a4();return a0_0x410f=function(_0x410f8f,_0x4cb40b){_0x410f8f=_0x410f8f-0x1a6;let _0x5b9b9f=_0x48a433[_0x410f8f];return _0x5b9b9f;},a0_0x410f(_0x3fa0ae,_0x1e1bd8);}function a0_0x48a4(){const _0x340f6e=['1287600fcJsVw','remotehostname','::1','push','Remote\x20Setup','disabled','lowerthird/theme6/g/g.html','101350nRllES','#configIPaddr','val','getElementById','#remoteVVStatus','portnumber','change','Remote\x20VerseVIEW\x20is\x20Disabled','configuration','lowerthird/theme6/e2/e.html','http://','stageview/fullscreen2/c.html','stageview/stage6/c.html','</option>','Remote\x20VerseVIEW\x20is\x20Enabled','308105oYCUTW','lowerthird/theme6/a/a.html','html','hide','#qrcode','init','selectedNetworkAddr','103930CWTFSo','#configRemotePort','lowerthird/theme6/d2/d.html','text-primary','DISABLE\x20REMOTE','remoteIPAddrList','#remoteicon','lowerthird/theme6/c/c.html','#saveRemoteVVSettings','ENABLE\x20REMOTE','text','localhost','append','24lJCMlW','[REMOTE\x20SETUP]\x20','api','configurevvremote','Return\x20value\x20from\x20main\x20','118419UczkOg','addClass','text-secondary','remoteenable','lowerthird/theme6/b/b.html','4khkilt','remoteportnumber','Invalid\x20Port\x20Number.\x20Select\x20value\x20from\x2050000\x20to\x2051000','prop','qrcode','removeClass','log','<option\x20value=','#configRemoteLink','#remoteVVRemoteFunc','152jPDqYW','2639754KJGLfS','remote\x20setup\x20command:\x20','lowerthird/theme6/g2/g.html','click','stageview/fullscreen1/c.html','209PTpsYw','stageview/fullscreen3/c.html','2614ibmXwA','#configRemoteHostname','writeText'];a0_0x48a4=function(){return _0x340f6e;};return a0_0x48a4();}(function(_0x57c139,_0x4e3e0b){const _0x23054f=a0_0x410f,_0x56644a=_0x57c139();while(!![]){try{const _0x7631c0=parseInt(_0x23054f(0x1b2))/0x1*(parseInt(_0x23054f(0x1ba))/0x2)+-parseInt(_0x23054f(0x1ec))/0x3+-parseInt(_0x23054f(0x1a8))/0x4*(-parseInt(_0x23054f(0x1c4))/0x5)+parseInt(_0x23054f(0x1bd))/0x6+-parseInt(_0x23054f(0x1d3))/0x7*(parseInt(_0x23054f(0x1e7))/0x8)+-parseInt(_0x23054f(0x1b3))/0x9+parseInt(_0x23054f(0x1da))/0xa*(parseInt(_0x23054f(0x1b8))/0xb);if(_0x7631c0===_0x4e3e0b)break;else _0x56644a['push'](_0x56644a['shift']());}catch(_0xf54136){_0x56644a['push'](_0x56644a['shift']());}}}(a0_0x48a4,0x28921));const remotesetup=new remotesetupclass();function remotesetupclass(){const _0x217eb4=a0_0x410f;this[_0x217eb4(0x1d8)]=_0x6d3961;const _0x5eacbd=![];function _0x6d3961(){const _0x6c16a0=_0x217eb4;_0x4b0c6a();const _0x46237a=configJSON[_0x6c16a0(0x1cc)][0x0][_0x6c16a0(0x1d9)];_0x46237a==null||_0x46237a==''?$(_0x6c16a0(0x1bb))[_0x6c16a0(0x1c6)](configJSON[_0x6c16a0(0x1cc)][0x0]['remotehostname']):$('#configRemoteHostname')[_0x6c16a0(0x1c6)](configJSON[_0x6c16a0(0x1cc)][0x0][_0x6c16a0(0x1d9)]),$(_0x6c16a0(0x1db))[_0x6c16a0(0x1c6)](configJSON[_0x6c16a0(0x1cc)][0x0][_0x6c16a0(0x1a9)]),_0x234aed(configJSON[_0x6c16a0(0x1cc)][0x0][_0x6c16a0(0x1a6)]),$('#saveRemoteVVSettings')['on'](_0x6c16a0(0x1b6),async function(){const _0x39338e=_0x6c16a0;if(_0x164f5e($('#configRemotePort')[_0x39338e(0x1c6)]())){if(configJSON['configuration'][0x0]['remoteenable']){let _0x563c8e={'command':0x0,'portnumber':$(_0x39338e(0x1db))[_0x39338e(0x1c6)]()};const _0x3a337f=await window[_0x39338e(0x1e9)][_0x39338e(0x1ea)](_0x563c8e);$('#saveRemoteVVSettings')[_0x39338e(0x1e4)](_0x39338e(0x1e3)),$(_0x39338e(0x1db))['prop'](_0x39338e(0x1c2),![]),$(_0x39338e(0x1bb))[_0x39338e(0x1ab)](_0x39338e(0x1c2),![]),updateSaveConfig('remoteenable',![]),_0x234aed(![]),$('#qrcode')[_0x39338e(0x1d6)](),screenstab_disable_stageview();}else{let _0x52288c={'command':0x1,'portnumber':$('#configRemotePort')['val']()};_0x55adb9(_0x39338e(0x1b4)+_0x52288c['command']);const _0xaec845=await window[_0x39338e(0x1e9)][_0x39338e(0x1ea)](_0x52288c);_0x55adb9(_0x39338e(0x1eb)+_0xaec845),$('#saveRemoteVVSettings')[_0x39338e(0x1e4)](_0x39338e(0x1de)),$(_0x39338e(0x1db))[_0x39338e(0x1ab)]('disabled',!![]),$(_0x39338e(0x1bb))['prop'](_0x39338e(0x1c2),![]),updateSaveConfig('remoteenable',!![]),updateSaveConfig(_0x39338e(0x1a9),$('#configRemotePort')[_0x39338e(0x1c6)]()),_0x234aed(!![]),_0x3d1525();}}else vvDialog(_0x39338e(0x1c1),_0x39338e(0x1aa));}),$('#configIPaddr')['on']('change',function(){_0x45d27f(),_0x3d1525();}),$('#remoteVVRemoteFunc')['on'](_0x6c16a0(0x1ca),function(){_0x3d1525();}),$('#configRemoteCopy')['on'](_0x6c16a0(0x1b6),async function(){const _0xcc0e26=_0x6c16a0;var _0x164084=$(_0xcc0e26(0x1b0));_0x164084['select'](),await navigator['clipboard'][_0xcc0e26(0x1bc)](_0x164084['val']());}),configJSON[_0x6c16a0(0x1cc)][0x0][_0x6c16a0(0x1a6)]&&_0x375d58();}function _0x4b0c6a(){const _0x26155f=_0x217eb4;let _0x3823cd=configJSON[_0x26155f(0x1cc)][0x0][_0x26155f(0x1df)];_0x3823cd[_0x26155f(0x1c0)](configJSON[_0x26155f(0x1cc)][0x0]['remotehostname']),_0x3823cd[_0x26155f(0x1c0)](_0x26155f(0x1e5));var _0x538f6f=_0x3823cd['length'];let _0x18f302='';clearSelectList('configIPaddr');let _0x2293f3=0x0,_0x44b75b,_0x2054ae=-0x1,_0x48af26=0x0;const _0x132787=configJSON[_0x26155f(0x1cc)][0x0][_0x26155f(0x1d9)],_0x97a0b0=configJSON[_0x26155f(0x1cc)][0x0][_0x26155f(0x1be)];for(var _0xf4aa53=0x0;_0xf4aa53<_0x538f6f;_0xf4aa53++){_0x3823cd[_0xf4aa53]!=_0x26155f(0x1bf)&&(_0x18f302+=_0x26155f(0x1af)+_0xf4aa53+'>'+_0x3823cd[_0xf4aa53]+_0x26155f(0x1d1),_0x97a0b0==_0x3823cd[_0xf4aa53]&&(_0x2054ae=_0xf4aa53),_0x132787==_0x3823cd[_0xf4aa53]&&(_0x44b75b=_0xf4aa53));}_0x44b75b==-0x1?_0x48af26=_0x2054ae:_0x48af26=_0x44b75b,$(_0x26155f(0x1c5))[_0x26155f(0x1e6)](_0x18f302),$(_0x26155f(0x1c5))[_0x26155f(0x1c6)](_0x48af26);}async function _0x375d58(){const _0x5ac055=_0x217eb4;let _0x3d2925={'command':0x1,'portnumber':configJSON[_0x5ac055(0x1cc)][0x0][_0x5ac055(0x1a9)]};_0x55adb9('remote\x20setup\x20command:\x20'+_0x3d2925['command']+'|'+_0x3d2925[_0x5ac055(0x1c9)]);const _0x34433c=await window[_0x5ac055(0x1e9)][_0x5ac055(0x1ea)](_0x3d2925);$(_0x5ac055(0x1e2))[_0x5ac055(0x1e4)](_0x5ac055(0x1de)),$(_0x5ac055(0x1db))[_0x5ac055(0x1c6)](configJSON[_0x5ac055(0x1cc)][0x0][_0x5ac055(0x1a9)]),$(_0x5ac055(0x1db))['prop']('disabled',!![]),_0x234aed(!![]),_0x3d1525();}function _0x234aed(_0x3d8d92){const _0x5a1431=_0x217eb4;_0x3d8d92?($(_0x5a1431(0x1e2))[_0x5a1431(0x1e4)](_0x5a1431(0x1de)),$(_0x5a1431(0x1c8))[_0x5a1431(0x1e4)](_0x5a1431(0x1d2)),$('#configRemotePort')['prop']('disabled',!![]),$('#remoteicon')['addClass'](_0x5a1431(0x1dd)),$(_0x5a1431(0x1e0))[_0x5a1431(0x1ad)](_0x5a1431(0x1ee))):($(_0x5a1431(0x1e2))[_0x5a1431(0x1e4)](_0x5a1431(0x1e3)),$('#remoteVVStatus')[_0x5a1431(0x1e4)](_0x5a1431(0x1cb)),$(_0x5a1431(0x1db))['prop'](_0x5a1431(0x1c2),![]),$(_0x5a1431(0x1e0))[_0x5a1431(0x1ed)](_0x5a1431(0x1ee)),$(_0x5a1431(0x1e0))[_0x5a1431(0x1ad)](_0x5a1431(0x1dd)));}function _0x164f5e(_0x54b6c3){if(IsNumeric(_0x54b6c3)){if(withinRange(0xc000,0xffff,_0x54b6c3))return!![];}return![];}function _0x3d1525(){const _0x5737d3=_0x217eb4;var _0x226e76=$(_0x5737d3(0x1bb))[_0x5737d3(0x1c6)](),_0x3f2ace=configJSON[_0x5737d3(0x1cc)][0x0][_0x5737d3(0x1a9)],_0x417ab3='',_0x38f696=_0x5737d3(0x1ce)+_0x226e76+':'+_0x3f2ace+'/',_0x105ff2=$(_0x5737d3(0x1b1))[_0x5737d3(0x1c6)]();_0x55adb9('Selected\x20remote\x20func\x20value'+_0x105ff2);switch(_0x105ff2){case'1':_0x417ab3=_0x38f696+'control.html';break;case'2':_0x417ab3=_0x38f696+_0x5737d3(0x1b7);break;case'3':_0x417ab3=_0x38f696+_0x5737d3(0x1cf);break;case'4':_0x417ab3=_0x38f696+_0x5737d3(0x1b9);break;case'6':_0x417ab3=_0x38f696+_0x5737d3(0x1d4);break;case'7':_0x417ab3=_0x38f696+'lowerthird/theme6/a2/a.html';break;case'8':_0x417ab3=_0x38f696+_0x5737d3(0x1a7);break;case'9':_0x417ab3=_0x38f696+_0x5737d3(0x1e1);break;case'10':_0x417ab3=_0x38f696+'lowerthird/theme6/d/d.html';break;case'11':_0x417ab3=_0x38f696+_0x5737d3(0x1dc);break;case'12':_0x417ab3=_0x38f696+_0x5737d3(0x1cd);break;case'13':_0x417ab3=_0x38f696+_0x5737d3(0x1c3);break;case'14':_0x417ab3=_0x38f696+'lowerthird/theme6/h1/h.html';break;case'15':_0x417ab3=_0x38f696+_0x5737d3(0x1b5);break;case'16':_0x417ab3=_0x38f696+'stageview/stage5/c.html';break;case'17':_0x417ab3=_0x38f696+_0x5737d3(0x1d0);break;default:_0x417ab3=_0x38f696;}$(_0x5737d3(0x1b0))[_0x5737d3(0x1c6)](_0x417ab3),$(_0x5737d3(0x1d7))[_0x5737d3(0x1d5)](''),$(_0x5737d3(0x1d7))['show'](),new QRCode(document[_0x5737d3(0x1c7)](_0x5737d3(0x1ac)),_0x417ab3);}function _0x45d27f(){const _0x1310f2=_0x217eb4;let _0x1ddd5a=$('#configIPaddr\x20option:selected')[_0x1310f2(0x1e4)]();$(_0x1310f2(0x1bb))[_0x1310f2(0x1c6)](_0x1ddd5a),updateSaveConfig(_0x1310f2(0x1d9),_0x1ddd5a);}function _0x55adb9(_0xb1e932){const _0x676c0b=_0x217eb4;_0x5eacbd&&console[_0x676c0b(0x1ae)](_0x676c0b(0x1e8)+_0xb1e932);}}
+const remotesetup = new remotesetupclass();
+function remotesetupclass() {
+    this.init = _0x6d3961;
+    const _0x5eacbd = false;
+    function _0x6d3961() {
+        _0x4b0c6a();
+        const _0x46237a = configJSON.configuration[0].selectedNetworkAddr;
+        _0x46237a == null || _0x46237a == '' ? $('#configRemoteHostname').val(configJSON.configuration[0].remotehostname) : $('#configRemoteHostname').val(configJSON.configuration[0].selectedNetworkAddr);
+        $('#configRemotePort').val(configJSON.configuration[0].remoteportnumber);
+        _0x234aed(configJSON.configuration[0].remoteenable);
+        $('#saveRemoteVVSettings').on('click', async function () {
+            if (_0x164f5e($('#configRemotePort').val())) {
+                if (configJSON.configuration[0].remoteenable) {
+                    let _0x563c8e = {
+                        command: 0,
+                        portnumber: $('#configRemotePort').val()
+                    };
+                    const _0x3a337f = await window.api.configurevvremote(_0x563c8e);
+                    $('#saveRemoteVVSettings').text('ENABLE REMOTE');
+                    $('#configRemotePort').prop('disabled', false);
+                    $('#configRemoteHostname').prop('disabled', false);
+                    updateSaveConfig('remoteenable', false);
+                    _0x234aed(false);
+                    $('#qrcode').hide();
+                    screenstab_disable_stageview();
+                } else {
+                    let _0x52288c = {
+                        command: 1,
+                        portnumber: $('#configRemotePort').val()
+                    };
+                    _0x55adb9('remote setup command: ' + _0x52288c.command);
+                    const _0xaec845 = await window.api.configurevvremote(_0x52288c);
+                    _0x55adb9('Return value from main ' + _0xaec845);
+                    $('#saveRemoteVVSettings').text('DISABLE REMOTE');
+                    $('#configRemotePort').prop('disabled', true);
+                    $('#configRemoteHostname').prop('disabled', false);
+                    updateSaveConfig('remoteenable', true);
+                    updateSaveConfig('remoteportnumber', $('#configRemotePort').val());
+                    _0x234aed(true);
+                    _0x3d1525();
+                }
+            } else {
+                vvDialog('Remote Setup', 'Invalid Port Number. Select value from 50000 to 51000');
+            }
+        });
+        $('#configIPaddr').on('change', function () {
+            _0x45d27f();
+            _0x3d1525();
+        });
+        $('#remoteVVRemoteFunc').on('change', function () {
+            _0x3d1525();
+        });
+        $('#configRemoteCopy').on('click', async function () {
+            var _0x164084 = $('#configRemoteLink');
+            _0x164084.select();
+            await navigator.clipboard.writeText(_0x164084.val());
+        });
+        configJSON.configuration[0].remoteenable && _0x375d58();
+    }
+    function _0x4b0c6a() {
+        let _0x3823cd = configJSON.configuration[0].remoteIPAddrList;
+        _0x3823cd.push(configJSON.configuration[0].remotehostname);
+        _0x3823cd.push('localhost');
+        var _0x538f6f = _0x3823cd.length;
+        let _0x18f302 = '';
+        clearSelectList('configIPaddr');
+        let _0x2293f3 = 0;
+        let _0x44b75b;
+        let _0x2054ae = -1;
+        let _0x48af26 = 0;
+        const _0x132787 = configJSON.configuration[0].selectedNetworkAddr;
+        const _0x97a0b0 = configJSON.configuration[0].remotehostname;
+        for (var _0xf4aa53 = 0; _0xf4aa53 < _0x538f6f; _0xf4aa53++) {
+            if (_0x3823cd[_0xf4aa53] != '::1') {
+                _0x18f302 += '<option value=' + _0xf4aa53 + '>' + _0x3823cd[_0xf4aa53] + '</option>';
+                _0x97a0b0 == _0x3823cd[_0xf4aa53] && (_0x2054ae = _0xf4aa53);
+                _0x132787 == _0x3823cd[_0xf4aa53] && (_0x44b75b = _0xf4aa53);
+            }
+        }
+        _0x44b75b == -1 ? _0x48af26 = _0x2054ae : _0x48af26 = _0x44b75b;
+        $('#configIPaddr').append(_0x18f302);
+        $('#configIPaddr').val(_0x48af26);
+    }
+    async function _0x375d58() {
+        let _0x3d2925 = {
+            command: 1,
+            portnumber: configJSON.configuration[0].remoteportnumber
+        };
+        _0x55adb9('remote setup command: ' + _0x3d2925.command + '|' + _0x3d2925.portnumber);
+        const _0x34433c = await window.api.configurevvremote(_0x3d2925);
+        $('#saveRemoteVVSettings').text('DISABLE REMOTE');
+        $('#configRemotePort').val(configJSON.configuration[0].remoteportnumber);
+        $('#configRemotePort').prop('disabled', true);
+        _0x234aed(true);
+        _0x3d1525();
+    }
+    function _0x234aed(_0x3d8d92) {
+        _0x3d8d92 ? ($('#saveRemoteVVSettings').text('DISABLE REMOTE'), $('#remoteVVStatus').text('Remote VerseVIEW is Enabled'), $('#configRemotePort').prop('disabled', true), $('#remoteicon').addClass('text-primary'), $('#remoteicon').removeClass('text-secondary')) : ($('#saveRemoteVVSettings').text('ENABLE REMOTE'), $('#remoteVVStatus').text('Remote VerseVIEW is Disabled'), $('#configRemotePort').prop('disabled', false), $('#remoteicon').addClass('text-secondary'), $('#remoteicon').removeClass('text-primary'));
+    }
+    function _0x164f5e(_0x54b6c3) {
+        if (IsNumeric(_0x54b6c3)) {
+            if (withinRange(49152, 65535, _0x54b6c3)) {
+                return true;
+            }
+        }
+        return false;
+    }
+    function _0x3d1525() {
+        var _0x226e76 = $('#configRemoteHostname').val();
+        var _0x3f2ace = configJSON.configuration[0].remoteportnumber;
+        var _0x417ab3 = '';
+        var _0x38f696 = 'http://' + _0x226e76 + ':' + _0x3f2ace + '/';
+        var _0x105ff2 = $('#remoteVVRemoteFunc').val();
+        _0x55adb9('Selected remote func value' + _0x105ff2);
+        switch (_0x105ff2) {
+        case '1':
+            _0x417ab3 = _0x38f696 + 'control.html';
+            break;
+        case '2':
+            _0x417ab3 = _0x38f696 + 'stageview/fullscreen1/c.html';
+            break;
+        case '3':
+            _0x417ab3 = _0x38f696 + 'stageview/fullscreen2/c.html';
+            break;
+        case '4':
+            _0x417ab3 = _0x38f696 + 'stageview/fullscreen3/c.html';
+            break;
+        case '6':
+            _0x417ab3 = _0x38f696 + 'lowerthird/theme6/a/a.html';
+            break;
+        case '7':
+            _0x417ab3 = _0x38f696 + 'lowerthird/theme6/a2/a.html';
+            break;
+        case '8':
+            _0x417ab3 = _0x38f696 + 'lowerthird/theme6/b/b.html';
+            break;
+        case '9':
+            _0x417ab3 = _0x38f696 + 'lowerthird/theme6/c/c.html';
+            break;
+        case '10':
+            _0x417ab3 = _0x38f696 + 'lowerthird/theme6/d/d.html';
+            break;
+        case '11':
+            _0x417ab3 = _0x38f696 + 'lowerthird/theme6/d2/d.html';
+            break;
+        case '12':
+            _0x417ab3 = _0x38f696 + 'lowerthird/theme6/e2/e.html';
+            break;
+        case '13':
+            _0x417ab3 = _0x38f696 + 'lowerthird/theme6/g/g.html';
+            break;
+        case '14':
+            _0x417ab3 = _0x38f696 + 'lowerthird/theme6/h1/h.html';
+            break;
+        case '15':
+            _0x417ab3 = _0x38f696 + 'lowerthird/theme6/g2/g.html';
+            break;
+        case '16':
+            _0x417ab3 = _0x38f696 + 'stageview/stage5/c.html';
+            break;
+        case '17':
+            _0x417ab3 = _0x38f696 + 'stageview/stage6/c.html';
+            break;
+        default:
+            _0x417ab3 = _0x38f696;
+        }
+        $('#configRemoteLink').val(_0x417ab3);
+        $('#qrcode').html('');
+        $('#qrcode').show();
+        new QRCode(document.getElementById('qrcode'), _0x417ab3);
+    }
+    function _0x45d27f() {
+        let _0x1ddd5a = $('#configIPaddr option:selected').text();
+        $('#configRemoteHostname').val(_0x1ddd5a);
+        updateSaveConfig('selectedNetworkAddr', _0x1ddd5a);
+    }
+    function _0x55adb9(_0xb1e932) {
+        _0x5eacbd && console.log('[REMOTE SETUP] ' + _0xb1e932);
+    }
+}

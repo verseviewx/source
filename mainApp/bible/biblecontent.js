@@ -1,1 +1,46 @@
-const a0_0x4457a2=a0_0x5a28;(function(_0x3ad35d,_0xed0a55){const _0x18ee04=a0_0x5a28,_0x145c6a=_0x3ad35d();while(!![]){try{const _0x1ed970=parseInt(_0x18ee04(0x1c2))/0x1+parseInt(_0x18ee04(0x1b5))/0x2*(-parseInt(_0x18ee04(0x1b6))/0x3)+-parseInt(_0x18ee04(0x1c3))/0x4*(-parseInt(_0x18ee04(0x1b4))/0x5)+parseInt(_0x18ee04(0x1b2))/0x6*(-parseInt(_0x18ee04(0x1ba))/0x7)+parseInt(_0x18ee04(0x1b3))/0x8*(-parseInt(_0x18ee04(0x1bf))/0x9)+-parseInt(_0x18ee04(0x1bb))/0xa+parseInt(_0x18ee04(0x1c5))/0xb*(parseInt(_0x18ee04(0x1b7))/0xc);if(_0x1ed970===_0xed0a55)break;else _0x145c6a['push'](_0x145c6a['shift']());}catch(_0x453f47){_0x145c6a['push'](_0x145c6a['shift']());}}}(a0_0x4460,0x63411));const {bibledb}=require(a0_0x4457a2(0x1be));let version1=new bibledb(),version2=new bibledb();function bibledbinit(_0x4a3d26,_0x36040b){const _0x442a3e=a0_0x4457a2;_0x36040b==0x1?(version1['init'](_0x4a3d26),version1[_0x442a3e(0x1bd)]()):(version2['init'](_0x4a3d26),version2[_0x442a3e(0x1bd)]());}async function biblecontent(_0x584fa2){const _0x54fb7=a0_0x4457a2;switch(_0x584fa2['command']){case 0x0:if(_0x584fa2[_0x54fb7(0x1c4)]==0x1){const _0xda4265=await version1['readChapter'](_0x584fa2[_0x54fb7(0x1c0)],_0x584fa2[_0x54fb7(0x1c1)]);return _0xda4265;}else{const _0x41d4a3=await version2['readChapter'](_0x584fa2['bookval'],_0x584fa2[_0x54fb7(0x1c1)]);return _0x41d4a3;}break;case 0x1:const _0x59ec02=processKeywordArray(_0x584fa2[_0x54fb7(0x1b9)],_0x584fa2[_0x54fb7(0x1bc)]),_0x3c2421=_0x584fa2[_0x54fb7(0x1c0)];let _0x2e5a4f=null;_0x584fa2[_0x54fb7(0x1c4)]==0x1?_0x2e5a4f=version1['search'](_0x59ec02,_0x3c2421):_0x2e5a4f=version2['search'](_0x59ec02,_0x3c2421);return _0x2e5a4f;break;case 0x2:break;default:break;}}function processKeywordArray(_0x6b1320,_0x4acf5a){const _0x2397b3=a0_0x4457a2;var _0x41eec3='';if(_0x4acf5a==0x1){var _0x53159f=_0x6b1320[_0x2397b3(0x1b8)]('\x20');for(var _0x265a6a=0x0;_0x265a6a<_0x53159f[_0x2397b3(0x1c6)];_0x265a6a++){_0x53159f[_0x265a6a]!=''&&(_0x41eec3+='%'+_0x53159f[_0x265a6a]);}_0x41eec3+='%';}else _0x41eec3='%'+_0x6b1320+'%';return _0x41eec3;}function a0_0x5a28(_0x5af2f2,_0x28700a){const _0x446004=a0_0x4460();return a0_0x5a28=function(_0x5a2836,_0x2c4998){_0x5a2836=_0x5a2836-0x1b1;let _0x32003b=_0x446004[_0x5a2836];return _0x32003b;},a0_0x5a28(_0x5af2f2,_0x28700a);}module[a0_0x4457a2(0x1b1)]={'bibledbinit':bibledbinit,'biblecontent':biblecontent};function a0_0x4460(){const _0x2906c0=['split','keyword','3223717GDqDSv','3800600fUgrez','searchType','connect','./bibledb','2653515fQeowq','bookval','chapterval','405528xYdwzO','478996OYbJpq','version','11sBLxEX','length','exports','6cTXRUy','16xbKFQb','5fJJbUr','142xCAuVI','7674JnvsPd','17917764vIZSJB'];a0_0x4460=function(){return _0x2906c0;};return a0_0x4460();}
+const {bibledb} = require('./bibledb');
+let version1 = new bibledb();
+let version2 = new bibledb();
+function bibledbinit(_0x4a3d26, _0x36040b) {
+    _0x36040b == 1 ? (version1.init(_0x4a3d26), version1.connect()) : (version2.init(_0x4a3d26), version2.connect());
+}
+async function biblecontent(_0x584fa2) {
+    switch (_0x584fa2.command) {
+    case 0:
+        if (_0x584fa2.version == 1) {
+            const _0xda4265 = await version1.readChapter(_0x584fa2.bookval, _0x584fa2.chapterval);
+            return _0xda4265;
+        } else {
+            const _0x41d4a3 = await version2.readChapter(_0x584fa2.bookval, _0x584fa2.chapterval);
+            return _0x41d4a3;
+        }
+        break;
+    case 1:
+        const _0x59ec02 = processKeywordArray(_0x584fa2.keyword, _0x584fa2.searchType), _0x3c2421 = _0x584fa2.bookval;
+        let _0x2e5a4f = null;
+        _0x584fa2.version == 1 ? _0x2e5a4f = version1.search(_0x59ec02, _0x3c2421) : _0x2e5a4f = version2.search(_0x59ec02, _0x3c2421);
+        return _0x2e5a4f;
+        break;
+    case 2:
+        break;
+    default:
+        break;
+    }
+}
+function processKeywordArray(_0x6b1320, _0x4acf5a) {
+    var _0x41eec3 = '';
+    if (_0x4acf5a == 1) {
+        var _0x53159f = _0x6b1320.split(' ');
+        for (var _0x265a6a = 0; _0x265a6a < _0x53159f.length; _0x265a6a++) {
+            _0x53159f[_0x265a6a] != '' && (_0x41eec3 += '%' + _0x53159f[_0x265a6a]);
+        }
+        _0x41eec3 += '%';
+    } else {
+        _0x41eec3 = '%' + _0x6b1320 + '%';
+    }
+    return _0x41eec3;
+}
+module.exports = {
+    bibledbinit: bibledbinit,
+    biblecontent: biblecontent
+};

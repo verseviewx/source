@@ -1,1 +1,91 @@
-const a0_0x464a0d=a0_0x8a4f;(function(_0x51e883,_0x663dfb){const _0x74a77f=a0_0x8a4f,_0x2db610=_0x51e883();while(!![]){try{const _0x472cb4=parseInt(_0x74a77f(0x150))/0x1*(parseInt(_0x74a77f(0x125))/0x2)+parseInt(_0x74a77f(0x121))/0x3*(-parseInt(_0x74a77f(0x142))/0x4)+-parseInt(_0x74a77f(0x159))/0x5*(-parseInt(_0x74a77f(0x13a))/0x6)+-parseInt(_0x74a77f(0x127))/0x7*(-parseInt(_0x74a77f(0x140))/0x8)+-parseInt(_0x74a77f(0x124))/0x9+parseInt(_0x74a77f(0x152))/0xa+parseInt(_0x74a77f(0x13c))/0xb;if(_0x472cb4===_0x663dfb)break;else _0x2db610['push'](_0x2db610['shift']());}catch(_0x44d825){_0x2db610['push'](_0x2db610['shift']());}}}(a0_0x3690,0xae825));var presentationData={};const PRESENTATION_VERSE=0x0,PRESENTATION_LYRICS=0x1,PRESENTATION_BLANK=0x2,PRESENTATION_LOGO=0x3,PRESENTATION_PLAYBACK=0x4,PRESENTATION_STILLPLAY=0x5;function a0_0x8a4f(_0x134078,_0x258855){const _0x369034=a0_0x3690();return a0_0x8a4f=function(_0x8a4fc8,_0x5f33f1){_0x8a4fc8=_0x8a4fc8-0x113;let _0x35e0c4=_0x369034[_0x8a4fc8];return _0x35e0c4;},a0_0x8a4f(_0x134078,_0x258855);}let isMuted=![],isPaused=![];const CONTROL_PAUSE=0x1,CONTROL_BACKWARD=0x3,CONTROL_FORWARD=0x2,CONTROL_MUTE_UNMUTE=0x4;window[a0_0x464a0d(0x14f)]['passPresentationData']((_0x211455,_0x125730)=>{processLower3rdResponse(_0x125730);}),window[a0_0x464a0d(0x14f)]['passPresentationControl']((_0x297f3c,_0x59e7f0)=>{const _0xa2c3be=a0_0x464a0d;if(_0x59e7f0[_0xa2c3be(0x12f)])switch(_0x59e7f0[_0xa2c3be(0x115)]){case CONTROL_PAUSE:isPaused?(videoPlay(),isPaused=![]):(videoPause(),isPaused=!![]);break;case CONTROL_BACKWARD:videoBackward(0xf);break;case CONTROL_FORWARD:videoForward(0xf);break;case CONTROL_MUTE_UNMUTE:isMuted?(videoUnMute(),isMuted=![]):(videoMute(),isMuted=!![]);break;default:break;}}),window[a0_0x464a0d(0x14f)][a0_0x464a0d(0x149)]((_0x2d0d9e,_0x2d63c9)=>{const _0x388898=a0_0x464a0d;presentationData=_0x2d63c9,disableEvent(),setupEvent();if(presentationData[_0x388898(0x13f)]==PRESENTATION_PLAYBACK)return presentationInit(),$(_0x388898(0x122))[_0x388898(0x15f)](),$(_0x388898(0x117))[_0x388898(0x119)](),$('.blackbackground')['show'](),$('.overlay')[_0x388898(0x119)](),!![];if(presentationData['presentationType']==PRESENTATION_STILLPLAY){$(_0x388898(0x122))[_0x388898(0x119)]();let _0x5d5616=presentationData[_0x388898(0x15b)][_0x388898(0x15a)](/\\/g,'/');return _0x5d5616=_0x5d5616[_0x388898(0x15a)](/ /g,_0x388898(0x118)),$(_0x388898(0x141))[_0x388898(0x146)]('background-position','center\x20center'),$('.blackbackground')[_0x388898(0x146)](_0x388898(0x11a),'url('+_0x5d5616+_0x388898(0x143)),$('.blackbackground')[_0x388898(0x146)](_0x388898(0x12b),_0x388898(0x12a)),$(_0x388898(0x141))[_0x388898(0x15f)](),$(_0x388898(0x137))[_0x388898(0x119)](),!![];}if(presentationData[_0x388898(0x13f)]==PRESENTATION_LOGO){$(_0x388898(0x122))['hide']();let _0x573e1=presentationData[_0x388898(0x12e)][_0x388898(0x15a)](/\\/g,'/');_0x573e1=_0x573e1['replace'](/ /g,_0x388898(0x118)),$(_0x388898(0x141))[_0x388898(0x146)](_0x388898(0x147),'center'),$('.blackbackground')['css'](_0x388898(0x11a),_0x388898(0x135)+_0x573e1+_0x388898(0x143)),$(_0x388898(0x141))[_0x388898(0x146)](_0x388898(0x12b),'cover'),$(_0x388898(0x141))['show']();}else $(_0x388898(0x141))[_0x388898(0x146)](_0x388898(0x116),'none'),presentationData[_0x388898(0x13f)]==PRESENTATION_BLANK?($('.showcase')[_0x388898(0x119)](),$('.blackbackground')[_0x388898(0x146)](_0x388898(0x11a),_0x388898(0x113)),$(_0x388898(0x141))[_0x388898(0x15f)]()):($(_0x388898(0x122))[_0x388898(0x15f)](),$(_0x388898(0x117))['show'](),presentationData[_0x388898(0x14c)]?$(_0x388898(0x137))[_0x388898(0x15f)]():$(_0x388898(0x137))['hide'](),$(_0x388898(0x141))[_0x388898(0x119)](),presentationData[_0x388898(0x145)]&&presentationInit(),presentationData[_0x388898(0x13f)]==0x1?presentationData[_0x388898(0x154)]?textMultiLine=!![]:textMultiLine=![]:textMultiLine=!![],processLower3rdResponse(presentationData));});function setupEvent(){const _0x153769=a0_0x464a0d;$(_0x153769(0x156))['on'](_0x153769(0x153),function(_0x492936){mainWindowKey(_0x492936);});}function disableEvent(){const _0x440dbc=a0_0x464a0d;$(_0x440dbc(0x156))[_0x440dbc(0x151)]('keyup');}function presentationInit(){const _0x31c16f=a0_0x464a0d;backgroundFilename=presentationData[_0x31c16f(0x15b)][_0x31c16f(0x15a)](/\\/g,'/'),$(_0x31c16f(0x15d))[_0x31c16f(0x119)](),presentationData[_0x31c16f(0x13e)]?($(_0x31c16f(0x15d))[_0x31c16f(0x146)]('background-image',_0x31c16f(0x131)),$('#presentVideoID')[_0x31c16f(0x128)](_0x31c16f(0x155),_0x31c16f(0x114)),$(_0x31c16f(0x148))[_0x31c16f(0x128)](_0x31c16f(0x129),_0x31c16f(0x161)),presentationData[_0x31c16f(0x13f)]==0x4?(document[_0x31c16f(0x15e)](_0x31c16f(0x11d))[_0x31c16f(0x123)]=![],$(_0x31c16f(0x148))['attr'](_0x31c16f(0x139),presentationData[_0x31c16f(0x120)])):(document[_0x31c16f(0x15e)](_0x31c16f(0x11d))['muted']=!![],$('#presentVideoID')[_0x31c16f(0x128)]('src',presentationData['videoBackgroundFile'])),$(_0x31c16f(0x148))[_0x31c16f(0x15f)]()):($(_0x31c16f(0x148))['attr'](_0x31c16f(0x139),''),$('#presentVideoID')['hide'](),backgroundImage?(backgroundFilename=backgroundFilename[_0x31c16f(0x15a)](/ /g,'%20'),$(_0x31c16f(0x15d))[_0x31c16f(0x146)](_0x31c16f(0x11a),_0x31c16f(0x135)+backgroundFilename+_0x31c16f(0x138)),$(_0x31c16f(0x15d))[_0x31c16f(0x146)]('background-size',_0x31c16f(0x132))):$('.stillbackground')[_0x31c16f(0x146)]('background-image',_0x31c16f(0x131))),$(_0x31c16f(0x15d))['show'](),vv_top=presentationData[_0x31c16f(0x130)],vv_left=presentationData['marginLeft'],vv_width=screenResolutionHorizontal-presentationData[_0x31c16f(0x144)]-presentationData[_0x31c16f(0x11b)],vv_height=screenResolutionVertical-presentationData[_0x31c16f(0x130)]-presentationData[_0x31c16f(0x134)]-0xc8,maxfont=parseInt(presentationData[_0x31c16f(0x14e)]),text1_style[_0x31c16f(0x13d)]=presentationData[_0x31c16f(0x133)],text2_style[_0x31c16f(0x13d)]=presentationData[_0x31c16f(0x15c)],$(_0x31c16f(0x157))[_0x31c16f(0x146)](_0x31c16f(0x160),presentationData[_0x31c16f(0x12d)]),presentationData[_0x31c16f(0x14c)]?$(_0x31c16f(0x157))['show']():$(_0x31c16f(0x157))['hide'](),text1_style[_0x31c16f(0x14d)]=presentationData[_0x31c16f(0x14b)],text2_style[_0x31c16f(0x14d)]=presentationData[_0x31c16f(0x14b)],text1_style['line-height']=presentationData[_0x31c16f(0x11f)],text2_style[_0x31c16f(0x12c)]=presentationData[_0x31c16f(0x11f)],presentationData[_0x31c16f(0x14a)]?(text1_style[_0x31c16f(0x158)]=_0x31c16f(0x11c),text2_style[_0x31c16f(0x158)]=_0x31c16f(0x11c)):(text1_style[_0x31c16f(0x158)]=_0x31c16f(0x136),text2_style['text-shadow']=_0x31c16f(0x136)),presentationData[_0x31c16f(0x11e)]?textOutline=_0x31c16f(0x13b):textOutline=_0x31c16f(0x126),presentationData[_0x31c16f(0x13f)]==0x1?presentationData[_0x31c16f(0x154)]?textMultiLine=!![]:textMultiLine=![]:textMultiLine=!![];}function a0_0x3690(){const _0xa8058e=['jpegBackgroundFile','content2TextColor','.stillbackground','getElementById','show','background-color','hidden','#000000','100%','command','background-image','.text','%20','hide','background','marginRight','5px\x205px\x205px\x20black','presentVideoID','EnableOutline','LineHeight','mediaPlaybackFile','3498657CgymzX','.showcase','muted','12653307BUIuKa','201244KtmXLo','0px\x20black','7OOiBwc','attr','overflow','contain','background-size','line-height','LayerColor','logoBackgroundFile','iscontrol','marginTop','none','cover','content1TextColor','marginBottom','url(','0px\x200px\x200px\x20black','.overlay',')\x20no-repeat','src','8124jDTNYY','2px\x20black','4616205sUFdHw','color','isVideoBackground','presentationType','9800848LBHhPQ','.blackbackground','4LerPoJ',')\x20no-repeat\x20fixed\x20center,\x20#000000','marginLeft','updateAll','css','background-position','#presentVideoID','passPresentationSetup','EnableShadow','JustificationValue','isColorLayer','text-align','maxFontSize','presentationAPI','7jKDhtp','off','4178800xyQQHn','keyup','EnableLineWrap','width','.theme1','#ovelayid','text-shadow','1920UXvZHv','replace'];a0_0x3690=function(){return _0xa8058e;};return a0_0x3690();}
+var presentationData = {};
+const PRESENTATION_VERSE = 0;
+const PRESENTATION_LYRICS = 1;
+const PRESENTATION_BLANK = 2;
+const PRESENTATION_LOGO = 3;
+const PRESENTATION_PLAYBACK = 4;
+const PRESENTATION_STILLPLAY = 5;
+let isMuted = false;
+let isPaused = false;
+const CONTROL_PAUSE = 1;
+const CONTROL_BACKWARD = 3;
+const CONTROL_FORWARD = 2;
+const CONTROL_MUTE_UNMUTE = 4;
+window.presentationAPI.passPresentationData((_0x211455, _0x125730) => {
+    processLower3rdResponse(_0x125730);
+});
+window.presentationAPI.passPresentationControl((_0x297f3c, _0x59e7f0) => {
+    if (_0x59e7f0.iscontrol) {
+        switch (_0x59e7f0.command) {
+        case CONTROL_PAUSE:
+            isPaused ? (videoPlay(), isPaused = false) : (videoPause(), isPaused = true);
+            break;
+        case CONTROL_BACKWARD:
+            videoBackward(15);
+            break;
+        case CONTROL_FORWARD:
+            videoForward(15);
+            break;
+        case CONTROL_MUTE_UNMUTE:
+            isMuted ? (videoUnMute(), isMuted = false) : (videoMute(), isMuted = true);
+            break;
+        default:
+            break;
+        }
+    }
+});
+window.presentationAPI.passPresentationSetup((_0x2d0d9e, _0x2d63c9) => {
+    presentationData = _0x2d63c9;
+    disableEvent();
+    setupEvent();
+    if (presentationData.presentationType == PRESENTATION_PLAYBACK) {
+        return presentationInit(), $('.showcase').show(), $('.text').hide(), $('.blackbackground').show(), $('.overlay').hide(), true;
+    }
+    if (presentationData.presentationType == PRESENTATION_STILLPLAY) {
+        $('.showcase').hide();
+        let _0x5d5616 = presentationData.jpegBackgroundFile.replace(/\\/g, '/');
+        return _0x5d5616 = _0x5d5616.replace(/ /g, '%20'), $('.blackbackground').css('background-position', 'center center'), $('.blackbackground').css('background', 'url(' + _0x5d5616 + ') no-repeat fixed center, #000000'), $('.blackbackground').css('background-size', 'contain'), $('.blackbackground').show(), $('.overlay').hide(), true;
+    }
+    if (presentationData.presentationType == PRESENTATION_LOGO) {
+        $('.showcase').hide();
+        let _0x573e1 = presentationData.logoBackgroundFile.replace(/\\/g, '/');
+        _0x573e1 = _0x573e1.replace(/ /g, '%20');
+        $('.blackbackground').css('background-position', 'center');
+        $('.blackbackground').css('background', 'url(' + _0x573e1 + ') no-repeat fixed center, #000000');
+        $('.blackbackground').css('background-size', 'cover');
+        $('.blackbackground').show();
+    } else {
+        $('.blackbackground').css('background-image', 'none');
+        presentationData.presentationType == PRESENTATION_BLANK ? ($('.showcase').hide(), $('.blackbackground').css('background', '#000000'), $('.blackbackground').show()) : ($('.showcase').show(), $('.text').show(), presentationData.isColorLayer ? $('.overlay').show() : $('.overlay').hide(), $('.blackbackground').hide(), presentationData.updateAll && presentationInit(), presentationData.presentationType == 1 ? presentationData.EnableLineWrap ? textMultiLine = true : textMultiLine = false : textMultiLine = true, processLower3rdResponse(presentationData));
+    }
+});
+function setupEvent() {
+    $('.theme1').on('keyup', function (_0x492936) {
+        mainWindowKey(_0x492936);
+    });
+}
+function disableEvent() {
+    $('.theme1').off('keyup');
+}
+function presentationInit() {
+    backgroundFilename = presentationData.jpegBackgroundFile.replace(/\\/g, '/');
+    $('.stillbackground').hide();
+    presentationData.isVideoBackground ? ($('.stillbackground').css('background-image', 'none'), $('#presentVideoID').attr('width', '100%'), $('#presentVideoID').attr('overflow', 'hidden'), presentationData.presentationType == 4 ? (document.getElementById('presentVideoID').muted = false, $('#presentVideoID').attr('src', presentationData.mediaPlaybackFile)) : (document.getElementById('presentVideoID').muted = true, $('#presentVideoID').attr('src', presentationData.videoBackgroundFile)), $('#presentVideoID').show()) : ($('#presentVideoID').attr('src', ''), $('#presentVideoID').hide(), backgroundImage ? (backgroundFilename = backgroundFilename.replace(/ /g, '%20'), $('.stillbackground').css('background', 'url(' + backgroundFilename + ') no-repeat'), $('.stillbackground').css('background-size', 'cover')) : $('.stillbackground').css('background-image', 'none'));
+    $('.stillbackground').show();
+    vv_top = presentationData.marginTop;
+    vv_left = presentationData.marginLeft;
+    vv_width = screenResolutionHorizontal - presentationData.marginLeft - presentationData.marginRight;
+    vv_height = screenResolutionVertical - presentationData.marginTop - presentationData.marginBottom - 200;
+    maxfont = parseInt(presentationData.maxFontSize);
+    text1_style.color = presentationData.content1TextColor;
+    text2_style.color = presentationData.content2TextColor;
+    $('#ovelayid').css('background-color', presentationData.LayerColor);
+    presentationData.isColorLayer ? $('#ovelayid').show() : $('#ovelayid').hide();
+    text1_style['text-align'] = presentationData.JustificationValue;
+    text2_style['text-align'] = presentationData.JustificationValue;
+    text1_style['line-height'] = presentationData.LineHeight;
+    text2_style['line-height'] = presentationData.LineHeight;
+    presentationData.EnableShadow ? (text1_style['text-shadow'] = '5px 5px 5px black', text2_style['text-shadow'] = '5px 5px 5px black') : (text1_style['text-shadow'] = '0px 0px 0px black', text2_style['text-shadow'] = '0px 0px 0px black');
+    presentationData.EnableOutline ? textOutline = '2px black' : textOutline = '0px black';
+    presentationData.presentationType == 1 ? presentationData.EnableLineWrap ? textMultiLine = true : textMultiLine = false : textMultiLine = true;
+}

@@ -1,1 +1,61 @@
-var a0_0x50b89b=a0_0x5a33;(function(_0xae9c60,_0x2af618){var _0x29f63a=a0_0x5a33,_0x2dd9ac=_0xae9c60();while(!![]){try{var _0x34d9f3=parseInt(_0x29f63a(0x180))/0x1+parseInt(_0x29f63a(0x16c))/0x2+-parseInt(_0x29f63a(0x173))/0x3+parseInt(_0x29f63a(0x17e))/0x4+parseInt(_0x29f63a(0x17d))/0x5*(parseInt(_0x29f63a(0x181))/0x6)+parseInt(_0x29f63a(0x16e))/0x7*(-parseInt(_0x29f63a(0x16a))/0x8)+parseInt(_0x29f63a(0x178))/0x9*(-parseInt(_0x29f63a(0x175))/0xa);if(_0x34d9f3===_0x2af618)break;else _0x2dd9ac['push'](_0x2dd9ac['shift']());}catch(_0x1d76e4){_0x2dd9ac['push'](_0x2dd9ac['shift']());}}}(a0_0x1dce,0x9cce4));function a0_0x1dce(){var _0x4a83ee=['5px\x205px\x205px\x20black','1px\x201px\x2010px\x201px','270492WnZUDe','0px\x200px\x204px\x20black','40FNInzQ','white','../img/g1.jpg','454887QkpiIQ','10px\x201px\x201px\x201px','#C1E0FF','none','0px\x20solid\x20white','485HRcBJa','2940832aXbovU','normal','167281UYNyco','49722HwuEdi','black','0px','solid','56WXDqjF','0px\x200px\x200px\x200px','553362FhTDbK','1px\x20black','1048397ckLMZg','rgba(0,\x200,\x200,\x200)','center'];a0_0x1dce=function(){return _0x4a83ee;};return a0_0x1dce();}var screenResolutionHorizontal=0x780,screenResolutionVertical=0x438;function a0_0x5a33(_0xc08504,_0x14b8be){var _0x1dcede=a0_0x1dce();return a0_0x5a33=function(_0x5a33ef,_0x2b48ee){_0x5a33ef=_0x5a33ef-0x169;var _0x37f36f=_0x1dcede[_0x5a33ef];return _0x37f36f;},a0_0x5a33(_0xc08504,_0x14b8be);}minfont=0x14,maxfont=0xa0;var vv_top=0x64,vv_left=0x64,vv_width=screenResolutionHorizontal-0xc8,vv_height=screenResolutionVertical-0x12c,ref_top=0x384,ref_left=0x514,ref_width=0x1f4,ref_height=0x64,ref_border={'border-color':a0_0x50b89b(0x17a),'border-width':a0_0x50b89b(0x183),'border-style':a0_0x50b89b(0x169)},showBothTranslations=!![],spaceBetweenTranslations=0x5,textMultiLine=![],showHorizontal=!![],ref_text_color1=a0_0x50b89b(0x182),vv_text_color1=a0_0x50b89b(0x176),vv_text_color2=a0_0x50b89b(0x176),backgroundImage=!![],backgroundFilename=a0_0x50b89b(0x177),textShadow='0px\x200px\x20#000000',textOutline=a0_0x50b89b(0x16d),textAlign=a0_0x50b89b(0x170),enableUpperCase=![],newFont1='',newFont2='',text1_style={'color':'white','background-color':a0_0x50b89b(0x16f),'border':a0_0x50b89b(0x17c),'font-weight':a0_0x50b89b(0x17f),'font-style':a0_0x50b89b(0x17f),'text-align':a0_0x50b89b(0x170),'text-decoration':a0_0x50b89b(0x17b),'letter-spacing':'','line-height':'','text-shadow':a0_0x50b89b(0x171),'margin':'0px\x200px\x200px\x200px','padding':a0_0x50b89b(0x172)},text2_style={'color':'white','background-color':a0_0x50b89b(0x16f),'border':a0_0x50b89b(0x17c),'font-weight':a0_0x50b89b(0x17f),'font-style':a0_0x50b89b(0x17f),'text-align':a0_0x50b89b(0x170),'text-decoration':a0_0x50b89b(0x17b),'letter-spacing':'','line-height':'','text-shadow':a0_0x50b89b(0x171),'margin':a0_0x50b89b(0x16b),'padding':a0_0x50b89b(0x179)},footer_style={'text-shadow':a0_0x50b89b(0x174)};
+var screenResolutionHorizontal = 1920;
+var screenResolutionVertical = 1080;
+minfont = 20;
+maxfont = 160;
+var vv_top = 100;
+var vv_left = 100;
+var vv_width = screenResolutionHorizontal - 200;
+var vv_height = screenResolutionVertical - 300;
+var ref_top = 900;
+var ref_left = 1300;
+var ref_width = 500;
+var ref_height = 100;
+var ref_border = {
+    'border-color': '#C1E0FF',
+    'border-width': '0px',
+    'border-style': 'solid'
+};
+var showBothTranslations = true;
+var spaceBetweenTranslations = 5;
+var textMultiLine = false;
+var showHorizontal = true;
+var ref_text_color1 = 'black';
+var vv_text_color1 = 'white';
+var vv_text_color2 = 'white';
+var backgroundImage = true;
+var backgroundFilename = '../img/g1.jpg';
+var textShadow = '0px 0px #000000';
+var textOutline = '1px black';
+var textAlign = 'center';
+var enableUpperCase = false;
+var newFont1 = '';
+var newFont2 = '';
+var text1_style = {
+    color: 'white',
+    'background-color': 'rgba(0, 0, 0, 0)',
+    border: '0px solid white',
+    'font-weight': 'normal',
+    'font-style': 'normal',
+    'text-align': 'center',
+    'text-decoration': 'none',
+    'letter-spacing': '',
+    'line-height': '',
+    'text-shadow': '5px 5px 5px black',
+    margin: '0px 0px 0px 0px',
+    padding: '1px 1px 10px 1px'
+};
+var text2_style = {
+    color: 'white',
+    'background-color': 'rgba(0, 0, 0, 0)',
+    border: '0px solid white',
+    'font-weight': 'normal',
+    'font-style': 'normal',
+    'text-align': 'center',
+    'text-decoration': 'none',
+    'letter-spacing': '',
+    'line-height': '',
+    'text-shadow': '5px 5px 5px black',
+    margin: '0px 0px 0px 0px',
+    padding: '10px 1px 1px 1px'
+};
+var footer_style = { 'text-shadow': '0px 0px 4px black' };

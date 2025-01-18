@@ -1,1 +1,35 @@
-function a0_0x2e23(_0x17b071,_0x32afed){const _0x22d31d=a0_0x22d3();return a0_0x2e23=function(_0x2e23d1,_0xb5ee5e){_0x2e23d1=_0x2e23d1-0x1a6;let _0x13b5b1=_0x22d31d[_0x2e23d1];return _0x13b5b1;},a0_0x2e23(_0x17b071,_0x32afed);}function a0_0x22d3(){const _0x3ba91e=['SAVE_SCHEDULE_JSON','94bLcDfS','SET_DATA_TO_SONGDB','CONFIG_VV_REMOTE','3683528CXVkKi','GET_DATA_FROM_BIBLE','exposeInMainWorld','20LhTHjC','SET_BIBLE_VERSION','PASS_MENU_CALL_INDEX','2591829cszZlo','SAVE_BIBLE_VERSION_JSON','36735556WWniIK','dialog:openFile','2779648FjrpEe','GET_THEME_JSON','GET_CONFIG_JSON','DELETE_BACKGROUND','GET_SEARCH_DATA_FROM_BIBLE','PASS_PRESENTATION_SETUP','1767365FsgdyE','4537176HJiMRW','BIBLEDB_ADD','GET_SYSTEM_FONTS','GET_SCHEDULE_JSON','SAVE_CONFIG_JSON','GET_BIBLE_VERSION_JSON','send','27458EJLgBW','SET_STAGE_VIEW','invoke','7PBovRr','update','api','18hZqTtB','BIBLEDB_REMOVE','PASS_PRESENTATION_DATA_2_MAIN','BIBLEDB_BROWSE','SET_YOU_TUBE'];a0_0x22d3=function(){return _0x3ba91e;};return a0_0x22d3();}const a0_0x4b7fd8=a0_0x2e23;(function(_0x10c29b,_0x7bf7){const _0x29c141=a0_0x2e23,_0x3c1db8=_0x10c29b();while(!![]){try{const _0x15c9be=-parseInt(_0x29c141(0x1bc))/0x1*(-parseInt(_0x29c141(0x1b0))/0x2)+parseInt(_0x29c141(0x1a9))/0x3+-parseInt(_0x29c141(0x1c9))/0x4+parseInt(_0x29c141(0x1a8))/0x5*(parseInt(_0x29c141(0x1b6))/0x6)+-parseInt(_0x29c141(0x1b3))/0x7*(-parseInt(_0x29c141(0x1bf))/0x8)+parseInt(_0x29c141(0x1c5))/0x9*(parseInt(_0x29c141(0x1c2))/0xa)+-parseInt(_0x29c141(0x1c7))/0xb;if(_0x15c9be===_0x7bf7)break;else _0x3c1db8['push'](_0x3c1db8['shift']());}catch(_0x4f8a4f){_0x3c1db8['push'](_0x3c1db8['shift']());}}}(a0_0x22d3,0xd33d0));const {ipcRenderer,contextBridge}=require('electron'),WINDOW_API={'closePresentation':_0x11d9c5=>ipcRenderer[a0_0x4b7fd8(0x1af)]('CLOSE_PRESENTATION_WINDOW',_0x11d9c5),'saveBibleVersionJSON':_0x42cf18=>ipcRenderer['send'](a0_0x4b7fd8(0x1c6),_0x42cf18),'saveConfigJSON':_0x5e018f=>ipcRenderer[a0_0x4b7fd8(0x1af)](a0_0x4b7fd8(0x1ad),_0x5e018f),'saveThemeJSON':_0x37dc41=>ipcRenderer[a0_0x4b7fd8(0x1af)]('SAVE_THEME_JSON',_0x37dc41),'setYT':_0x1980ad=>ipcRenderer[a0_0x4b7fd8(0x1af)](a0_0x4b7fd8(0x1ba),_0x1980ad),'update':_0x195ae5=>ipcRenderer[a0_0x4b7fd8(0x1af)](a0_0x4b7fd8(0x1b4),_0x195ae5),'setBibleVersion':_0x81ab04=>ipcRenderer['send'](a0_0x4b7fd8(0x1c3),_0x81ab04),'getDataFromBible':_0x21eb20=>ipcRenderer[a0_0x4b7fd8(0x1b2)](a0_0x4b7fd8(0x1c0),_0x21eb20),'getDataFromSong':_0x31d9f7=>ipcRenderer['invoke']('GET_DATA_FROM_SONGDB',_0x31d9f7),'setDataToSong':_0x138b7b=>ipcRenderer['invoke'](a0_0x4b7fd8(0x1bd),_0x138b7b),'getSearchDataFromBible':_0x32c7b8=>ipcRenderer[a0_0x4b7fd8(0x1b2)](a0_0x4b7fd8(0x1a6),_0x32c7b8),'getBibleVersionJSON':_0x12f9e2=>ipcRenderer[a0_0x4b7fd8(0x1b2)](a0_0x4b7fd8(0x1ae),_0x12f9e2),'getConfigJSON':_0x1a681c=>ipcRenderer[a0_0x4b7fd8(0x1b2)](a0_0x4b7fd8(0x1cb),_0x1a681c),'getThemeJSON':_0x77ede5=>ipcRenderer[a0_0x4b7fd8(0x1b2)](a0_0x4b7fd8(0x1ca),_0x77ede5),'getSystemFonts':_0x5d4616=>ipcRenderer[a0_0x4b7fd8(0x1b2)](a0_0x4b7fd8(0x1ab),_0x5d4616),'passPresentationSetup':_0x30091d=>ipcRenderer['send'](a0_0x4b7fd8(0x1a7),_0x30091d),'vvmenuCall':_0x5c45cc=>ipcRenderer['on'](a0_0x4b7fd8(0x1c4),_0x5c45cc),'openFile':()=>ipcRenderer[a0_0x4b7fd8(0x1b2)](a0_0x4b7fd8(0x1c8)),'openSongXMLFile':()=>ipcRenderer['invoke']('dialog:openSongXMLFile'),'getbkgndlist':()=>ipcRenderer[a0_0x4b7fd8(0x1b2)]('GET_BACKGROUND_LIST'),'deletebkgnd':_0x567ae9=>ipcRenderer['invoke'](a0_0x4b7fd8(0x1cc),_0x567ae9),'vvmessageCall':_0x392c1f=>ipcRenderer['on']('PASS_MAIN_MESSAGE',_0x392c1f),'vvremoteCall':_0x1b295c=>ipcRenderer['on']('PASS_REMOTE_COMMAND',_0x1b295c),'configurevvremote':_0x55f1a0=>ipcRenderer[a0_0x4b7fd8(0x1b2)](a0_0x4b7fd8(0x1be),_0x55f1a0),'setStageView':_0x326f6a=>ipcRenderer[a0_0x4b7fd8(0x1af)](a0_0x4b7fd8(0x1b1),_0x326f6a),'browseBibleDB':_0x48e302=>ipcRenderer['invoke'](a0_0x4b7fd8(0x1b9),_0x48e302),'addBibleDB':_0x34c1cf=>ipcRenderer['invoke'](a0_0x4b7fd8(0x1aa),_0x34c1cf),'removeBibleDB':()=>ipcRenderer['invoke'](a0_0x4b7fd8(0x1b7)),'saveScheduleJSON':_0x26858c=>ipcRenderer['send'](a0_0x4b7fd8(0x1bb),_0x26858c),'getScheduleJSON':_0x22ea1e=>ipcRenderer[a0_0x4b7fd8(0x1b2)](a0_0x4b7fd8(0x1ac),_0x22ea1e),'passPresentationData2Main':_0x462bfa=>ipcRenderer['on'](a0_0x4b7fd8(0x1b8),_0x462bfa)};contextBridge[a0_0x4b7fd8(0x1c1)](a0_0x4b7fd8(0x1b5),WINDOW_API);
+const {ipcRenderer, contextBridge} = require('electron');
+const WINDOW_API = {
+    closePresentation: _0x11d9c5 => ipcRenderer.send('CLOSE_PRESENTATION_WINDOW', _0x11d9c5),
+    saveBibleVersionJSON: _0x42cf18 => ipcRenderer.send('SAVE_BIBLE_VERSION_JSON', _0x42cf18),
+    saveConfigJSON: _0x5e018f => ipcRenderer.send('SAVE_CONFIG_JSON', _0x5e018f),
+    saveThemeJSON: _0x37dc41 => ipcRenderer.send('SAVE_THEME_JSON', _0x37dc41),
+    setYT: _0x1980ad => ipcRenderer.send('SET_YOU_TUBE', _0x1980ad),
+    update: _0x195ae5 => ipcRenderer.send('update', _0x195ae5),
+    setBibleVersion: _0x81ab04 => ipcRenderer.send('SET_BIBLE_VERSION', _0x81ab04),
+    getDataFromBible: _0x21eb20 => ipcRenderer.invoke('GET_DATA_FROM_BIBLE', _0x21eb20),
+    getDataFromSong: _0x31d9f7 => ipcRenderer.invoke('GET_DATA_FROM_SONGDB', _0x31d9f7),
+    setDataToSong: _0x138b7b => ipcRenderer.invoke('SET_DATA_TO_SONGDB', _0x138b7b),
+    getSearchDataFromBible: _0x32c7b8 => ipcRenderer.invoke('GET_SEARCH_DATA_FROM_BIBLE', _0x32c7b8),
+    getBibleVersionJSON: _0x12f9e2 => ipcRenderer.invoke('GET_BIBLE_VERSION_JSON', _0x12f9e2),
+    getConfigJSON: _0x1a681c => ipcRenderer.invoke('GET_CONFIG_JSON', _0x1a681c),
+    getThemeJSON: _0x77ede5 => ipcRenderer.invoke('GET_THEME_JSON', _0x77ede5),
+    getSystemFonts: _0x5d4616 => ipcRenderer.invoke('GET_SYSTEM_FONTS', _0x5d4616),
+    passPresentationSetup: _0x30091d => ipcRenderer.send('PASS_PRESENTATION_SETUP', _0x30091d),
+    vvmenuCall: _0x5c45cc => ipcRenderer.on('PASS_MENU_CALL_INDEX', _0x5c45cc),
+    openFile: () => ipcRenderer.invoke('dialog:openFile'),
+    openSongXMLFile: () => ipcRenderer.invoke('dialog:openSongXMLFile'),
+    getbkgndlist: () => ipcRenderer.invoke('GET_BACKGROUND_LIST'),
+    deletebkgnd: _0x567ae9 => ipcRenderer.invoke('DELETE_BACKGROUND', _0x567ae9),
+    vvmessageCall: _0x392c1f => ipcRenderer.on('PASS_MAIN_MESSAGE', _0x392c1f),
+    vvremoteCall: _0x1b295c => ipcRenderer.on('PASS_REMOTE_COMMAND', _0x1b295c),
+    configurevvremote: _0x55f1a0 => ipcRenderer.invoke('CONFIG_VV_REMOTE', _0x55f1a0),
+    setStageView: _0x326f6a => ipcRenderer.send('SET_STAGE_VIEW', _0x326f6a),
+    browseBibleDB: _0x48e302 => ipcRenderer.invoke('BIBLEDB_BROWSE', _0x48e302),
+    addBibleDB: _0x34c1cf => ipcRenderer.invoke('BIBLEDB_ADD', _0x34c1cf),
+    removeBibleDB: () => ipcRenderer.invoke('BIBLEDB_REMOVE'),
+    saveScheduleJSON: _0x26858c => ipcRenderer.send('SAVE_SCHEDULE_JSON', _0x26858c),
+    getScheduleJSON: _0x22ea1e => ipcRenderer.invoke('GET_SCHEDULE_JSON', _0x22ea1e),
+    passPresentationData2Main: _0x462bfa => ipcRenderer.on('PASS_PRESENTATION_DATA_2_MAIN', _0x462bfa)
+};
+contextBridge.exposeInMainWorld('api', WINDOW_API);

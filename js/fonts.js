@@ -1,1 +1,13 @@
-(function(_0x419811,_0x1b8de6){var _0x476aa7=a0_0x6146,_0x44182d=_0x419811();while(!![]){try{var _0x18217f=-parseInt(_0x476aa7(0x15e))/0x1*(-parseInt(_0x476aa7(0x158))/0x2)+-parseInt(_0x476aa7(0x152))/0x3+-parseInt(_0x476aa7(0x15c))/0x4+-parseInt(_0x476aa7(0x15a))/0x5*(-parseInt(_0x476aa7(0x154))/0x6)+-parseInt(_0x476aa7(0x156))/0x7*(parseInt(_0x476aa7(0x15d))/0x8)+parseInt(_0x476aa7(0x157))/0x9+parseInt(_0x476aa7(0x155))/0xa*(-parseInt(_0x476aa7(0x159))/0xb);if(_0x18217f===_0x1b8de6)break;else _0x44182d['push'](_0x44182d['shift']());}catch(_0x4718b0){_0x44182d['push'](_0x44182d['shift']());}}}(a0_0x1b2b,0xbccbd));function addFont(_0x3716f1){var _0x1392ce=a0_0x6146;isUniqueFont(_0x3716f1)&&(systemFontList['push'](_0x3716f1),sortFont(),updateSaveConfig(_0x1392ce(0x15b),systemFontList));}function deleteFont(_0x9c9214){}function sortFont(){var _0xc61d69=a0_0x6146;systemFontList[_0xc61d69(0x153)]();}function a0_0x6146(_0x3d930b,_0x6ba9de){var _0x1b2b70=a0_0x1b2b();return a0_0x6146=function(_0x614697,_0x9a9fe9){_0x614697=_0x614697-0x152;var _0x32c3c6=_0x1b2b70[_0x614697];return _0x32c3c6;},a0_0x6146(_0x3d930b,_0x6ba9de);}function isUniqueFont(_0xea2d31){return systemFontList['indexOf'](_0xea2d31)==-0x1?!![]:![];}function updateFontLists(){}function a0_0x1b2b(){var _0x2b1b51=['1024TaEhOP','414923tnIfOQ','862515WSBGXX','sort','6ohBwYx','10oxfnti','34041HfUScI','8010765caBYGL','4FENAdl','1924109GrqZYB','6775330sDNyiC','fontList','4867200PsUUDw'];a0_0x1b2b=function(){return _0x2b1b51;};return a0_0x1b2b();}
+function addFont(_0x3716f1) {
+    isUniqueFont(_0x3716f1) && (systemFontList.push(_0x3716f1), sortFont(), updateSaveConfig('fontList', systemFontList));
+}
+function deleteFont(_0x9c9214) {
+}
+function sortFont() {
+    systemFontList.sort();
+}
+function isUniqueFont(_0xea2d31) {
+    return systemFontList.indexOf(_0xea2d31) == -1 ? true : false;
+}
+function updateFontLists() {
+}

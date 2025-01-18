@@ -1,1 +1,144 @@
-const a0_0x32b557=a0_0x166a;(function(_0x11794b,_0x3b464e){const _0x490709=a0_0x166a,_0x5b9630=_0x11794b();while(!![]){try{const _0x3b6575=-parseInt(_0x490709(0xdc))/0x1+-parseInt(_0x490709(0xe4))/0x2*(parseInt(_0x490709(0xe0))/0x3)+parseInt(_0x490709(0xf2))/0x4+-parseInt(_0x490709(0xed))/0x5+parseInt(_0x490709(0xd3))/0x6+parseInt(_0x490709(0xd0))/0x7+parseInt(_0x490709(0xe3))/0x8;if(_0x3b6575===_0x3b464e)break;else _0x5b9630['push'](_0x5b9630['shift']());}catch(_0xa44fba){_0x5b9630['push'](_0x5b9630['shift']());}}}(a0_0x137a,0x70727));function a0_0x166a(_0x29a9c5,_0x591fb5){const _0x137a79=a0_0x137a();return a0_0x166a=function(_0x166a1b,_0x523f00){_0x166a1b=_0x166a1b-0xc6;let _0x1fca3a=_0x137a79[_0x166a1b];return _0x1fca3a;},a0_0x166a(_0x29a9c5,_0x591fb5);}const {app,Menu}=require(a0_0x32b557(0xd9)),isMac=process[a0_0x32b557(0xdb)]==='darwin',template=[...isMac?[{'label':app[a0_0x32b557(0xcb)],'submenu':[{'role':a0_0x32b557(0xd2)},{'type':a0_0x32b557(0xc6)},{'role':'services'},{'type':a0_0x32b557(0xc6)},{'role':a0_0x32b557(0xef)}]}]:[],{'label':a0_0x32b557(0xd7),'submenu':[{'label':a0_0x32b557(0xcc),'click':()=>{const _0x2c43d6=a0_0x32b557;app['emit'](_0x2c43d6(0xd5));}},{'label':a0_0x32b557(0xdf),'click':()=>{app['emit']('menu_themebuilder');}},isMac?{'role':'close'}:{'role':'quit'}]},{'label':'Edit','submenu':[{'role':a0_0x32b557(0xd6)},{'role':a0_0x32b557(0xd1)},{'type':a0_0x32b557(0xc6)},{'role':a0_0x32b557(0xc9)},{'role':a0_0x32b557(0xe9)},{'role':'zoomIn','accelerator':a0_0x32b557(0xe8),'visible':![]},{'role':a0_0x32b557(0xe9),'accelerator':a0_0x32b557(0xc7),'visible':![]},{'role':a0_0x32b557(0xea)},{'role':a0_0x32b557(0xea),'accelerator':a0_0x32b557(0xe2),'visible':![]},{'type':a0_0x32b557(0xc6)}]},{'label':'Bible','submenu':[{'label':'Add\x20Version','click':()=>{const _0x32934f=a0_0x32b557;app[_0x32934f(0xcd)]('menu_bibleaddversion');}},{'label':a0_0x32b557(0xf1),'click':()=>{const _0x3b7ec8=a0_0x32b557;app[_0x3b7ec8(0xcd)](_0x3b7ec8(0xe1));}},{'label':a0_0x32b557(0xde),'click':()=>{const _0x1e9398=a0_0x32b557;app[_0x1e9398(0xcd)](_0x1e9398(0xee));}}]},{'label':a0_0x32b557(0xe5),'submenu':[{'label':a0_0x32b557(0xf3),'click':()=>{const _0x4fd6a1=a0_0x32b557;app[_0x4fd6a1(0xcd)]('menu_songadd');}},{'label':'Edit','click':()=>{const _0xbb5048=a0_0x32b557;app[_0xbb5048(0xcd)]('menu_songedit');}},{'label':a0_0x32b557(0xdd),'submenu':[{'label':a0_0x32b557(0xeb),'click':()=>{const _0x470c98=a0_0x32b557;app[_0x470c98(0xcd)](_0x470c98(0xf0));}},{'label':a0_0x32b557(0xe6),'click':()=>{const _0x59ecb6=a0_0x32b557;app[_0x59ecb6(0xcd)](_0x59ecb6(0xec));}}]},{'type':a0_0x32b557(0xc6)},{'label':a0_0x32b557(0xc8),'click':()=>{const _0x420f58=a0_0x32b557;app[_0x420f58(0xcd)](_0x420f58(0xd8));}},{'label':'Import\x20Lyrics','click':()=>{const _0x3080ee=a0_0x32b557;app[_0x3080ee(0xcd)](_0x3080ee(0xd4));}}]},{'role':a0_0x32b557(0xca),'submenu':[{'label':a0_0x32b557(0xcf),'click':async()=>{const _0xe4f230=a0_0x32b557,{shell:_0x56a1f3}=require(_0xe4f230(0xd9));await _0x56a1f3['openExternal'](_0xe4f230(0xce));}}]}];function renderMenu(){const _0x375992=a0_0x32b557,_0x1827a1=Menu[_0x375992(0xda)](template);Menu[_0x375992(0xe7)](_0x1827a1);}function a0_0x137a(){const _0x1b2e3c=['menu_songdeleteselected','Select\x20Version','52624PACYMK','New','separator','Ctrl+numadd','Export\x20Lyrics','resetZoom','help','name','Remote\x20VerseVIEW','emit','http://verseview.info/vv/vv10/','About','1016253adGtyY','paste','about','2776692TQowcF','menu_importsongcat','menu_remotevv','copy','VerseVIEW','menu_exportsongcat','electron','buildFromTemplate','platform','497553QVIjeh','Delete','Manage\x20Version','Theme\x20Builder','9gwgmqL','menu_bibleselectversion','Ctrl+numsub','9167640UFvUFk','149802GaxCra','Song','Selected\x20Category','setApplicationMenu','Ctrl+=','zoomIn','zoomOut','Selected\x20Song','menu_songdeletecategory','2921165mvwsqu','menu_biblemanageversion','quit'];a0_0x137a=function(){return _0x1b2e3c;};return a0_0x137a();}module['exports']={'renderMenu':renderMenu};
+const {app, Menu} = require('electron');
+const isMac = process.platform === 'darwin';
+const template = [
+    ...isMac ? [{
+            label: app.name,
+            submenu: [
+                { role: 'about' },
+                { type: 'separator' },
+                { role: 'services' },
+                { type: 'separator' },
+                { role: 'quit' }
+            ]
+        }] : [],
+    {
+        label: 'VerseVIEW',
+        submenu: [
+            {
+                label: 'Remote VerseVIEW',
+                click: () => {
+                    app.emit('menu_remotevv');
+                }
+            },
+            {
+                label: 'Theme Builder',
+                click: () => {
+                    app.emit('menu_themebuilder');
+                }
+            },
+            isMac ? { role: 'close' } : { role: 'quit' }
+        ]
+    },
+    {
+        label: 'Edit',
+        submenu: [
+            { role: 'copy' },
+            { role: 'paste' },
+            { type: 'separator' },
+            { role: 'resetZoom' },
+            { role: 'zoomIn' },
+            {
+                role: 'zoomIn',
+                accelerator: 'Ctrl+=',
+                visible: false
+            },
+            {
+                role: 'zoomIn',
+                accelerator: 'Ctrl+numadd',
+                visible: false
+            },
+            { role: 'zoomOut' },
+            {
+                role: 'zoomOut',
+                accelerator: 'Ctrl+numsub',
+                visible: false
+            },
+            { type: 'separator' }
+        ]
+    },
+    {
+        label: 'Bible',
+        submenu: [
+            {
+                label: 'Add Version',
+                click: () => {
+                    app.emit('menu_bibleaddversion');
+                }
+            },
+            {
+                label: 'Select Version',
+                click: () => {
+                    app.emit('menu_bibleselectversion');
+                }
+            },
+            {
+                label: 'Manage Version',
+                click: () => {
+                    app.emit('menu_biblemanageversion');
+                }
+            }
+        ]
+    },
+    {
+        label: 'Song',
+        submenu: [
+            {
+                label: 'New',
+                click: () => {
+                    app.emit('menu_songadd');
+                }
+            },
+            {
+                label: 'Edit',
+                click: () => {
+                    app.emit('menu_songedit');
+                }
+            },
+            {
+                label: 'Delete',
+                submenu: [
+                    {
+                        label: 'Selected Song',
+                        click: () => {
+                            app.emit('menu_songdeleteselected');
+                        }
+                    },
+                    {
+                        label: 'Selected Category',
+                        click: () => {
+                            app.emit('menu_songdeletecategory');
+                        }
+                    }
+                ]
+            },
+            { type: 'separator' },
+            {
+                label: 'Export Lyrics',
+                click: () => {
+                    app.emit('menu_exportsongcat');
+                }
+            },
+            {
+                label: 'Import Lyrics',
+                click: () => {
+                    app.emit('menu_importsongcat');
+                }
+            }
+        ]
+    },
+    {
+        role: 'help',
+        submenu: [{
+                label: 'About',
+                click: async () => {
+                    const {shell: _0x56a1f3} = require('electron');
+                    await _0x56a1f3.openExternal('http://verseview.info/vv/vv10/');
+                }
+            }]
+    }
+];
+function renderMenu() {
+    const _0x1827a1 = Menu.buildFromTemplate(template);
+    Menu.setApplicationMenu(_0x1827a1);
+}
+module.exports = { renderMenu: renderMenu };

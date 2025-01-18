@@ -1,1 +1,159 @@
-const a0_0x11c736=a0_0x7cf0;(function(_0x104c0f,_0x10efbe){const _0xe1d089=a0_0x7cf0,_0x476343=_0x104c0f();while(!![]){try{const _0x5a2484=-parseInt(_0xe1d089(0xf6))/0x1+-parseInt(_0xe1d089(0xd7))/0x2+-parseInt(_0xe1d089(0xc7))/0x3+-parseInt(_0xe1d089(0xee))/0x4+-parseInt(_0xe1d089(0xe4))/0x5+-parseInt(_0xe1d089(0xf5))/0x6*(-parseInt(_0xe1d089(0xd2))/0x7)+parseInt(_0xe1d089(0xdb))/0x8;if(_0x5a2484===_0x10efbe)break;else _0x476343['push'](_0x476343['shift']());}catch(_0x3a8636){_0x476343['push'](_0x476343['shift']());}}}(a0_0xf2eb,0x91bf3));function a0_0xf2eb(){const _0x2d8bb1=['#songnav_searchauthorbutton','#darmodeicon','#searchID','#remoteicon','show','#verseList','#songnav_tags','#bookList,\x20#chapterList,\x20#verseList','#ly_add2schedule','3861504ZJMtub','#songs-tab','closePresentation','Modal','#verseList\x20option:selected','val','keyup','2109810QddCFc','886616bpWHIc','#bookList','#bibleTabPresentButton','#verses-tab','#bibleTabSearchRef','2942094mKhyDL','#adSearch','change','editSongLyrics','#iconClose','getElementById','resize','click','#searchButtonID','#iconBlank','#iconPrev','14fcDULS','#bibleTabSearchButton','focusout','#iconNext','DarkMode','435678qMmEwr','vvmessageCall','#ly_youtube','#songnav_category','28777064QHHibk','tab','focus','#songnav_editbox','#iconLogo','verseval','#lyrics-tab','html','#bible-tab','3264475DSyLgy'];a0_0xf2eb=function(){return _0x2d8bb1;};return a0_0xf2eb();}function setupMainEvents(){const _0x422244=a0_0x7cf0;$(window)[_0x422244(0xcd)](function(){setContainerHeight();}),$('#mainbox')[_0x422244(0xf4)](function(_0xfefbd7){mainWindowKey(_0xfefbd7);}),$(_0x422244(0xe3))['on'](_0x422244(0xce),function(_0x4183c1){const _0xb4375e=_0x422244;$('#verses-tab')['tab'](_0xb4375e(0xe9));}),$(_0x422244(0xef))['on'](_0x422244(0xce),function(_0x30970b){const _0x3614c9=_0x422244;$(_0x3614c9(0xe1))['tab'](_0x3614c9(0xe9));}),$(_0x422244(0xc5))['on'](_0x422244(0xce),function(_0x55d70f){const _0x4ea4af=_0x422244;$('#bible-tab')[_0x4ea4af(0xdc)]('show');}),$('#lyrics-tab')['on']('click',function(_0x55f560){const _0x121a5f=_0x422244;$(_0x121a5f(0xef))[_0x121a5f(0xdc)](_0x121a5f(0xe9));}),$(_0x422244(0xd3))['on'](_0x422244(0xce),async function(){const _0x439edc=await bibletab_searchReference();_0x439edc&&(scroll_to_view=!![]);}),$(_0x422244(0xc6))['on'](_0x422244(0xdd),function(){enterkeyFlag=ENTERKEY_REFSEARCH,cursorKeysForNav=![];}),$(_0x422244(0xc6))['on'](_0x422244(0xd4),function(){enterkeyFlag=ENTERKEY_NOTRIGGER,cursorKeysForNav=!![];}),$(_0x422244(0xc4))['on'](_0x422244(0xce),async function(){await bibleSearchAndPresent();}),$('#bibleTabScheduleButton')['on'](_0x422244(0xce),function(){scheduleBibleVerse();}),$(_0x422244(0xec))['on']('focus',function(){cursorKeysForNav=![];}),$(_0x422244(0xec))['on'](_0x422244(0xd4),function(){cursorKeysForNav=!![];}),$(_0x422244(0xc3))['on']('change',async function(){bibletab_fillchapter(),bibletab_fillverseText(),scroll_to_view=!![];}),$('#chapterList')['on']('change',async function(){bibletab_fillverse(),bibletab_fillverseText(),scroll_to_view=!![];}),$(_0x422244(0xea))['on'](_0x422244(0xc9),async function(){const _0x29cb94=_0x422244;var _0x1d9911=$(_0x29cb94(0xf2))[_0x29cb94(0xf3)]();bibleGetData[_0x29cb94(0xe0)]=$('#verseList\x20option:selected')[_0x29cb94(0xf3)](),scroll_to_view=!![],highlightVerse(_0x1d9911-0x1),scroll2top(_0x1d9911-0x1);}),$('#searchID')['on'](_0x422244(0xdd),function(){enterkeyFlag=ENTERKEY_BIBLESEARCH,cursorKeysForNav=![];}),$(_0x422244(0xe7))['on'](_0x422244(0xd4),function(){enterkeyFlag=ENTERKEY_NOTRIGGER,cursorKeysForNav=!![];}),$(_0x422244(0xcf))['on'](_0x422244(0xce),async function(){bibleBasicSearch();}),$(_0x422244(0xc8))['on'](_0x422244(0xdd),function(){enterkeyFlag=ENTERKEY_BIBLEADVSEARCH,cursorKeysForNav=![];}),$('#adSearch')['on'](_0x422244(0xd4),function(){enterkeyFlag=ENTERKEY_NOTRIGGER,cursorKeysForNav=!![];}),$('#adSearchButton')['on'](_0x422244(0xce),async function(){bibleAdvSearch();}),$(_0x422244(0xda))['on'](_0x422244(0xc9),async function(){songtab_fillTags(),songtab_fillTitle();}),$(_0x422244(0xeb))['on'](_0x422244(0xc9),async function(){songtab_fillTitle();}),$(_0x422244(0xde))['on'](_0x422244(0xf4),function(){sn_searchSong(!![]);}),$('#songnav_editbox')['on'](_0x422244(0xdd),function(){cursorKeysForNav=![];}),$('#songnav_editbox')['on'](_0x422244(0xd4),function(){cursorKeysForNav=!![];}),$('#songnav_searchbutton')['on'](_0x422244(0xce),async function(){sn_searchSongInLyrics();}),$(_0x422244(0xe5))['on']('click',async function(){sn_searchSongByAuthor();}),$('#songnav_clearbutton')['on'](_0x422244(0xce),async function(){sn_clearSearch();}),$(_0x422244(0xed))['on']('click',function(){addSong2Schedule();}),$(_0x422244(0xd9))['on'](_0x422244(0xce),function(){launchYT();}),$('#ly_edit')['on'](_0x422244(0xce),function(){const _0x2241bc=_0x422244,_0x313e56=!![];songEditObj[_0x2241bc(0xca)](_0x313e56);}),$(_0x422244(0xe6))['on']('click',function(){const _0x447035=_0x422244,_0x348ead=configJSON['configuration'][0x0][_0x447035(0xd6)];setcolormode(!_0x348ead),updateSaveConfig('DarkMode',!_0x348ead);}),$(_0x422244(0xe8))['on'](_0x422244(0xce),function(){const _0x43d24e=_0x422244;var _0x58e61f=new bootstrap[(_0x43d24e(0xf1))](document[_0x43d24e(0xcc)]('p1'),{'keyboard':![]});_0x58e61f[_0x43d24e(0xe9)]();}),$(_0x422244(0xd0))['on']('click',function(){blankPresentation();}),$(_0x422244(0xdf))['on']('click',function(){logoPresentation();}),$(_0x422244(0xcb))['on']('click',function(){const _0x2a1f3c=_0x422244;window['api'][_0x2a1f3c(0xf0)]();}),$(_0x422244(0xd1))['on'](_0x422244(0xce),function(){call_prevSlide();}),$(_0x422244(0xd5))['on'](_0x422244(0xce),function(){call_nextSlide();});}async function bibleSearchAndPresent(){const _0x430e49=await bibletab_searchReference();_0x430e49&&(scroll_to_view=!![],biblePresentButton());}function bibleBasicSearch(){const _0x2acc28=a0_0x7cf0,_0x2636c9=$('#searchID')[_0x2acc28(0xf3)]();search(_0x2636c9,0x0);}function bibleAdvSearch(){const _0x58e5bf=a0_0x7cf0,_0x43335f=$(_0x58e5bf(0xc8))[_0x58e5bf(0xf3)]();search(_0x43335f,0x0);}function a0_0x7cf0(_0x3905bc,_0x1a3138){const _0xf2ebcc=a0_0xf2eb();return a0_0x7cf0=function(_0x7cf01b,_0x53af2e){_0x7cf01b=_0x7cf01b-0xc3;let _0x14d61f=_0xf2ebcc[_0x7cf01b];return _0x14d61f;},a0_0x7cf0(_0x3905bc,_0x1a3138);}function refSearch(){}window['api'][a0_0x11c736(0xd8)]((_0x191ddc,_0x4b10c5)=>{const _0x589f79=a0_0x11c736;$('#statustext')[_0x589f79(0xe2)](_0x4b10c5);});
+function setupMainEvents() {
+    $(window).resize(function () {
+        setContainerHeight();
+    });
+    $('#mainbox').keyup(function (_0xfefbd7) {
+        mainWindowKey(_0xfefbd7);
+    });
+    $('#bible-tab').on('click', function (_0x4183c1) {
+        $('#verses-tab').tab('show');
+    });
+    $('#songs-tab').on('click', function (_0x30970b) {
+        $('#lyrics-tab').tab('show');
+    });
+    $('#verses-tab').on('click', function (_0x55d70f) {
+        $('#bible-tab').tab('show');
+    });
+    $('#lyrics-tab').on('click', function (_0x55f560) {
+        $('#songs-tab').tab('show');
+    });
+    $('#bibleTabSearchButton').on('click', async function () {
+        const _0x439edc = await bibletab_searchReference();
+        _0x439edc && (scroll_to_view = true);
+    });
+    $('#bibleTabSearchRef').on('focus', function () {
+        enterkeyFlag = ENTERKEY_REFSEARCH;
+        cursorKeysForNav = false;
+    });
+    $('#bibleTabSearchRef').on('focusout', function () {
+        enterkeyFlag = ENTERKEY_NOTRIGGER;
+        cursorKeysForNav = true;
+    });
+    $('#bibleTabPresentButton').on('click', async function () {
+        await bibleSearchAndPresent();
+    });
+    $('#bibleTabScheduleButton').on('click', function () {
+        scheduleBibleVerse();
+    });
+    $('#bookList, #chapterList, #verseList').on('focus', function () {
+        cursorKeysForNav = false;
+    });
+    $('#bookList, #chapterList, #verseList').on('focusout', function () {
+        cursorKeysForNav = true;
+    });
+    $('#bookList').on('change', async function () {
+        bibletab_fillchapter();
+        bibletab_fillverseText();
+        scroll_to_view = true;
+    });
+    $('#chapterList').on('change', async function () {
+        bibletab_fillverse();
+        bibletab_fillverseText();
+        scroll_to_view = true;
+    });
+    $('#verseList').on('change', async function () {
+        var _0x1d9911 = $('#verseList option:selected').val();
+        bibleGetData.verseval = $('#verseList option:selected').val();
+        scroll_to_view = true;
+        highlightVerse(_0x1d9911 - 1);
+        scroll2top(_0x1d9911 - 1);
+    });
+    $('#searchID').on('focus', function () {
+        enterkeyFlag = ENTERKEY_BIBLESEARCH;
+        cursorKeysForNav = false;
+    });
+    $('#searchID').on('focusout', function () {
+        enterkeyFlag = ENTERKEY_NOTRIGGER;
+        cursorKeysForNav = true;
+    });
+    $('#searchButtonID').on('click', async function () {
+        bibleBasicSearch();
+    });
+    $('#adSearch').on('focus', function () {
+        enterkeyFlag = ENTERKEY_BIBLEADVSEARCH;
+        cursorKeysForNav = false;
+    });
+    $('#adSearch').on('focusout', function () {
+        enterkeyFlag = ENTERKEY_NOTRIGGER;
+        cursorKeysForNav = true;
+    });
+    $('#adSearchButton').on('click', async function () {
+        bibleAdvSearch();
+    });
+    $('#songnav_category').on('change', async function () {
+        songtab_fillTags();
+        songtab_fillTitle();
+    });
+    $('#songnav_tags').on('change', async function () {
+        songtab_fillTitle();
+    });
+    $('#songnav_editbox').on('keyup', function () {
+        sn_searchSong(true);
+    });
+    $('#songnav_editbox').on('focus', function () {
+        cursorKeysForNav = false;
+    });
+    $('#songnav_editbox').on('focusout', function () {
+        cursorKeysForNav = true;
+    });
+    $('#songnav_searchbutton').on('click', async function () {
+        sn_searchSongInLyrics();
+    });
+    $('#songnav_searchauthorbutton').on('click', async function () {
+        sn_searchSongByAuthor();
+    });
+    $('#songnav_clearbutton').on('click', async function () {
+        sn_clearSearch();
+    });
+    $('#ly_add2schedule').on('click', function () {
+        addSong2Schedule();
+    });
+    $('#ly_youtube').on('click', function () {
+        launchYT();
+    });
+    $('#ly_edit').on('click', function () {
+        const _0x313e56 = true;
+        songEditObj.editSongLyrics(_0x313e56);
+    });
+    $('#darmodeicon').on('click', function () {
+        const _0x348ead = configJSON.configuration[0].DarkMode;
+        setcolormode(!_0x348ead);
+        updateSaveConfig('DarkMode', !_0x348ead);
+    });
+    $('#remoteicon').on('click', function () {
+        var _0x58e61f = new bootstrap.Modal(document.getElementById('p1'), { keyboard: false });
+        _0x58e61f.show();
+    });
+    $('#iconBlank').on('click', function () {
+        blankPresentation();
+    });
+    $('#iconLogo').on('click', function () {
+        logoPresentation();
+    });
+    $('#iconClose').on('click', function () {
+        window.api.closePresentation();
+    });
+    $('#iconPrev').on('click', function () {
+        call_prevSlide();
+    });
+    $('#iconNext').on('click', function () {
+        call_nextSlide();
+    });
+}
+async function bibleSearchAndPresent() {
+    const _0x430e49 = await bibletab_searchReference();
+    _0x430e49 && (scroll_to_view = true, biblePresentButton());
+}
+function bibleBasicSearch() {
+    const _0x2636c9 = $('#searchID').val();
+    search(_0x2636c9, 0);
+}
+function bibleAdvSearch() {
+    const _0x43335f = $('#adSearch').val();
+    search(_0x43335f, 0);
+}
+function refSearch() {
+}
+window.api.vvmessageCall((_0x191ddc, _0x4b10c5) => {
+    $('#statustext').html(_0x4b10c5);
+});

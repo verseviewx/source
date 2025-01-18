@@ -1,1 +1,194 @@
-const a0_0x5241b7=a0_0x3ecd;(function(_0x566ceb,_0x1b809b){const _0x7ce0b6=a0_0x3ecd,_0xef3eec=_0x566ceb();while(!![]){try{const _0x48b430=-parseInt(_0x7ce0b6(0x122))/0x1+parseInt(_0x7ce0b6(0x102))/0x2*(parseInt(_0x7ce0b6(0xf5))/0x3)+-parseInt(_0x7ce0b6(0x118))/0x4+parseInt(_0x7ce0b6(0x113))/0x5+-parseInt(_0x7ce0b6(0x119))/0x6*(parseInt(_0x7ce0b6(0xdd))/0x7)+parseInt(_0x7ce0b6(0x10d))/0x8+parseInt(_0x7ce0b6(0xdc))/0x9;if(_0x48b430===_0x1b809b)break;else _0xef3eec['push'](_0xef3eec['shift']());}catch(_0x50980d){_0xef3eec['push'](_0xef3eec['shift']());}}}(a0_0x4c63,0x9f4f3));const PRESENTATION_VERSE=0x0,PRESENTATION_LYRICS=0x1,PRESENTATION_BLANK=0x2,PRESENTATION_LOGO=0x3,PRESENTATION_PLAYBACK=0x4,PRESENTATION_STILLPLAY=0x5;let activePresentationData={'presentationActive':![],'presentationType':PRESENTATION_VERSE,'bookindex':0x0,'chapterindex':0x0,'verseindex':0x0,'contentIndex':0x0,'title':'','content1Arr':'','content2Arr':'','content1Font':'','content2Font':'','songid':'','copyright':''},presentationData={'presentationType':PRESENTATION_VERSE,'updateAll':![],'updateContentOnly':![],'isVideoBackground':![],'videoBackgroundFile':'movie.mp4','mediaPlaybackFile':a0_0x5241b7(0x101),'isJpegBackground':!![],'jpegBackgroundFile':'','logoBackgroundFile':'','isMaskOn':![],'maskFile':'','isColorLayer':![],'LayerColor':a0_0x5241b7(0xff),'LayerColorOpacity':0x1,'mainScreenEnable':!![],'stageScreenEnable':![],'mainPresentationScreen':0x0,'secondPresentationScreen':0x0,'mainPresentationWidth':0x64,'mainPresentationHeight':0x64,'secondPresentationWidth':0x64,'secondPresentationHeight':0x64,'marginTop':0x32,'marginBottom':0x32,'marginLeft':0x32,'marginRight':0x32,'maxFontSize':0x50,'JustificationValue':a0_0x5241b7(0xd1),'PresentationOnTop':!![],'EnableTransition':!![],'EnableOutline':!![],'EnableLineWrap':![],'EnableShadow':!![],'EnableHeaderBox':!![],'EnableUppercase':![],'EnableBorder':![],'EnableBlackBox':![],'SwapTranslations':![],'LineHeight':'','ShowDate':!![],'ShowVVLogo':!![],'ShowCustomLogo':![],'LogoLine1':a0_0x5241b7(0x11c),'LogoLine2':a0_0x5241b7(0x100),'canvasWidth':0x780,'canvasHeight':0x438,'titleLeft':0x208,'titleTop':0x23,'titleRight':0x578,'titleBottom':0x87,'dateLeft':0x50,'dateTop':0x3de,'dateRight':0x1c2,'dateBottom':0x41f,'copyrightLeft':0x280,'copyrightTop':0x3de,'copyrightRight':0x50a,'copyrightBottom':0x41f,'logoLeft':0x5b4,'logoTop':0x3de,'logoRight':0x730,'logoBottom':0x41f,'content1Left':0xdc,'content1Top':0xbe,'content1Right':0x69f,'content1Bottom':0x203,'content2Left':0xdc,'content2Top':0x235,'content2Right':0x69f,'content2Bottom':0x37a,'title':'','content1':'','content2':'','content1next':'','content2next':'','content1direction':!![],'content2direction':!![],'content1Font':'Baloo\x20Chettan','content2Font':a0_0x5241b7(0xf4),'content1TextColor':a0_0x5241b7(0xf6),'content2TextColor':a0_0x5241b7(0xf6),'contentIndex':0x0,'contentCopyright':'','showBothContent':!![],'portnum':0xc35a,'stageviewFile':''},presentation_previousbackground=null;function setupPresentation(){const _0xf641fa=a0_0x5241b7;presentationData[_0xf641fa(0xd6)]=screentab[_0xf641fa(0xe9)],presentationData['stageScreenEnable']=screentab['EnableStagePresentation'],presentationData['mainPresentationScreen']=screentab['MainScreenSelectionValue'],presentationData[_0xf641fa(0x124)]=screentab[_0xf641fa(0xf2)],presentationData[_0xf641fa(0xd5)]=graphicstab[_0xf641fa(0xf9)];if(presentationData[_0xf641fa(0xe8)]!=PRESENTATION_STILLPLAY)presentationData[_0xf641fa(0x104)]=graphicstab['BackgroundFolder']+graphicstab[_0xf641fa(0xef)][graphicstab['BackgroundImageIndex']];else{}presentationData[_0xf641fa(0x11f)]=presentationData[_0xf641fa(0x104)],presentationData[_0xf641fa(0xd7)]=themeArray[screentab[_0xf641fa(0xf1)]]['content1Left'],presentationData[_0xf641fa(0xec)]=themeArray[screentab['mainPreset']][_0xf641fa(0xec)],presentationData[_0xf641fa(0x11a)]=themeArray[screentab[_0xf641fa(0xf1)]][_0xf641fa(0x11a)],presentationData['content1Bottom']=themeArray[screentab[_0xf641fa(0xf1)]][_0xf641fa(0xe1)],presentationData[_0xf641fa(0xda)]=themeArray[screentab[_0xf641fa(0xf1)]][_0xf641fa(0xda)],presentationData[_0xf641fa(0xfa)]=themeArray[screentab[_0xf641fa(0xf1)]]['content2Top'],presentationData[_0xf641fa(0x10b)]=themeArray[screentab[_0xf641fa(0xf1)]]['content2Right'],presentationData['content2Bottom']=themeArray[screentab[_0xf641fa(0xf1)]][_0xf641fa(0xd8)],presentationData[_0xf641fa(0xf3)]=screentab[_0xf641fa(0x117)],presentationData[_0xf641fa(0x10e)]=screentab['MainMarginBottom'],presentationData[_0xf641fa(0x106)]=screentab['MainMarginLeft'],presentationData[_0xf641fa(0xd3)]=screentab[_0xf641fa(0x123)],presentationData[_0xf641fa(0x10a)]=screentab[_0xf641fa(0xee)],presentationData[_0xf641fa(0x121)]=screentab[_0xf641fa(0x121)];const _0x2fc789=[_0xf641fa(0xf7),'center','right'];presentationData[_0xf641fa(0xeb)]=_0x2fc789[screentab[_0xf641fa(0xeb)]],presentationData[_0xf641fa(0xed)]=screentab['PresentationOnTop'],presentationData[_0xf641fa(0xd4)]=screentab[_0xf641fa(0xd4)],presentationData['EnableOutline']=screentab[_0xf641fa(0x128)],presentationData[_0xf641fa(0xfb)]=screentab[_0xf641fa(0xfb)],presentationData[_0xf641fa(0xe5)]=screentab['EnableShadow'],presentationData[_0xf641fa(0xe6)]=screentab['EnableHeaderBox'],presentationData[_0xf641fa(0x109)]=screentab[_0xf641fa(0x109)],presentationData['EnableBorder']=screentab[_0xf641fa(0x114)],presentationData[_0xf641fa(0x107)]=screentab[_0xf641fa(0x107)],presentationData[_0xf641fa(0x11e)]=screentab['SwapTranslations'],presentationData['ShowDate']=screentab[_0xf641fa(0xe4)],presentationData[_0xf641fa(0x110)]=screentab['ShowVVLogo'],presentationData[_0xf641fa(0xfe)]=screentab['ShowCustomLogo'],presentationData[_0xf641fa(0xf8)]=screentab[_0xf641fa(0xf8)],presentationData[_0xf641fa(0xd2)]=screentab[_0xf641fa(0xd2)],presentationData['ShowPrimaryLang']=screentab['ShowPrimaryLang'],presentationData[_0xf641fa(0x115)]=graphicstab[_0xf641fa(0x103)],presentationData[_0xf641fa(0x10c)]=graphicstab[_0xf641fa(0x111)],presentationData[_0xf641fa(0xe0)]=graphicstab[_0xf641fa(0xe0)],presentationData[_0xf641fa(0xde)]=graphicstab[_0xf641fa(0x120)],presentationData[_0xf641fa(0xea)]=configJSON[_0xf641fa(0x116)][screentab[_0xf641fa(0x11b)]][_0xf641fa(0xe2)][_0xf641fa(0x125)],presentationData[_0xf641fa(0x10f)]=configJSON[_0xf641fa(0x116)][screentab[_0xf641fa(0x11b)]][_0xf641fa(0xe2)][_0xf641fa(0xe7)],presentationData['secondPresentationWidth']=0x780,presentationData['secondPresentationHeight']=0x438,presentationData[_0xf641fa(0x127)]=configJSON[_0xf641fa(0x126)][0x0][_0xf641fa(0x11d)],configJSON[_0xf641fa(0x126)][0x0][_0xf641fa(0xfd)]!=null?presentationData[_0xf641fa(0xfd)]=configJSON[_0xf641fa(0x126)][0x0]['stageviewFile']:presentationData[_0xf641fa(0xfd)]=_0xf641fa(0xdb),presentationData[_0xf641fa(0xdf)]==![]&&((presentationData['presentationType']==PRESENTATION_VERSE||presentationData['presentationType']==PRESENTATION_LYRICS)&&(presentationData[_0xf641fa(0x104)]!=presentation_previousbackground&&(presentationData[_0xf641fa(0xdf)]=!![],presentation_previousbackground=presentationData['jpegBackgroundFile']))),window['api'][_0xf641fa(0x105)](presentationData),presentationData[_0xf641fa(0xdf)]=![];}function blankPresentation(){const _0x4b6067=a0_0x5241b7;presentationData[_0x4b6067(0xe8)]!=PRESENTATION_BLANK?presentationData['presentationType']=PRESENTATION_BLANK:presentationData['presentationType']=activePresentationData[_0x4b6067(0xe8)],presentation_previousbackground=null,setupPresentation();}function a0_0x3ecd(_0x4539a6,_0x34a0b8){const _0x4c63ce=a0_0x4c63();return a0_0x3ecd=function(_0x3ecda3,_0x17f088){_0x3ecda3=_0x3ecda3-0xd1;let _0x1699f1=_0x4c63ce[_0x3ecda3];return _0x1699f1;},a0_0x3ecd(_0x4539a6,_0x34a0b8);}function a0_0x4c63(){const _0x86eba0=['portnum','EnableOutline','center','LogoLine2','marginRight','EnableTransition','isVideoBackground','mainScreenEnable','content1Left','content2Bottom','log','content2Left','stage','7461999rPaahe','7mSLhKQ','isColorLayer','updateAll','LayerColor','content1Bottom','bounds','LogoImageIndex','ShowDate','EnableShadow','EnableHeaderBox','height','presentationType','EnableMainPresentation','mainPresentationWidth','JustificationValue','content1Top','PresentationOnTop','MaxFontSize','BackgroundList','BackgroundFolder','mainPreset','StageScreenSelectionValue','marginTop','Baloo\x20Chettan','234QkBTyZ','white','left','LogoLine1','MotionBackground','content2Top','EnableLineWrap','logoBackgroundFile','stageviewFile','ShowCustomLogo','#FFFFFF','www.verseview.info','movie.mp4','18086oppJUq','Text1Color','jpegBackgroundFile','passPresentationSetup','marginLeft','EnableBlackBox','Arried\x20at\x20still\x20playback..','EnableUppercase','maxFontSize','content2Right','content2TextColor','8661576octHUI','marginBottom','mainPresentationHeight','ShowVVLogo','Text2Color','mediaPlaybackFile','4129915iKWefF','EnableBorder','content1TextColor','vvdisplay','MainMarginTop','4136992AWjvpr','6488934AmdioP','content1Right','MainScreenSelectionValue','VerseVIEW','remoteportnumber','SwapTranslations','videoBackgroundFile','ShadedBackground','LineHeight','674877bkmvBg','MainMarginRight','secondPresentationScreen','width','configuration'];a0_0x4c63=function(){return _0x86eba0;};return a0_0x4c63();}function logoPresentation(){const _0x27ae1c=a0_0x5241b7;presentationData[_0x27ae1c(0xe8)]=PRESENTATION_LOGO,presentationData[_0x27ae1c(0xfc)]=graphicstab[_0x27ae1c(0xf0)]+graphicstab[_0x27ae1c(0xef)][graphicstab[_0x27ae1c(0xe3)]],presentation_previousbackground=null,setupPresentation();}function videoPlayback(_0x49bba){const _0x1bc845=a0_0x5241b7;presentationData[_0x1bc845(0xe8)]=PRESENTATION_PLAYBACK,presentationData[_0x1bc845(0x112)]=_0x49bba,presentation_previousbackground=null,setupPresentation();}function stillPlayback(_0x5d7032){const _0x31b5c6=a0_0x5241b7;console[_0x31b5c6(0xd9)](_0x31b5c6(0x108)),presentationData[_0x31b5c6(0xe8)]=PRESENTATION_STILLPLAY,presentationData[_0x31b5c6(0x104)]=_0x5d7032,setupPresentation();}
+const PRESENTATION_VERSE = 0;
+const PRESENTATION_LYRICS = 1;
+const PRESENTATION_BLANK = 2;
+const PRESENTATION_LOGO = 3;
+const PRESENTATION_PLAYBACK = 4;
+const PRESENTATION_STILLPLAY = 5;
+let activePresentationData = {
+    presentationActive: false,
+    presentationType: PRESENTATION_VERSE,
+    bookindex: 0,
+    chapterindex: 0,
+    verseindex: 0,
+    contentIndex: 0,
+    title: '',
+    content1Arr: '',
+    content2Arr: '',
+    content1Font: '',
+    content2Font: '',
+    songid: '',
+    copyright: ''
+};
+let presentationData = {
+    presentationType: PRESENTATION_VERSE,
+    updateAll: false,
+    updateContentOnly: false,
+    isVideoBackground: false,
+    videoBackgroundFile: 'movie.mp4',
+    mediaPlaybackFile: 'movie.mp4',
+    isJpegBackground: true,
+    jpegBackgroundFile: '',
+    logoBackgroundFile: '',
+    isMaskOn: false,
+    maskFile: '',
+    isColorLayer: false,
+    LayerColor: '#FFFFFF',
+    LayerColorOpacity: 1,
+    mainScreenEnable: true,
+    stageScreenEnable: false,
+    mainPresentationScreen: 0,
+    secondPresentationScreen: 0,
+    mainPresentationWidth: 100,
+    mainPresentationHeight: 100,
+    secondPresentationWidth: 100,
+    secondPresentationHeight: 100,
+    marginTop: 50,
+    marginBottom: 50,
+    marginLeft: 50,
+    marginRight: 50,
+    maxFontSize: 80,
+    JustificationValue: 'center',
+    PresentationOnTop: true,
+    EnableTransition: true,
+    EnableOutline: true,
+    EnableLineWrap: false,
+    EnableShadow: true,
+    EnableHeaderBox: true,
+    EnableUppercase: false,
+    EnableBorder: false,
+    EnableBlackBox: false,
+    SwapTranslations: false,
+    LineHeight: '',
+    ShowDate: true,
+    ShowVVLogo: true,
+    ShowCustomLogo: false,
+    LogoLine1: 'VerseVIEW',
+    LogoLine2: 'www.verseview.info',
+    canvasWidth: 1920,
+    canvasHeight: 1080,
+    titleLeft: 520,
+    titleTop: 35,
+    titleRight: 1400,
+    titleBottom: 135,
+    dateLeft: 80,
+    dateTop: 990,
+    dateRight: 450,
+    dateBottom: 1055,
+    copyrightLeft: 640,
+    copyrightTop: 990,
+    copyrightRight: 1290,
+    copyrightBottom: 1055,
+    logoLeft: 1460,
+    logoTop: 990,
+    logoRight: 1840,
+    logoBottom: 1055,
+    content1Left: 220,
+    content1Top: 190,
+    content1Right: 1695,
+    content1Bottom: 515,
+    content2Left: 220,
+    content2Top: 565,
+    content2Right: 1695,
+    content2Bottom: 890,
+    title: '',
+    content1: '',
+    content2: '',
+    content1next: '',
+    content2next: '',
+    content1direction: true,
+    content2direction: true,
+    content1Font: 'Baloo Chettan',
+    content2Font: 'Baloo Chettan',
+    content1TextColor: 'white',
+    content2TextColor: 'white',
+    contentIndex: 0,
+    contentCopyright: '',
+    showBothContent: true,
+    portnum: 50010,
+    stageviewFile: ''
+};
+let presentation_previousbackground = null;
+function setupPresentation() {
+    presentationData.mainScreenEnable = screentab.EnableMainPresentation;
+    presentationData.stageScreenEnable = screentab.EnableStagePresentation;
+    presentationData.mainPresentationScreen = screentab.MainScreenSelectionValue;
+    presentationData.secondPresentationScreen = screentab.StageScreenSelectionValue;
+    presentationData.isVideoBackground = graphicstab.MotionBackground;
+    if (presentationData.presentationType != PRESENTATION_STILLPLAY) {
+        presentationData.jpegBackgroundFile = graphicstab.BackgroundFolder + graphicstab.BackgroundList[graphicstab.BackgroundImageIndex];
+    } else {
+    }
+    presentationData.videoBackgroundFile = presentationData.jpegBackgroundFile;
+    presentationData.content1Left = themeArray[screentab.mainPreset].content1Left;
+    presentationData.content1Top = themeArray[screentab.mainPreset].content1Top;
+    presentationData.content1Right = themeArray[screentab.mainPreset].content1Right;
+    presentationData.content1Bottom = themeArray[screentab.mainPreset].content1Bottom;
+    presentationData.content2Left = themeArray[screentab.mainPreset].content2Left;
+    presentationData.content2Top = themeArray[screentab.mainPreset].content2Top;
+    presentationData.content2Right = themeArray[screentab.mainPreset].content2Right;
+    presentationData.content2Bottom = themeArray[screentab.mainPreset].content2Bottom;
+    presentationData.marginTop = screentab.MainMarginTop;
+    presentationData.marginBottom = screentab.MainMarginBottom;
+    presentationData.marginLeft = screentab.MainMarginLeft;
+    presentationData.marginRight = screentab.MainMarginRight;
+    presentationData.maxFontSize = screentab.MaxFontSize;
+    presentationData.LineHeight = screentab.LineHeight;
+    const _0x2fc789 = [
+        'left',
+        'center',
+        'right'
+    ];
+    presentationData.JustificationValue = _0x2fc789[screentab.JustificationValue];
+    presentationData.PresentationOnTop = screentab.PresentationOnTop;
+    presentationData.EnableTransition = screentab.EnableTransition;
+    presentationData.EnableOutline = screentab.EnableOutline;
+    presentationData.EnableLineWrap = screentab.EnableLineWrap;
+    presentationData.EnableShadow = screentab.EnableShadow;
+    presentationData.EnableHeaderBox = screentab.EnableHeaderBox;
+    presentationData.EnableUppercase = screentab.EnableUppercase;
+    presentationData.EnableBorder = screentab.EnableBorder;
+    presentationData.EnableBlackBox = screentab.EnableBlackBox;
+    presentationData.SwapTranslations = screentab.SwapTranslations;
+    presentationData.ShowDate = screentab.ShowDate;
+    presentationData.ShowVVLogo = screentab.ShowVVLogo;
+    presentationData.ShowCustomLogo = screentab.ShowCustomLogo;
+    presentationData.LogoLine1 = screentab.LogoLine1;
+    presentationData.LogoLine2 = screentab.LogoLine2;
+    presentationData.ShowPrimaryLang = screentab.ShowPrimaryLang;
+    presentationData.content1TextColor = graphicstab.Text1Color;
+    presentationData.content2TextColor = graphicstab.Text2Color;
+    presentationData.LayerColor = graphicstab.LayerColor;
+    presentationData.isColorLayer = graphicstab.ShadedBackground;
+    presentationData.mainPresentationWidth = configJSON.vvdisplay[screentab.MainScreenSelectionValue].bounds.width;
+    presentationData.mainPresentationHeight = configJSON.vvdisplay[screentab.MainScreenSelectionValue].bounds.height;
+    presentationData.secondPresentationWidth = 1920;
+    presentationData.secondPresentationHeight = 1080;
+    presentationData.portnum = configJSON.configuration[0].remoteportnumber;
+    configJSON.configuration[0].stageviewFile != null ? presentationData.stageviewFile = configJSON.configuration[0].stageviewFile : presentationData.stageviewFile = 'stage';
+    presentationData.updateAll == false && ((presentationData.presentationType == PRESENTATION_VERSE || presentationData.presentationType == PRESENTATION_LYRICS) && (presentationData.jpegBackgroundFile != presentation_previousbackground && (presentationData.updateAll = true, presentation_previousbackground = presentationData.jpegBackgroundFile)));
+    window.api.passPresentationSetup(presentationData);
+    presentationData.updateAll = false;
+}
+function blankPresentation() {
+    presentationData.presentationType != PRESENTATION_BLANK ? presentationData.presentationType = PRESENTATION_BLANK : presentationData.presentationType = activePresentationData.presentationType;
+    presentation_previousbackground = null;
+    setupPresentation();
+}
+function logoPresentation() {
+    presentationData.presentationType = PRESENTATION_LOGO;
+    presentationData.logoBackgroundFile = graphicstab.BackgroundFolder + graphicstab.BackgroundList[graphicstab.LogoImageIndex];
+    presentation_previousbackground = null;
+    setupPresentation();
+}
+function videoPlayback(_0x49bba) {
+    presentationData.presentationType = PRESENTATION_PLAYBACK;
+    presentationData.mediaPlaybackFile = _0x49bba;
+    presentation_previousbackground = null;
+    setupPresentation();
+}
+function stillPlayback(_0x5d7032) {
+    console.log('Arried at still playback..');
+    presentationData.presentationType = PRESENTATION_STILLPLAY;
+    presentationData.jpegBackgroundFile = _0x5d7032;
+    setupPresentation();
+}

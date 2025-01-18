@@ -1,1 +1,133 @@
-(function(_0x826687,_0xf0b74d){const _0x146378=a0_0x2fff,_0x115bcb=_0x826687();while(!![]){try{const _0x14dda7=-parseInt(_0x146378(0xe6))/0x1+parseInt(_0x146378(0xc9))/0x2*(parseInt(_0x146378(0xdb))/0x3)+parseInt(_0x146378(0xdf))/0x4+parseInt(_0x146378(0xe9))/0x5+-parseInt(_0x146378(0xcc))/0x6+-parseInt(_0x146378(0xf2))/0x7+parseInt(_0x146378(0xd6))/0x8;if(_0x14dda7===_0xf0b74d)break;else _0x115bcb['push'](_0x115bcb['shift']());}catch(_0x378ddc){_0x115bcb['push'](_0x115bcb['shift']());}}}(a0_0x287e,0x747f7));let bibleVersionManagePanel={'AvailableBibleList':'','SelectedVersion':'','SelectedVersionIndex':0x0,'CopyrightSelectedVersion':'','SelectedFont':0x0,'NewAddedFont':''},allbible_allFontsFonts=new Array();function bibleVersionManage_init(){bibleVersionManage_setValues(),bibleVersionManage_setui(),bibleVersionManage_setevents();}function bibleVersionManage_setValues(){const _0x4f5905=a0_0x2fff;$(_0x4f5905(0xf4))['show'](),$('#addFontVersionTextbox')[_0x4f5905(0xd7)](),$('#addToFontListButton')[_0x4f5905(0xd7)](),bibleVersionManage_fillInstalled();}function bibleVersionManage_fillInstalled(){const _0x336caa=a0_0x2fff;let _0x59b23e=bibleVersion_getInstalledBibleNames();const _0x5f26ae=$(_0x336caa(0xee));let _0x3e86b0='';clearSelectList(_0x336caa(0xe4));let _0x2b8569=0x0;_0x59b23e[_0x336caa(0xf0)](function(_0x28a002){const _0x570505=_0x336caa;_0x3e86b0+=_0x570505(0xd5)+_0x2b8569+'>'+_0x28a002+_0x570505(0xd4),_0x2b8569++;}),_0x5f26ae[_0x336caa(0xe2)](_0x3e86b0),bibleVersionManagePanel['SelectedVersionIndex']=0x0,_0x5f26ae[_0x336caa(0xe5)](bibleVersionManagePanel[_0x336caa(0xe1)]),bibleVersionManage_updateDetails(),bibleVersionManage_fillFontList();}function a0_0x287e(){const _0x2a69cd=['SelectedVersion','#browseVersionButton','Added\x20Bible','copyrights','</option>','<option\x20value=','9357008EQSAcz','hide','#addFontVersionTextbox','XML','option','1623039RGyFps','copyright','click','api','1225356MdSlbC','length','SelectedVersionIndex','append','#copyrightVersionTextarea','selectVersionList','val','769403YNALFd','SelectedFont','appendChild','1473680klvmID','fontVersionList','#versionVersionTextbox','split','#addToFontListButton','#selectVersionList','Arabic','forEach','platform','3297560PouJRT','#fontVersionList\x20option:selected','#addFontVersionButton','title','mac','Bible\x20already\x20added\x20or\x20the\x20format\x20is\x20not\x20valid\x20with\x20VerseVIEW','name','indexOf','fonts','.db','show','getElementById','change','#selectVersionList\x20option:selected','innerHTML','type','replace','#saveVersionButton','2PyWpzC','booknames','CopyrightSelectedVersion','3564336kQLiIz','value','#fontVersionList','#deleteVersionButton'];a0_0x287e=function(){return _0x2a69cd;};return a0_0x287e();}function bibleVersionManage_fillFontList(_0x127047){const _0x275f03=a0_0x2fff;clearSelectList(_0x275f03(0xea));var _0x84c92d=document['createDocumentFragment'](),_0x1106dc=document[_0x275f03(0xc2)](_0x275f03(0xea));bible_allFonts=new Array(),bible_allFonts=systemFontList;var _0x11560e=bible_allFonts[_0x275f03(0xe0)],_0x46792a='',_0x53f3be=0x0;for(var _0x24d7c6=0x0;_0x24d7c6<_0x11560e;_0x24d7c6++){var _0xdb4b67=document['createElement'](_0x275f03(0xda));_0xdb4b67[_0x275f03(0xc5)]=bible_allFonts[_0x24d7c6],_0xdb4b67[_0x275f03(0xcd)]=_0x24d7c6,_0x84c92d[_0x275f03(0xe8)](_0xdb4b67),_0x127047!=null&&(bible_allFonts[_0x24d7c6]==_0x127047&&(_0x53f3be=_0x24d7c6));}_0x1106dc['appendChild'](_0x84c92d),_0x127047!=null&&$(_0x275f03(0xce))[_0x275f03(0xe5)](_0x53f3be);}function a0_0x2fff(_0x387e7c,_0x21bd91){const _0x287e50=a0_0x287e();return a0_0x2fff=function(_0x2fff03,_0x3be19a){_0x2fff03=_0x2fff03-0xc1;let _0x42d482=_0x287e50[_0x2fff03];return _0x42d482;},a0_0x2fff(_0x387e7c,_0x21bd91);}function bibleVersionManage_setui(){}async function bibleVersionManage_browse(){const _0x2aa2a0=a0_0x2fff,_0x55885e=await window[_0x2aa2a0(0xde)]['browseBibleDB']();if(_0x55885e==null)return![];let _0x22c8cc={'path':_0x55885e,'type':_0x2aa2a0(0xd9)},_0x3a0b32='';configJSON['configuration'][0x0][_0x2aa2a0(0xf1)]===_0x2aa2a0(0xf6)?_0x3a0b32=_0x55885e[_0x2aa2a0(0xec)]('/'):_0x3a0b32=_0x55885e[_0x2aa2a0(0xec)]('\x5c');let _0x351088=_0x3a0b32[_0x3a0b32[_0x2aa2a0(0xe0)]-0x1],_0xb7671d=_0x351088['split']('.');_0xb7671d[_0xb7671d['length']-0x1]=='db'&&(_0x22c8cc[_0x2aa2a0(0xc6)]='DB');const _0x18a66c=await window['api']['addBibleDB'](_0x22c8cc);if(_0x18a66c==![])return vvDialog('BIBLE',_0x2aa2a0(0xf7)),![];let _0x4fe657=_0x18a66c[0x0][_0x2aa2a0(0xca)][_0x2aa2a0(0xc7)](/\"/g,'');_0x4fe657=_0x4fe657['replace'](/ , /g,','),_0x4fe657=_0x4fe657[_0x2aa2a0(0xec)](',');let _0x319cb1=!![];_0x18a66c[0x0][_0x2aa2a0(0xf5)][_0x2aa2a0(0xf9)](_0x2aa2a0(0xef))>=0x0&&(_0x319cb1=![]);_0x351088=_0x351088[_0x2aa2a0(0xec)]('.')[0x0]+_0x2aa2a0(0xfb);const _0x15a28d={'name':_0x18a66c[0x0][_0x2aa2a0(0xf5)],'file':_0x351088,'selectedfont':_0x18a66c[0x0][_0x2aa2a0(0xfa)][_0x2aa2a0(0xec)](',')[0x0],'booknames':_0x4fe657,'copyright':_0x18a66c[0x0][_0x2aa2a0(0xd3)],'left2right':_0x319cb1};bibleVersion_addRecord(_0x15a28d),bibleVersionManage_fillInstalled(),bibleVersionSelect_setValues(),vvDialog('BIBLE',_0x2aa2a0(0xd2));}function bibleVersionManage_setevents(){const _0x25bdd4=a0_0x2fff;$(_0x25bdd4(0xee))['on'](_0x25bdd4(0xc3),function(){const _0xe4c6a=_0x25bdd4;bibleVersionManagePanel[_0xe4c6a(0xe1)]=$(_0xe4c6a(0xc4))[_0xe4c6a(0xe5)](),bibleVersionManage_updateDetails();}),$(_0x25bdd4(0xce))['on'](_0x25bdd4(0xc3),function(){const _0x202cca=_0x25bdd4;bibleVersionManagePanel[_0x202cca(0xe7)]=$(_0x202cca(0xf3))[_0x202cca(0xe5)]();}),$(_0x25bdd4(0xd1))['on'](_0x25bdd4(0xdd),function(){bibleVersionManage_browse();}),$(_0x25bdd4(0xcf))['on']('click',function(){const _0x436209=_0x25bdd4;bibleVersion_deleteRecord(bibleVersionManagePanel[_0x436209(0xe1)]),bibleVersionManage_fillInstalled();}),$(_0x25bdd4(0xc8))['on'](_0x25bdd4(0xdd),function(){const _0x174c48=_0x25bdd4;bibleVersion_updateFont(bibleVersionManagePanel['SelectedVersionIndex'],bible_allFonts[bibleVersionManagePanel[_0x174c48(0xe7)]]);}),$('#addFontVersionButton')['on'](_0x25bdd4(0xdd),function(){const _0x216638=_0x25bdd4;$(_0x216638(0xf4))[_0x216638(0xd7)](),$(_0x216638(0xd8))[_0x216638(0xc1)](),$(_0x216638(0xed))['show']();}),$(_0x25bdd4(0xed))['on'](_0x25bdd4(0xdd),function(){const _0x173e8b=_0x25bdd4;let _0x277d0a=$(_0x173e8b(0xd8))[_0x173e8b(0xe5)]();addFont(_0x277d0a),bibleVersionManage_fillFontList(_0x277d0a),$(_0x173e8b(0xf4))['show'](),$(_0x173e8b(0xd8))[_0x173e8b(0xd7)](),$(_0x173e8b(0xed))[_0x173e8b(0xd7)]();});}function bibleVersionManage_updateDetails(){const _0xd1121=a0_0x2fff,_0x29e8e0=bibleVersion_getVersionRecord(bibleVersionManagePanel[_0xd1121(0xe1)]);bibleVersionManagePanel[_0xd1121(0xd0)]=_0x29e8e0[_0xd1121(0xf8)],bibleVersionManagePanel[_0xd1121(0xcb)]=_0x29e8e0[_0xd1121(0xdc)],$(_0xd1121(0xeb))[_0xd1121(0xe5)](bibleVersionManagePanel['SelectedVersion']),$(_0xd1121(0xe3))['val'](bibleVersionManagePanel[_0xd1121(0xcb)]);}
+let bibleVersionManagePanel = {
+    AvailableBibleList: '',
+    SelectedVersion: '',
+    SelectedVersionIndex: 0,
+    CopyrightSelectedVersion: '',
+    SelectedFont: 0,
+    NewAddedFont: ''
+};
+let allbible_allFontsFonts = new Array();
+function bibleVersionManage_init() {
+    bibleVersionManage_setValues();
+    bibleVersionManage_setui();
+    bibleVersionManage_setevents();
+}
+function bibleVersionManage_setValues() {
+    $('#addFontVersionButton').show();
+    $('#addFontVersionTextbox').hide();
+    $('#addToFontListButton').hide();
+    bibleVersionManage_fillInstalled();
+}
+function bibleVersionManage_fillInstalled() {
+    let _0x59b23e = bibleVersion_getInstalledBibleNames();
+    const _0x5f26ae = $('#selectVersionList');
+    let _0x3e86b0 = '';
+    clearSelectList('selectVersionList');
+    let _0x2b8569 = 0;
+    _0x59b23e.forEach(function (_0x28a002) {
+        _0x3e86b0 += '<option value=' + _0x2b8569 + '>' + _0x28a002 + '</option>';
+        _0x2b8569++;
+    });
+    _0x5f26ae.append(_0x3e86b0);
+    bibleVersionManagePanel.SelectedVersionIndex = 0;
+    _0x5f26ae.val(bibleVersionManagePanel.SelectedVersionIndex);
+    bibleVersionManage_updateDetails();
+    bibleVersionManage_fillFontList();
+}
+function bibleVersionManage_fillFontList(_0x127047) {
+    clearSelectList('fontVersionList');
+    var _0x84c92d = document.createDocumentFragment();
+    var _0x1106dc = document.getElementById('fontVersionList');
+    bible_allFonts = new Array();
+    bible_allFonts = systemFontList;
+    var _0x11560e = bible_allFonts.length;
+    var _0x46792a = '';
+    var _0x53f3be = 0;
+    for (var _0x24d7c6 = 0; _0x24d7c6 < _0x11560e; _0x24d7c6++) {
+        var _0xdb4b67 = document.createElement('option');
+        _0xdb4b67.innerHTML = bible_allFonts[_0x24d7c6];
+        _0xdb4b67.value = _0x24d7c6;
+        _0x84c92d.appendChild(_0xdb4b67);
+        _0x127047 != null && (bible_allFonts[_0x24d7c6] == _0x127047 && (_0x53f3be = _0x24d7c6));
+    }
+    _0x1106dc.appendChild(_0x84c92d);
+    _0x127047 != null && $('#fontVersionList').val(_0x53f3be);
+}
+function bibleVersionManage_setui() {
+}
+async function bibleVersionManage_browse() {
+    const _0x55885e = await window.api.browseBibleDB();
+    if (_0x55885e == null) {
+        return false;
+    }
+    let _0x22c8cc = {
+        path: _0x55885e,
+        type: 'XML'
+    };
+    let _0x3a0b32 = '';
+    configJSON.configuration[0].platform === 'mac' ? _0x3a0b32 = _0x55885e.split('/') : _0x3a0b32 = _0x55885e.split('\\');
+    let _0x351088 = _0x3a0b32[_0x3a0b32.length - 1];
+    let _0xb7671d = _0x351088.split('.');
+    _0xb7671d[_0xb7671d.length - 1] == 'db' && (_0x22c8cc.type = 'DB');
+    const _0x18a66c = await window.api.addBibleDB(_0x22c8cc);
+    if (_0x18a66c == false) {
+        return vvDialog('BIBLE', 'Bible already added or the format is not valid with VerseVIEW'), false;
+    }
+    let _0x4fe657 = _0x18a66c[0].booknames.replace(/\"/g, '');
+    _0x4fe657 = _0x4fe657.replace(/ , /g, ',');
+    _0x4fe657 = _0x4fe657.split(',');
+    let _0x319cb1 = true;
+    _0x18a66c[0].title.indexOf('Arabic') >= 0 && (_0x319cb1 = false);
+    _0x351088 = _0x351088.split('.')[0] + '.db';
+    const _0x15a28d = {
+        name: _0x18a66c[0].title,
+        file: _0x351088,
+        selectedfont: _0x18a66c[0].fonts.split(',')[0],
+        booknames: _0x4fe657,
+        copyright: _0x18a66c[0].copyrights,
+        left2right: _0x319cb1
+    };
+    bibleVersion_addRecord(_0x15a28d);
+    bibleVersionManage_fillInstalled();
+    bibleVersionSelect_setValues();
+    vvDialog('BIBLE', 'Added Bible');
+}
+function bibleVersionManage_setevents() {
+    $('#selectVersionList').on('change', function () {
+        bibleVersionManagePanel.SelectedVersionIndex = $('#selectVersionList option:selected').val();
+        bibleVersionManage_updateDetails();
+    });
+    $('#fontVersionList').on('change', function () {
+        bibleVersionManagePanel.SelectedFont = $('#fontVersionList option:selected').val();
+    });
+    $('#browseVersionButton').on('click', function () {
+        bibleVersionManage_browse();
+    });
+    $('#deleteVersionButton').on('click', function () {
+        bibleVersion_deleteRecord(bibleVersionManagePanel.SelectedVersionIndex);
+        bibleVersionManage_fillInstalled();
+    });
+    $('#saveVersionButton').on('click', function () {
+        bibleVersion_updateFont(bibleVersionManagePanel.SelectedVersionIndex, bible_allFonts[bibleVersionManagePanel.SelectedFont]);
+    });
+    $('#addFontVersionButton').on('click', function () {
+        $('#addFontVersionButton').hide();
+        $('#addFontVersionTextbox').show();
+        $('#addToFontListButton').show();
+    });
+    $('#addToFontListButton').on('click', function () {
+        let _0x277d0a = $('#addFontVersionTextbox').val();
+        addFont(_0x277d0a);
+        bibleVersionManage_fillFontList(_0x277d0a);
+        $('#addFontVersionButton').show();
+        $('#addFontVersionTextbox').hide();
+        $('#addToFontListButton').hide();
+    });
+}
+function bibleVersionManage_updateDetails() {
+    const _0x29e8e0 = bibleVersion_getVersionRecord(bibleVersionManagePanel.SelectedVersionIndex);
+    bibleVersionManagePanel.SelectedVersion = _0x29e8e0.name;
+    bibleVersionManagePanel.CopyrightSelectedVersion = _0x29e8e0.copyright;
+    $('#versionVersionTextbox').val(bibleVersionManagePanel.SelectedVersion);
+    $('#copyrightVersionTextarea').val(bibleVersionManagePanel.CopyrightSelectedVersion);
+}
