@@ -1,0 +1,80 @@
+<div class="container-fluid h-100">
+    <div class="row py-2" style="height:60px">
+        <div class="col-8 input-group-sm">
+            <input type="text" class="form-control input-group-sm" id="bibleTabSearchRef" placeholder="Reference Psa 23 1" aria-label="Reference"
+                aria-describedby="basic-addon1">
+        </div>
+        <div class="col-4">
+            <div class="btn-group">
+                <a href="#" class="btn btn-primary btn-sm" id="bibleTabSearchButton" data-bs-toggle="tooltip" data-bs-placement="top" title="Find Reference">
+                    <i class="bi-search"></i>
+                </a>
+                <a href="#" id="bibleTabPresentButton" class="btn btn-primary btn-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="Present Reference">
+                    <i class="bi-tv"></i>
+                </a>
+                <a href="#" id="bibleTabScheduleButton" class="btn btn-primary btn-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="Schedule Reference">
+                    <i class="bi-bookmark-plus"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- style="height:100px; overflow-y:scroll;" -->
+    <div class="row py-2">
+        <div class="col-6">
+            <label for="bookList" class="form-label">BOOK</label>
+            <select class="form-select" size="23" id="bookList"  aria-label="size 3 select example">
+                <option selected value="1">Genesis</option>
+                <option value="2">Exodus</option>
+                <option value="3">Numbers</option>
+            </select>
+        </div>
+        <div class="col-3">
+            <label for="chapterList" class="form-label">CHAPTER</label>
+            <select class="form-select selectCenter" size="1" id="chapterList" aria-label="size 3 select example">
+                <option selected value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+        <div class="col-3">
+            <label for="verseList" class="form-label">VERSE</label>
+            <select class="form-select selectCenter" size="1" id="verseList" aria-label="size 3 select example">
+                <option selected value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="row py-2" style="height:150px">
+        <div class="col">
+            <label for="recentSel" class="form-label">RECENT</label>
+            <select class="form-select" size="3" id="recentSel" aria-label="size 4 select example">
+                <option selected value="1">Psalm 23:1</option>
+                <option value="2">Revelation 2:21</option>
+                <option value="3">Psalm 119:1</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="row py-2" style="height:60px">
+        <div class="col-8 input-group-sm">
+            <input type="text" class="form-control" placeholder="Bible Search" id="searchID" aria-label="Search"
+                aria-describedby="basic-addon1">
+        </div>
+        <div class="col-4">
+            <div class="btn-group">
+                <a href="#" class="btn btn-primary btn-sm" id="searchButtonID" data-bs-toggle="tooltip" data-bs-placement="top" title="Bible Search">
+                    <i class="bi-search"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+

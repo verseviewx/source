@@ -1,0 +1,98 @@
+<div class="container-fluid">
+    <!-- **** TITLE SEQUENCE **** -->
+    <div class="row py-2">
+        
+        <div class="col-5">
+            <label for="songtitle1" class="form-label fw-bold" id="ly_name">Aa aa aa en priyan oo oo nallavan (2)</label><br>
+            <label for="songtitle2" class="form-label fw-bold twenty_percent_smaller" id="ly_name2">ആ ആ ആ ആ എൻ പ്രിയൻ ഓ ഓ</label>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-5">
+            <label for="songnumber" class="form-label fw-bold" id="ly_songnumber"></label>
+        </div>
+    </div>
+
+    <!-- **** BUTTONS **** -->
+    <div class="row py-2">
+        <div class="col">
+            <div class="btn-group btn-group-sm" role="group" >
+                <button type="button"class="btn btn-sm btn-primary" aria-current="page" id="ly_edit" data-bs-toggle="tooltip"
+                    data-bs-placement="top" title="Edit Song">
+                    <i class="bi-pencil"></i><!--EDIT-->
+                </button>
+                <button type="button"class="btn btn-primary btn-sm" id="ly_youtube" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="View song video on YouTube">
+                    <i class="bi-play-btn"></i>
+                </button>
+                <button type="button" class="btn btn-sm btn-primary" id="ly_add2schedule" data-bs-toggle="tooltip" data-bs-placement="top"
+                    title="Add Song to Schedule">
+                    <i class="bi-bookmark-plus"></i><!--SCHEDULE-->
+            </button>
+                <!--<a href="#" class="btn btn-primary btn-sm d-none" id="ly_chords">
+                    <i class="bi-music-notes"></i>CHORDS
+                </a>-->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- **** SLIDES **** -->
+    <div id="ly_slide">
+        <div class="row py-2">
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        1
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text"></p>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        1
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text"></p>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col" id="ly_tags">
+            <button type="button" class="btn btn-outline-secondary btn-sm">Praise</button>
+            <button type="button" class="btn btn-outline-secondary btn-sm">Faith</button>
+        </div>
+    </div>
+
+    <div class="row py-3">
+        <div class="col-4">
+            <label for="songtitle1" class="form-label fw-bold">Category</label><br>
+            <label for="songtitle1" class="form-label" id="ly_cat">Malayalam 2022</label>
+        </div>
+        <div class="col-4">
+            <label for="songtitle2" class="form-label fw-bold">Key</label><br>
+            <label for="songtitle1" class="form-label" id="ly_key">C</label>
+        </div>
+        <div class="col-4">
+            <label for="songtitle2" class="form-label fw-bold">Lyrics By</label><br>
+            <button type="button" class="btn btn-outline-secondary btn-sm" id="ly_copy">Blesson Memmana</button>
+        </div>
+    </div>
+
+    <div class="row py-3">
+        <div class="col">
+            <label for="songtitle1" class="form-label fw-bold">Notes</label><br>
+            <label for="songtitle1" class="form-label" id="ly_notes">Notes goes here...</label>
+        </div>
+    </div>
+
+    <div id="ly_id" hidden></div>
+</div>

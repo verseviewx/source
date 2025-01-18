@@ -1,0 +1,187 @@
+<div class="modal" tabindex="-1" id="p6">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Theme Builder</h5>
+            </div>
+            <div class="modal-body">
+
+                <div class="container-fluid p-2">
+
+                    <!-- Presets -->
+                    <div class="mb-3">
+                        <label for="tb_presets" class="form-label">Presets</label>
+                        <div class="d-flex">
+                            <select id="tb_presets" class="form-select w-50 me-2">
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <!-- New name and description -->
+                    <div class="mb-4" id="tb_newname">
+                        <div class="row">
+                            <div class="col">
+                                <label for="tb_name" class="form-label">Preset Name</label>
+                                <input type="text" class="form-control w-auto" id="tb_name" placeholder="New Name for Preset">
+                            </div>
+                            <div class="col">
+                                <label for="tb_description" class="form-label">Preset Description</label>
+                                <input type="text" class="form-control w-auto" id="tb_description" placeholder="Description for Preset">
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Orientation -->
+                     <div class="mb-4">
+                        <h6 class="fw-semibold">Content Orientation</h6>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="Orientation" id="tb_orientHorizontal" value="Horizontal" checked>
+                            <label class="form-check-label" for="tb_orientHorizontal">Horizontal</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="Orientation" id="tb_orientVertical" value="Vertical">
+                            <label class="form-check-label" for="tb_orientVertical">Vertical</label>
+                        </div>
+                    </div>
+
+                    <!-- Screen Aspect Ratio -->
+                    <!-- <div class="mb-4">
+                        <label for="aspectRatio" class="form-label">Screen Aspect Ratio</label>
+                        <select id="aspectRatio" class="form-select">
+                            <option>Full screen - Horizontal</option>
+                            <option>Full screen - Vertical</option>
+                            <option>Custom</option>
+                        </select>
+                    </div> -->
+                    
+                    <!-- Margins -->
+                    <!-- <div class="mb-4">
+                        <h5 class="fw-semibold">Margins</h5>
+                        <div class="row">
+                            <div class="col">
+                                <label for="marginTop" class="form-label">TOP</label>
+                                <input type="range" class="form-range" id="tb_marginTop">
+                            </div>
+                            <div class="col">
+                                <label for="marginBottom" class="form-label">BOTTOM</label>
+                                <input type="range" class="form-range" id="tb_marginBottom">
+                            </div>
+                            <div class="col">
+                                <label for="marginLeft" class="form-label">LEFT</label>
+                                <input type="range" class="form-range" id="tb_marginLeft">
+                            </div>
+                            <div class="col">
+                                <label for="marginRight" class="form-label">RIGHT</label>
+                                <input type="range" class="form-range" id="tb_marginRight" value="0">
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- Margins by clicking -->
+                    <div class="mb-4">
+                        <h6 class="fw-semibold">Margins</h6>
+                        Click two points to highlight the location of the content area
+                        <div class="row">
+                            <div class="col">
+                                <canvas id="tb_canvas" width="480" height="270"
+                                        style="background-color: #0d6efd">
+                                </canvas>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Maximum Font Size -->
+                    <div class="mb-4">
+                        <div class="row">
+                            <div class="col">
+                                <label for="tb_maxFontSize" class="form-label fw-semibold">Maximum Font Size</label>
+                                <!-- <input type="text" class="form-control w-25" id="maxFontSize" value="80"> -->
+                                <input type="range" value="80" min="8" max="200" step="1" id="tb_maxFontSize">
+                                <output id="tb_maxFontSize_val">80</output>
+                            </div>
+                            <div class="col">
+                                <label for="tb_linespace" class="form-label fw-semibold">Line Space</label>
+                                <input type="range" value="1" min="0.5" max="2" step="0.1" id="tb_linespace">
+                                <output id="tb_linespace_val">1</output>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Justification -->
+                    <!-- <div class="mb-4">
+                        <h5 class="fw-semibold">Justification</h5>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="tb_justification" value="Left" id="tb_justifyLeft">
+                            <label class="form-check-label" for="tb_justifyLeft">Left</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="tb_justification" value="Center" id="tb_justifyCenter" checked>
+                            <label class="form-check-label" for="tb_justifyCenter">Center</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="tb_justification" value="Right" id="tb_justifyRight">
+                            <label class="form-check-label" for="tb_justifyRight">Right</label>
+                        </div>
+                    </div> -->
+                    
+                    <!-- Options -->
+                    <div class="mb-4">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <!-- <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="tb_enableTransition" checked>
+                                    <label class="form-check-label" for="tb_enableTransition">Enable Transition</label>
+                                </div> -->
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="tb_enableOutline" checked>
+                                    <label class="form-check-label" for="tb_enableOutline">Enable Outline</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="tb_enableShadow" checked>
+                                    <label class="form-check-label" for="tb_enableShadow">Enable Shadow</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="tb_enableUppercase">
+                                    <label class="form-check-label" for="tb_enableUppercase">Enable Uppercase</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="tb_enableBorder">
+                                    <label class="form-check-label" for="tb_enableBorder">Enable Border</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="tb_enableBox">
+                                    <label class="form-check-label" for="tb_enableBox">Enable Box</label>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="tb_enableHeaderBox" checked>
+                                    <label class="form-check-label" for="tb_enableHeaderBox">Enable Header Box</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="tb_enableLineWrap">
+                                    <label class="form-check-label" for="tb_enableLineWrap">Enable Line Wrap</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="tb_showOnlyPrimary">
+                                    <label class="form-check-label" for="tb_showOnlyPrimary">Show only Primary Translation</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="tb_swapTranslations" checked>
+                                    <label class="form-check-label" for="tb_swapTranslations">Swap Primary and Secondary Translations</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-sm" id="themebuilder_save_button">SAVE</button>
+                <button type="button" class="btn btn-secondary btn-sm" id="themebuilder_delete_button">DELETE</button>
+                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal" id="themebuilder_cancel_button">CANCEL</button>
+            </div>
+        </div>
+    </div>
+</div>

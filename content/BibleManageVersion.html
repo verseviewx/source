@@ -1,0 +1,86 @@
+<!-- 
+    UI FOR THE BIBLE MANAGE VERSION SCREEN
+    NOV 8, 2022
+-->
+
+
+<div class="modal" tabindex="-1" id="p3">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Bible Version Manager</h5>
+            </div>
+            <div class="modal-body">
+
+                <div class="container-fluid">
+                    <!-- **** TWO COLUMN GRID **** -->
+                    <div class="row py-2">
+                        <!-- TWO COLUMNS -->
+                        <div class="col-6">
+                            <!-- The list to select the Version -->
+                            <label>Installed Versions</label>
+                            <select size="10" class="form-select form-select-sm" id="selectVersionList">
+                                <option value="0">English KJV</option>
+                                <option value="1">English KJV 1</option>
+                                <option value="2">English KJV 2</option>
+                            </select>
+                        </div>
+
+                        <div class="col-6">
+                            <label>Selected Version</label>
+                            <input type="text" class="form-control form-control-sm bg-dark text-white" id="versionVersionTextbox" aria-describedby="basic-addon1" disabled >
+                            
+                            <label>Copyright</label>
+                            <input type="text" class="form-control form-control-sm bg-dark text-white" id="copyrightVersionTextarea" aria-describedby="basic-addon1" disabled >
+
+                            
+                            <div class="row py-2">
+                                <label>Font</label>
+                                <div class="col-5">
+                                    <select class="form-select form-select-sm" id="fontVersionList">
+                                    </select>
+                                </div>
+                                <div class="col-1">
+                                    <a href="#" class="btn btn-secondary btn-sm" id="addFontVersionButton">
+                                        +</i>
+                                    </a>
+                                </div>
+                                <div class="col-4">
+                                    <input type="text" class="form-control form-control-sm" id="addFontVersionTextbox" aria-describedby="basic-addon1">
+                                </div>
+                                <div class="col-2">
+                                    <a href="#" class="btn btn-secondary btn-sm" id="addToFontListButton">OK</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BUTTONS AT THE BOTTOM -->
+                    <button type="button" class="btn btn-secondary btn-sm" id="browseVersionButton">ADD BIBLE</button>
+                    <button type="button" class="btn btn-secondary btn-sm" id="deleteVersionButton">DELETE BIBLE</button>
+                    <button type="button" class="btn btn-secondary btn-sm" id="saveVersionButton">SAVE</button>
+                    <!--
+                    <div class="row py-2">
+                        <a href="#" class="btn btn-secondary btn-sm" id="browseVersionButton">ADD BIBLE</a>
+                        <a href="#" class="btn btn-secondary btn-sm" id="deleteVersionButton">DELETE BIBLE</a>
+                        <a href="#" class="btn btn-secondary btn-sm" id="saveVersionButton">SAVE</a>
+                        <a href="#" class="btn btn-secondary btn-sm" id="closeVersionButton">CLOSE</a>
+                    </div>
+                    -->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <!--
+                <button type="button" class="btn btn-secondary" id="browseVersionButton">ADD BIBLE</button>
+                <button type="button" class="btn btn-secondary" id="deleteVersionButton">DELETE BIBLE</button>
+                <button type="button" class="btn btn-secondary" id="saveVersionButton">SAVE</button>
+                -->
+                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">CLOSE</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

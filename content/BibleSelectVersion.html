@@ -1,0 +1,95 @@
+<!-- 
+    UI FOR THE BIBLE SELECTION SCREEN
+    NOV 5, 2022
+-->
+
+
+<div class="modal" tabindex="-1" id="p2">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Bible Version Selection</h5>
+            </div>
+            <div class="modal-body">
+
+                <div class="container-fluid">
+                    <!-- **** TWO COLUM GRID **** -->
+                    <div class="row py-2">
+                        <!-- ONE COLUMN -->
+                        <div class="col-6">
+                            <label>Primary</label>
+                            <select class="form-select form-select-sm" aria-label="Primary Bible Translation" id="version1Menu">
+                                <option value="1" selected>English (KJV)</option>
+                            </select>
+                        </div>
+                        <div class="col-6">
+                            <div id="version1Text"></div>
+                        </div>
+                    </div>
+
+                    <div class="row py-2">
+                        <!-- ONE COLUMN -->
+                        <div class="col-6">
+                            <label>Secondary</label>
+                            <select class="form-select form-select-sm" aria-label="Secondary Bible Translation" id="version2Menu">
+                                <option value="1" selected>English (KJV)</option>
+                            </select>
+                        </div>
+                        <div class="col-6">
+                            <div id="version2Text"></div>
+                        </div>
+                    </div>
+
+                    <div class="row py-2">
+                        <div class="col-6">
+                            <input type="checkbox" id="singleVersionBoxID"> Display Only Primary Version<br>
+                        </div>
+                        <div class="col-6 d-none">
+                            <input type="checkbox" id="multipleVerseID"> Display 2 verse per slide <br>
+                        </div>
+                    </div>
+
+                    <div class="row py-2">
+                        <div class="col-6">
+                            <label>Book Name Style</label>
+                            <select class="form-select form-select-sm" aria-label="Book Name Style" id="booknameStyle">
+                                <option value="0" selected>English</option>
+                                <option value="1">Primary Language</option>
+                                <option value="2">Primary Language with English</option>
+                                <option value="3">Primary Language with Secondary</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <div class="row py-2">
+                        <div class="col-6">
+                            <input type="checkbox" id="englishList" checked> Book selection in English<br>
+                        </div>
+                    </div>
+
+                    <div class="row py-2">
+                        <div class="col-6">
+                            <input type="checkbox" id="navDualLanguageID" checked> Dual language display for Navigation<br>
+                        </div>
+                    </div>
+
+                    <div class="row py-2 d-none">
+                        <label class="form-label" for="sliderNavFontSize">Navigation Font Size</label>
+                        <div class="range">
+                            <input type="range" class="form-range" id="sliderNavFontSize" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">CLOSE</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

@@ -1,0 +1,205 @@
+{
+    "presentationthemes" : [
+    {
+        "themeName": "Full screen - Horizontal",
+        "themeDescription": "Full screen showing both translations if available. The content will be in horizontal format",
+
+        "content1Left": 80,
+        "content1Top": 130,
+        "content1Right": 1835,
+        "content1Bottom": 550,
+
+        "content2Left": 80,
+        "content2Top": 550,
+        "content2Right": 1835,
+        "content2Bottom": 970,
+
+        "ShowPrimaryLang": false,
+        "EnableUppercase": false,
+        "EnableBorder": false,
+        "EnableBlackBox": false,
+        "SwapTranslations": false,
+        "EnableLineWrap": false,
+        "EnableShadow": true,
+        "EnableHeaderBox": true,
+
+        "LineHeight" : ""
+    },
+    {
+        "themeName": "Full screen - Horizontal / Small line space",
+        "themeDescription": "Full screen showing both translations if available. The content will be in horizontal format with compressed line space",
+
+        "content1Left": 80,
+        "content1Top": 120,
+        "content1Right": 1835,
+        "content1Bottom": 545,
+
+        "content2Left": 180,
+        "content2Top": 545,
+        "content2Right": 1735,
+        "content2Bottom": 970,
+
+        "ShowPrimaryLang": false,
+        "EnableUppercase": false,
+        "EnableBorder": false,
+        "EnableBlackBox": false,
+        "SwapTranslations": false,
+        "EnableLineWrap": true,
+        "EnableShadow": true,
+        "EnableHeaderBox": true,
+
+        "LineHeight" : "1"
+    },
+    {
+        "themeName": "Top Section - Horizontal",
+        "themeDescription": "Full screen showing single translations on the top 30%. The content will be in horizontal format",
+
+        "content1Left": 180,
+        "content1Top": 120,
+        "content1Right": 1735,
+        "content1Bottom": 222,
+
+        "content2Left": 180,
+        "content2Top": 222,
+        "content2Right": 1735,
+        "content2Bottom": 324,
+
+        "ShowPrimaryLang": true,
+        "EnableUppercase": false,
+        "EnableBorder": false,
+        "EnableBlackBox": false,
+        "SwapTranslations": false,
+        "EnableLineWrap": false,
+        "EnableShadow": true,
+        "EnableHeaderBox": true,
+
+        "LineHeight" : ""
+    },
+    {
+        "themeName": "Full screen - Vertical",
+        "themeDescription": "Full screen showing both translations if available. The content will be in vertical format",
+
+        "content1Left": 220,
+        "content1Top": 190,
+        "content1Right": 910,
+        "content1Bottom": 890,
+
+        "content2Left": 1010,
+        "content2Top": 190,
+        "content2Right": 1695,
+        "content2Bottom": 890,
+
+        "ShowPrimaryLang": false,
+        "EnableUppercase": false,
+        "EnableBorder": false,
+        "EnableBlackBox": false,
+        "SwapTranslations": false,
+        "EnableLineWrap": false,
+        "EnableShadow": true,
+        "EnableHeaderBox": true,
+
+        "LineHeight" : ""
+    },
+    {
+        "themeName": "Full screen Box - Horizontal",
+        "themeDescription": "Full screen showing one translations. The content will be in horizontal format with black box",
+
+        "content1Left": 180,
+        "content1Top": 360,
+        "content1Right": 1735,
+        "content1Bottom": 540,
+
+        "content2Left": 180,
+        "content2Top": 540,
+        "content2Right": 1735,
+        "content2Bottom": 720,
+
+        "ShowPrimaryLang": true,
+        "EnableUppercase": true,
+        "EnableBorder": false,
+        "EnableBlackBox": true,
+        "SwapTranslations": false,
+        "EnableLineWrap": false,
+        "EnableShadow": true,
+        "EnableHeaderBox": true,
+
+        "LineHeight" : ""
+    },
+    {
+        "themeName": "Full screen White Border - Horizontal",
+        "themeDescription": "Full screen showing one translations. The content will be in horizontal format with white border",
+
+        "content1Left": 180,
+        "content1Top": 360,
+        "content1Right": 1735,
+        "content1Bottom": 540,
+
+        "content2Left": 180,
+        "content2Top": 540,
+        "content2Right": 1735,
+        "content2Bottom": 720,
+
+        "ShowPrimaryLang": true,
+        "EnableUppercase": true,
+        "EnableBorder": true,
+        "EnableBlackBox": false,
+        "SwapTranslations": false,
+        "EnableLineWrap": false,
+        "EnableShadow": true,
+        "EnableHeaderBox": true,
+
+        "LineHeight" : ""
+    },
+    {
+        "themeName": "Vertical Shorts Format",
+        "themeDescription": "Vertical format for shorts",
+
+        "content1Left": 760,
+        "content1Top": 130,
+        "content1Right": 1160,
+        "content1Bottom": 550,
+
+        "content2Left": 760,
+        "content2Top": 550,
+        "content2Right": 1160,
+        "content2Bottom": 970,
+
+        "ShowPrimaryLang": true,
+        "EnableUppercase": true,
+        "EnableBorder": false,
+        "EnableBlackBox": false,
+        "SwapTranslations": false,
+        "EnableLineWrap": true,
+        "EnableShadow": true,
+        "EnableHeaderBox": true,
+
+        "LineHeight" : ""
+    },{
+        "themeName": "Full screen - Minimum margins",
+        "themeDescription": "Full screen showing both translations if available. The content will be in horizontal format with minimum margins.",
+
+        "content1Left": 50,
+        "content1Top": 50,
+        "content1Right": 1835,
+        "content1Bottom": 515,
+
+        "content2Left": 50,
+        "content2Top": 515,
+        "content2Right": 1835,
+        "content2Bottom": 980,
+
+        "ShowPrimaryLang": true,
+        "EnableUppercase": false,
+        "EnableBorder": false,
+        "EnableBlackBox": false,
+        "SwapTranslations": false,
+        "EnableLineWrap": true,
+        "EnableShadow": true,
+        "EnableHeaderBox": true,
+
+        "LineHeight" : "1.1"
+    }
+]
+}
+
+

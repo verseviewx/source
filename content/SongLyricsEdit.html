@@ -1,0 +1,174 @@
+<!-- HTML FOR THE SONG LYRICS EDIT PANEL (3/21/2023) -->
+
+
+<div class="modal" tabindex="-1" id="p4">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Song Lyrics Add / Edit</h5>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row py-2">
+
+                        <div class="col-5">
+                            <label class="fw-semibold">Title</label>
+                            <input type="text" class="form-control form-control-sm" id="songEdit_title_id" placeholder="Song Title">
+                        </div>
+
+
+                        <div class="col-5">
+                            <label class="fw-semibold">Title 2</label>
+                            <input type="text" class="form-control form-control-sm" id="songEdit_title2_id" placeholder="Alternate Song Title">
+                        </div>
+
+
+                        <div class="col-2">
+                            <label class="fw-semibold">#</label>
+                            <input type="text" class="form-control form-control-sm" id="songEdit_songnumber_id" placeholder="Song Number" disabled>
+                        </div>
+                    </div>
+
+                    <!-- ROW 2 CATEGORY -->
+                    <div class="row py-2">
+
+                        <div class="col-2">
+                            <label class="fw-semibold">Category</label>
+                        </div>
+
+                        <div class="col-3">
+                            <select class="form-select  form-select-sm" aria-label="Song Edit Category" id="songEdit_category_id">
+                            </select>
+                        </div>
+
+
+                        <div class="col-1">
+                            <a href="#" class="btn btn-secondary btn-sm" id="songEdit_addcat_id">+</a>
+                        </div>
+
+
+                        <div class="col-3">
+                            <input type="text" class="form-control form-control-sm" id="songEdit_newcat_id" placeholder="New Category">
+                        </div>
+
+                        <div class="col-2">
+                            <a href="#" class="btn btn-secondary btn-sm" id="songEdit_addcatok_id">OK</a>
+                        </div>
+
+                    </div>
+
+                    <!-- ROW 3 Primary Font -->
+                    <div class="row py-2">
+
+                        <div class="col-2">
+                            <label class="fw-semibold">Primary Font</label>
+                        </div>
+
+                        <div class="col-3">
+                            <select class="form-select form-select-sm" aria-label="Primary Font List" id="songEdit_primaryFont_id">
+                            </select>
+                        </div>
+
+
+                        <div class="col-1">
+                            <a href="#" class="btn btn-secondary btn-sm addfontbuttonclass" id="songEdit_addFont_id">+</a>
+                        </div>
+
+
+                        <div class="col-3">
+                            <input type="text" class="form-control form-control-sm" id="songEdit_newfont_id" placeholder="New Font">
+                        </div>
+
+                        <div class="col-2">
+                            <a href="#" class="btn btn-secondary btn-sm" id="songEdit_newfontok_id">OK</a>
+                        </div>
+
+                    </div>
+
+                    <!-- ROW 4 Secondary Font -->
+                    <div class="row py-2">
+
+                        <div class="col-2">
+                            <label class="fw-semibold">Secondary Font</label>
+                        </div>
+
+                        <div class="col-3">
+                            <select class="form-select form-select-sm" aria-label="Secondary Font List" id="songEdit_secfont_id">
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <!-- ROW 5 Key Lyrics YouTube Link -->
+                    <div class="row py-2">
+
+                        <div class="col-2">
+                            <label class="fw-semibold">Key</label>
+                            <input type="text" class="form-control form-control-sm" id="songEdit_key_id" placeholder="C or Cm">
+                        </div>
+
+                        <div class="col-3">
+                            <label class="fw-semibold">Lyrics By</label>
+                            <input type="text" class="form-control form-control-sm" id="songEdit_copyright_id" placeholder="Author">
+                        </div>
+
+                        <div class="col-7">
+                            <label class="fw-semibold">YouTube Link</label>
+                            <input type="text" class="form-control form-control-sm" id="songEdit_youtube_id" placeholder="YouTube Link">
+                        </div>
+
+                    </div>
+
+
+                    <!-- ROW 6 Lyrics -->
+                    <div class="row py-2">
+                        <div class="col" id="songedit_lyricsrow"></div>
+                    </div>
+
+
+                    <!-- ROW 7 Lyrics Control Buttons -->
+                    <div class="row py-2">
+
+                        <div class="col-10">
+                            <a href="#" class="btn btn-secondary btn-sm" id="songEdit_prev_button_id"><</a>
+                            <a href="#" class="btn btn-secondary btn-sm" id="songEdit_next_button_id">></a>
+                            <a href="#" class="btn btn-secondary btn-sm" id="songEdit_add_button_id">ADD</a>
+                            <a href="#" class="btn btn-secondary btn-sm" id="songEdit_duplicate_button_id">DUPLICATE</a>
+                            <a href="#" class="btn btn-secondary btn-sm" id="songEdit_delete_button_id">DELETE</a>
+                            <a href="#" class="btn btn-secondary btn-sm" id="songEdit_create_button_id">CREATE</a>
+                        </div>
+                    </div>
+
+
+                    <!-- ROW 8 Notes and Tags -->
+                    <div class="row py-2">
+
+                        <div class="col-6">
+                            <label class="fw-semibold">Notes</label>
+                            <input type="text" class="form-control form-control-sm" id="songEdit_notes_id" placeholder="Add Notes">
+                        </div>
+
+                        <div class="col-6">
+                            <label class="fw-semibold">Tags</label>
+                            <input type="text" class="form-control form-control-sm" id="songEdit_tags_id"
+                                placeholder="Tags are seperated by comma">
+                        </div>
+                    </div>
+
+                    <!-- ROW 9  -->
+                    <div class="row py-2">
+
+                        <div class="col-6">
+                            <!--<a href="#" class="btn btn-secondary btn-sm" id="songEdit_present_button_id">PRESENT</a>-->
+                            <a href="#" class="btn btn-secondary btn-sm" id="songEdit_save_button_id">SAVE</a>
+                            <a href="#" class="btn btn-secondary btn-sm" id="songEdit_saveasnew_button_id">SAVE AS NEW</a>
+                            <a href="#" class="btn btn-secondary btn-sm" id="songEdit_cancel_button_id">CANCEL</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

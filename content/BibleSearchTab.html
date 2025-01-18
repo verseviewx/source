@@ -1,0 +1,117 @@
+<!--
+    HTML FOR THE BIBLE SEARCH TAB
+-->
+
+<div class="container-fluid">
+    <div class="row py-2">
+        <div class="col-4">
+            <!-- INPUT FOR KEYWORD -->
+            <input type="text" class="form-control form-control-sm" id="adSearch" placeholder="Enter Search Phrase" aria-label="Search Phrase" aria-describedby="basic-addon1">
+        </div>
+
+        <!--
+        <div class="col-3">
+            
+        </div>
+
+		
+        -->
+		
+        <div class="col-2">
+			<a href="#" class="btn btn-primary btn-sm active" id="adSearchButton" aria-current="page">
+				<i class="bi-search"></i>
+			</a>
+		</div>
+
+    </div>
+
+    <div class="row py-2">
+        <div class="accordion" id="bibleSearchOptions">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed h6 text-bg-secondary py-2" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#bibleSearchList">
+                        Search Options
+                    </button>
+                </h2>
+                <div id="bibleSearchList" class="accordion-collapse collapse show" data-bs-parent="#bibleSearchOptions">
+                    <div class="accordion-body">
+                        <div class="row py-2">
+                            <div class="col-4">
+                                <select class="form-select form-select-sm"  id="searchStyle" aria-label="size 3 select example">
+                                    <option selected value="1">Contains</option>
+                                    <option value="2">Exact Phrase</option>
+                                </select>
+                            </div>
+                            <div class="col-4">
+                                <select class="form-select form-select-sm" id="searchBook" aria-label="size 3 select example">
+                                    <option selected value="1">All Books</option>
+                                    <option value="2">Genesis</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row py-2">
+                            <div class="col-4">
+                                <input type="checkbox" value="" id="bibleSearchHighlight" checked>
+                                <label class="form-check-label" for="bibleSearchHighlight"> Highlight Keyword(s)</label>
+                            </div>
+                            <div class="col-4">
+                                <input type="checkbox" value="" id="bibleSearchSecondary">
+                                <label class="form-check-label" for="bibleSearchSecondary"> Search the Secondary Version</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div class="row py-2">
+        <div class="col-8">
+            <div id="searchSummaryID"></div>
+        </div>
+
+        <!--
+		<div class="col-4">
+            <a href="#" class="btn btn-secondary btn-sm" id="searchSaveResults">SAVE RESULTS</a>
+        </div>
+        -->
+    </div>
+
+
+	<!-- RESULT PAGINATION -->
+    <!--
+	<div class="row py-2">
+        <div class="col">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+    </div>
+    -->
+    <div id="searchResultID" class="row py-2"></div>
+    <!--<div class="row py-2">
+        
+    </div>-->
+
+
+</div>
+
+
+
+
+

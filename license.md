@@ -1,0 +1,1 @@
+The use of the VERSEVIEW software downloaded through the verseview.info site is done at your own discretion and risk and with agreement that you will be solely responsible. No advice or information, whether oral or written, obtained by you from VERSEVIEW or from the VERSEVIEW web site shall create any warranty for the software.

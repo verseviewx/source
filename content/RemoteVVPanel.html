@@ -1,0 +1,149 @@
+<div class="modal" tabindex="-1" id="p1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Remote VerseVIEW Setup</h5>
+            </div>
+            <div class="modal-body">
+
+
+
+                <div class="container-fluid">
+                    <!-- **** TWO COLUM GRID **** -->
+                    <div class="row py-2">
+                        <!-- LEFT COLUMN -->
+                        <div class="col-5">
+                            
+                            <label>IP Address or Hostname</label>
+                            <div class="row py-2">
+                                <div class="col-10">
+                                    <select class="form-select form-select-sm" aria-label="Select IP Address" id="configIPaddr">
+                                        <option value="1" selected>127.0.0.1</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <label>Selected Address</label>
+                            <div class="row py-2">
+                                <div class="col-10">
+                                    <input type="text" class="form-control form-control-sm" id="configRemoteHostname"
+                                        placeholder="" value="" disabled>
+                                </div>
+
+                                <!--
+                                <div class="col-6">
+                                    <input type="checkbox" id="remoteVVUseHostname"> Use Hostname<br>
+                                </div>
+                                -->
+                            </div>
+
+                            <label>Port</label>
+                            <div class="row py-2">
+                                <div class="col-6">
+                                    <!-- Add tooltip with port number range -->
+                                    <input type="text" class="form-control form-control-sm" id="configRemotePort"
+                                        placeholder="49152 to 65535" aria-label="Port Number" value="50000"
+                                        aria-describedby="basic-addon1">
+
+                                </div>
+                                <div class="col-6">
+                                    <a href="#" class="btn btn-secondary btn-sm" id="saveRemoteVVSettings">ENABLE</a>
+                                </div>
+                            </div>
+
+                            
+
+                            <!--
+                            <div class="row py-2">
+                                <a href="#" class="btn btn-secondary btn-sm" id="remoteVVShowKeywords">Show Messenger
+                                    Keywords</a>
+                                <div id="fixedWordListDiv">
+                                    <label>Messenger Keywords</label>
+                                    <textarea class="form-control" id="fixedWordList"
+                                        rows="2">piano,drums,guitar,violin,bass,kick,snare,monitor,sound,up,down,yes,no,key,off,floor monitor</textarea><br>
+                                    <a href="#" class="btn btn-secondary btn-sm" id="updateFixedWords">Update
+                                        Keywords</a>
+                                </div>
+                            </div>
+
+
+                            <label>More Information</label>
+                            <div class="row py-2">
+                                <div class="col">
+                                    <span id="remoteVVHint">Panel to control Remote VerseVIEW Settings</span>
+                                </div>
+                            </div>
+                            -->
+
+                        </div>
+
+                        <!-- CENTER SPACE -->
+                        <div class="col-2"></div>
+
+                        <!-- RIGHT COLUMN -->
+                        <div class="col-5">
+                            <div class="row py-2">
+                                <span id="remoteVVStatus">Remote VerseVIEW Disabled</span>
+                            </div>
+
+                            <label>Remote Link</label>
+                            <select name="select" class="form-select form-select-sm" id="remoteVVRemoteFunc">
+                                <option value=1>Control</option>
+                                <option value=2>Stageview 1</option>
+                                <option value=3>Stageview 2</option>
+                                <option value=4>Stageview 3</option>
+                                <option value=16>Stageview with Next Slide (Vertical)</option>
+                                <option value=17>Stageview with Next Slide (Horizontal)</option>
+                                <!--<option value=5>Stageview 4</option>-->
+                                <option value=6>Lower Third A Primary</option>
+                                <option value=7>Lower Third A Secondary</option>
+                                <option value=8>Lower Third B</option>
+                                <option value=9>Lower Third C</option>
+                                <option value=10>Lower Third D</option>
+                                <option value=11>Lower Third D2</option>
+                                <option value=12>Lower Third E2</option>
+                                <option value=13>Lower Third G</option>
+                                <option value=14>Lower Third H</option>
+                                <option value=15>Lower Third Arabic</option>
+                            </select>
+
+
+                            <div class="row py-2">
+                                <div id="qrcode"></div>
+                            </div>
+
+                            <!--
+                            <div class="row py-2">
+                                <div class="col-8">
+                                    <input type="text" class="form-control" id="configRemoteLink"
+                                        placeholder="Link to Remote" aria-label="Remote link" value=""
+                                        aria-describedby="basic-addon1">
+                                </div>
+                                <div class="col-4">
+                                    <a href="#" class="btn btn-secondary btn-sm d-none" id="configRemoteCopy">COPY</a>
+                                </div>
+                            </div>
+                            -->
+
+
+                        </div>
+                    </div>
+                    <div class="row py-2">
+                        <div class="col-10">
+                            <input type="text" class="form-control form-control-sm" id="configRemoteLink"
+                                placeholder="Link to Remote" aria-label="Remote link" value=""
+                                aria-describedby="basic-addon1" disabled>
+                        </div>
+                        <div class="col-2">
+                            <a href="#" class="btn btn-secondary btn-sm" id="configRemoteCopy">COPY</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">CLOSE</button>
+            </div>
+        </div>
+    </div>
+</div>

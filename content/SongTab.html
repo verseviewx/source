@@ -1,0 +1,77 @@
+<div class="container-fluid">
+    <div class="row py-2">
+        <div class="col-6 input-group-sm">
+            <label for="songnav_category" class="form-label">CATEGORY</label>
+            <select class="form-select form-select-sm" id="songnav_category" aria-label=".form-select-sm example">
+                <option selected value="1">ALL</option>
+                <option value="2">Malayalam 2022</option>
+                <option value="3">Hindi</option>
+            </select>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-5">
+            <label for="songnav_tags" class="form-label">TAGS</label>
+            <select class="form-select form-select-sm" id="songnav_tags" aria-label=".form-select-sm example">
+                <option selected value="1">ALL</option>
+                <option value="2">Praise</option>
+                <option value="3">Worship</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row py-2">
+        <div class="col-7 input-group-sm">
+            <input type="text" class="form-control input-group-sm" placeholder="Search Song" id="songnav_editbox" spellcheck="false" aria-label="Search Song"
+                aria-describedby="basic-addon1">
+        </div>
+        <div class="col-5">
+            <div class="btn-group">
+                <a href="#" class="btn btn-primary btn-sm" id="songnav_searchbutton" data-bs-toggle="tooltip" data-bs-placement="top" title="Search Within Song" aria-current="page">
+                    <i class="bi-search"></i>
+                </a>
+                <a href="#" id="songnav_searchauthorbutton" class="btn btn-sm btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Search By Author">
+                    <i class="bi-person"></i>
+                </a>
+                <a href="#" id="songnav_clearbutton" class="btn btn-sm btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Clear Search">
+                    <i class="bi-x-circle"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    <div class="row py-2">
+        <div class="col">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    -->
+
+    <div class="container-fluid overflow-auto songTitleListHeight" id="songtitlelistx">
+        <div class="row ">
+            <div class="col" > 
+                <div class="list-group list-group-flush" id="songtitlelist">
+                    <!--<li class="list-group-item">An item</li>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>

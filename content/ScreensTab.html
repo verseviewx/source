@@ -1,0 +1,412 @@
+<div class="container-fluid overflow-auto">
+    <div class="row py-2">
+        <div class="col">
+            <p class="h6">Screen Setup</p>
+        </div>
+    </div>
+
+    <div class="row py-2">
+        <div class="col-5">
+            <input type="checkbox" id="screen_enableMainPresentation"> Enable Main Presentation<br>
+
+            <p class="h6">Main Presentation Screen</p>
+            <select class="form-select" aria-label="Select main screen" id="screen_mainScreenSelection">
+                <option value="1" selected>Screen 1 1920x1080</option>
+                <option value="2">Screen 2 1920x1080</option>
+            </select>
+        </div>
+        <div class="col-5" id="screen_enableStageviewScreen">
+            <input type="checkbox" id="screen_enableStageviewPresentation"> Enable Stage Presentation<br>
+
+            <p class="h6">Stageview Screen</p>
+            <select class="form-select" aria-label="Select stageview screen" id="screen_stageviewScreenSelection">
+                <option value="1" selected>Screen 1 1920x1080</option>
+                <option value="2">Screen 2 1920x1080</option>
+            </select>
+        </div>
+    </div>
+
+
+
+    <div class="accordion" id="accordionComponentScreenSetup">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="screen_mainPresentationSetupTitle">
+                <button class="accordion-button collapsed h6 text-bg-secondary py-2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#screen_mainPresentationSetup" aria-expanded="false"
+                    aria-controls="flush-collapseOne">
+                    Main Presentation Screen Setup
+                </button>
+            </h2>
+            <div id="screen_mainPresentationSetup" class="accordion-collapse collapse show"
+                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <!-- MAIN PRESENTATION SCREEN SETUP CONTENT -->
+
+                    <div class="row py-2">
+                        <div class="col-4">
+                            <label for="screen_mainPreset" class="form-label">PRESETS</label>
+                            <select class="form-select form-select-sm" size="1" id="screen_mainPreset"  aria-label="size 1 select example">
+                                <option value=0>Full screen horizontal</option>
+                                <option value=1>Full screen vertical</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- MARGINS -->
+                    <!--
+                    <div class="row py-2">
+                        <div class="col-3">
+                            <p class="h6">MARGIN TOP</p>
+                            <input class="form-control form-control-sm" type="text" placeholder="50"
+                                id="screen_mainMarginTop" aria-label=".form-control-sm">
+                        </div>
+
+                        <div class="col-3">
+                            <p class="h6">LEFT</p>
+                            <input class="form-control form-control-sm" type="text" placeholder="50"
+                                id="screen_mainMarginLeft" aria-label=".form-control-sm">
+                        </div>
+
+                        <div class="col-3">
+                            <p class="h6">BOTTOM</p>
+                            <input class="form-control form-control-sm" type="text" placeholder="50"
+                                id="screen_mainMarginBottom" aria-label=".form-control-sm">
+                        </div>
+
+                        <div class="col-3">
+                            <p class="h6">RIGHT</p>
+                            <input class="form-control form-control-sm" type="text" placeholder="50"
+                                id="screen_mainMarginRight" aria-label=".form-control-sm">
+                        </div>
+                    </div>
+                    -->
+
+                    <!-- MAXIMUM FONT SIZE -->
+                    <div class="row py-2">
+                        <div class="col-4">
+                            <p class="h6">Maximum Font Size</p>
+                            <input class="form-control form-control-sm" type="text" placeholder="30 to 200"
+                                id="screen_mainMaximumFontSizeValue" aria-label=".form-control-sm">
+                            <!--<input type="range" class="form-range" min="30" max="200" step="1" id="screen_mainMaximumFontSize">-->
+                        </div>
+                    </div>
+
+                    <!-- TEXT JUSTIFICATION -->
+                    <div class="row py-2">
+                        <div class="col-8">
+                            <p class="h6">Justification</p>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" name="inlineRadioOptions1"
+                                    id="screen_justificationLeft" value="0">
+                                <label class="form-check-label" for="inlineRadio1">Left</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" name="inlineRadioOptions1"
+                                    id="screen_justificationCenter" value="1">
+                                <label class="form-check-label" for="inlineRadio2">Center</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" name="inlineRadioOptions1"
+                                    id="screen_justificationRight" value="2">
+                                <label class="form-check-label" for="inlineRadio3">Right</label>
+                            </div>
+                        </div>
+                    </div> <!-- TEXT JUSTIFICATION -->
+
+                    <!-- PRESENTATION OPTIONS -->
+                    <div class="row py-2">
+                        <div class="col-5">
+                            
+                            <input type="checkbox" id="screen_mainPresentationEnableTransition">
+                            <label class="form-check-label" for="screen_mainPresentationEnableTransition">Enable Transition</label><br>
+
+                            <input type="checkbox" id="screen_mainPresentationEnableOutline"> 
+                            <label class="form-check-label" for="screen_mainPresentationEnableOutline">Enable Outline</label><br>
+
+                            <input type="checkbox" id="screen_mainPresentationEnableShadow"> 
+                            <label class="form-check-label" for="screen_mainPresentationEnableShadow">Enable Shadow</label><br>
+
+                            <input type="checkbox" id="screen_mainPresentationEnableUppercase">
+                            <label class="form-check-label" for="screen_mainPresentationEnableUppercase">Enable Uppercase</label><br>
+                            
+                            <input type="checkbox" id="screen_mainPresentationEnableBorder"> 
+                            <label class="form-check-label" for="screen_mainPresentationEnableBorder">Enable Border</label><br>
+                            
+                            <input type="checkbox" id="screen_mainPresentationEnableBlackBox"> 
+                            <label class="form-check-label" for="screen_mainPresentationEnableBlackBox">Enable Box</label><br>
+
+                            <input type="checkbox" id="screen_mainPresentationEnableHeaderBox"> 
+                            <label class="form-check-label" for="screen_mainPresentationEnableHeaderBox">Enable Header Box</label><br>
+                            
+                            <input type="checkbox" id="screen_mainPresentationEnableLineWrap"> 
+                            <label class="form-check-label" for="screen_mainPresentationEnableLineWrap">Enable Line Wrap</label><br>
+                            
+                            <input type="checkbox" id="screen_mainPresentationShowPrimaryLang"> 
+                            <label class="form-check-label" for="screen_mainPresentationShowPrimaryLang">Show only Primary Translation</label><br>
+                            
+                            <input type="checkbox" id="screen_mainPresentationSwapTranslations"> 
+                            <label class="form-check-label" for="screen_mainPresentationSwapTranslations">Swap Primary and Secondary Translations</label><br>
+                        </div>
+
+                        <div class="col-5">
+                            <input type="checkbox" value=""
+                                id="screen_mainPresentationShowStanzaNumber">
+                            <label class="form-check-label" for="screen_mainPresentationShowStanzaNumber">Hide Stanza
+                                Number</label><br>
+                            
+                            <input type="checkbox" value=""
+                                id="screen_mainPresentationSong2Lines">
+                            <label class="form-check-label" for="screen_mainPresentationSong2Lines">Show Lyrics in Two
+                                Lines</label><br>
+
+                            <input type="checkbox" id="screen_mainPresentationOnTop"> 
+                            <label class="form-check-label" for="screen_mainPresentationOnTop">Keep Presentation Window on Top</label><br>
+                            
+                            <input type="checkbox" value=""
+                                id="screen_mainPresentationShowDate">
+                            <label class="form-check-label" for="screen_mainPresentationShowDate">Show Date and
+                                Time</label><br>
+
+                            <input type="checkbox" value=""
+                                id="screen_mainPresentationShowVVLogo">
+                            <label class="form-check-label" for="screen_mainPresentationShowVVLogo">Show VerseVIEW
+                                Logo</label><br>
+
+                            <input type="checkbox" value=""
+                                id="screen_mainPresentationShowCustomLogo">
+                            <label class="form-check-label" for="screen_mainPresentationShowCustomLogo">Show Custom
+                                Logo</label><br>
+
+                            <input class="form-control form-control-sm" type="text" placeholder="VerseVIEW"
+                                id="screen_mainLogoLine1" aria-label=".form-control-sm">
+                            <input class="form-control form-control-sm" type="text" placeholder="www.verseview.info"
+                                id="screen_mainLogoLine2" aria-label=".form-control-sm">
+                        </div>
+                    </div> <!-- PRESENTATION OPTIONS -->
+
+
+                    <!-- SONG PRESENTATION STYLE -->
+                    <!--
+                    <div class="row py-2">
+                        <div class="col-8">
+                            <p class="h6">Lyrics Presentation Style</p>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" name="inlineRadioOptions2"
+                                    id="screen_lyricsPresentationHori" value="1">
+                                <label class="form-check-label" for="inlineRadio1">Horizontal</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" name="inlineRadioOptions2"
+                                    id="screen_lyricsPresentationVert" value="2">
+                                <label class="form-check-label" for="inlineRadio2">Vertical</label>
+                            </div>
+                        </div>
+                    </div> --> <!-- SONG PRESENTATION STYLE -->
+
+
+                    <!-- SONG PRESENTATION OPTIONS -->
+                    <div class="row py-2">
+                        <div class="col-5">
+                            <!--<div>Bible Verses</div>-->
+                            <!--
+                            <input type="checkbox" value=""
+                                id="screen_mainPresentationShowSongTitle">
+                            <label class="form-check-label" for="screen_mainPresentationShowSongTitle">Show Song
+                                Title</label><br>
+                                -->
+
+                            
+                        </div>
+
+                        <div class="col-5">
+                            <!--<div>Song Lyrics</div>-->
+
+                            
+                            
+                  
+
+                            
+                        </div>
+                    </div> <!-- SONG PRESENTATION OPTIONS -->
+
+
+
+                    <!-- VERSE PRESENTATION STYLE -->
+                    <!--
+                    <div class="row py-2">
+                        <div class="col-8">
+                            <p class="h6">Verse Presentation Style</p>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" name="inlineRadioOptions3"
+                                    id="screen_versePresentationHori" value="1">
+                                <label class="form-check-label" for="inlineRadio1">Horizontal</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" name="inlineRadioOptions3"
+                                    id="screen_versePresentationVert" value="2">
+                                <label class="form-check-label" for="inlineRadio2">Vertical</label>
+                            </div>
+                        </div>
+                    </div> --> <!-- VERSE PRESENTATION STYLE -->
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="accordion-item" id="screen_stageviewSettings">
+            <h2 class="accordion-header" id="screen_stageviewSetupTitle">
+                <button class="accordion-button collapsed text-bg-secondary py-2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#screen_stageviewSetup" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Stageview Screen Setup
+                </button>
+            </h2>
+            <div id="screen_stageviewSetup" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <!-- STAGEVIEW SCREEN PRESET -->
+                    <div class="row py-2">
+                        <div class="col-4">
+                            <label for="screen_stageviewPreset" class="form-label">PRESETS</label>
+                            <select class="form-select form-select-sm" size="1" id="screen_stageviewPreset"  aria-label="size 1 select example">
+                                <option value='stage'>Full Screen - Horizontal</option>
+                                <option value='stage2'>Full Screen - Primary</option>
+                                <option value='stage3'>Lower Third</option>
+                                <option value='stage4'>Lower Third - Primary</option>
+                                <option value='stage5'>Stageview with next slide - Vertical</option>
+                                <option value='stage6'>Stageview with next slide - Horizontal</option>
+                                <!--<option value=1>Lower Third Secondary</option>
+                                <option value=1>Reference only</option>-->
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- SETTINGS -->
+                    <p class="h6">Stage Screen Style</p>
+                    <div class="row py-2">
+                        <div class="col-4">
+                            <input type="checkbox" value="" id="stageviewWindow">
+                            <label class="form-check-label" for="stageviewWindow">Window View</label>
+                        </div>
+
+                        <div class="col-4" id="stageviewMiniWindowCol">
+
+                            <input type="checkbox" value="" id="stageviewMiniWindow">
+                            <label class="form-check-label" for="stageviewMiniWindow">Small Window</label>
+
+                        </div>
+
+                        <div class="col-4">
+
+                            <input type="checkbox" value="" id="stageviewGreenWindow">
+                            <label class="form-check-label" for="stageviewGreenWindow">Green Screen</label>
+
+                        </div>
+                    </div>
+
+                    <!-- SLIDERS -->
+                    <!--
+                    <div class="row py-2">
+                        <div class="col-6">
+                            <label class="form-label" for="customRange1">Opacity</label>
+                            <div class="range">
+                                <input type="range" class="form-range" id="customRange1" />
+                            </div>
+
+                            <label class="form-label" for="customRange1">Height</label>
+                            <div class="range">
+                                <input type="range" class="form-range" id="customRange1" />
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <label class="form-label" for="customRange1">Maximum Font Size</label>
+                            <div class="range">
+                                <input type="range" class="form-range" id="customRange1" />
+                            </div>
+
+                            <label class="form-label" for="customRange1">Text Color</label>
+                            <div class="range">
+                                <input type="range" class="form-range" id="customRange1" />
+                            </div>
+
+                            <label class="form-label" for="customRange1">Background Color</label>
+                            <div class="range">
+                                <input type="range" class="form-range" id="customRange1" />
+                            </div>
+                        </div>
+
+                    </div>
+                    -->
+
+                    <!-- OPTIONS -->
+                    <!--
+                    <div class="row py-2">
+                        <div class="col-6">
+                            <input type="checkbox" value="" id="screen_mainPresentationOnTop">
+                            <label class="form-check-label" for="screen_mainPresentationOnTop">Show Primary
+                                Only</label><br>
+
+                            <input type="checkbox" value="" id="screen_mainPresentationOnTop">
+                            <label class="form-check-label" for="screen_mainPresentationOnTop">Align Left</label><br>
+
+                            <input type="checkbox" value="" id="screen_mainPresentationOnTop">
+                            <label class="form-check-label" for="screen_mainPresentationOnTop">Align Center</label><br>
+
+                            <input type="checkbox" value="" id="screen_mainPresentationOnTop">
+                            <label class="form-check-label" for="screen_mainPresentationOnTop">Horizontal</label>
+                        </div>
+
+                        <div class="col-6">
+                                <input type="checkbox" value=""
+                                    id="screen_mainPresentationOnTop">
+                                <label class="form-check-label" for="screen_mainPresentationOnTop">Show Secondary
+                                    Only</label><br>
+
+                                <input type="checkbox" value=""
+                                    id="screen_mainPresentationOnTop">
+                                <label class="form-check-label" for="screen_mainPresentationOnTop">Auto Text
+                                    Outline</label><br>
+
+                                <input type="checkbox" value=""
+                                    id="screen_mainPresentationOnTop">
+                                <label class="form-check-label" for="screen_mainPresentationOnTop">Text
+                                    Shadow</label><br>
+
+                                <input type="checkbox" value=""
+                                    id="screen_mainPresentationOnTop">
+                                <label class="form-check-label" for="screen_mainPresentationOnTop">Show Date and
+                                    Time</label>
+                        </div>
+
+                    </div>
+                    -->
+
+                    <!-- OPTIONS -->
+                    <div class="row py-2">
+                        <div class="col-6">
+                            <input type="checkbox" value="" id="stageSettingShowTime">
+                            <label class="form-check-label" for="stageSettingShowTime">Show Date and
+                                Time</label>
+                        </div>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="row py-2">
+                        <div class="col-10">
+                            <label for="stageConfigMessage" class="form-label">Message</label>
+                            <textarea class="form-control" id="stageConfigMessage" rows="2"></textarea><br>
+
+                            <a href="#" class="btn btn-secondary btn-sm" id="stageMessageShow">SHOW MESSAGE</a>
+                            <a href="#" class="btn btn-secondary btn-sm" id="stageMessageHide">CLEAR MESSAGE</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>

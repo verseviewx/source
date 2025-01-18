@@ -1,0 +1,73 @@
+.vvheight {
+    height: 500px; 
+    background-color: rgba(255,0,0,.1);
+}
+
+.songTitleListHeight{
+    height: 500px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+mark{
+    background: rgb(255, 221, 157);
+    color: black;
+}
+
+.verseHighlightColor {
+    background-color: #71797E;
+    color: red;
+}
+
+.selectCenter {
+    text-align: center;
+    text-align-last: center;
+ }
+
+ /*
+ .selectionVideoClass{
+
+ }
+ */
+
+ .imageDiv {
+    display: block;
+    /*width: 445px;*/
+    height: 220px;
+ }
+
+ .bottomDiv {
+    position: relative;
+    bottom: 220px;
+    left:0px;
+ }
+
+ .videoDiv {
+    width: 440px;
+    height: 220px;
+ }
+
+
+ .still_bkgnd_grid_height{
+    width:100px;
+    border-style: solid;
+    border-width: 1px;
+ }
+
+.twenty_percent_smaller {
+    font-size: 80%;
+}
+
+.lefttabcss {
+    max-width: 400px;
+}
+/*
+ ::-webkit-scrollbar {
+    width: 10px;
+}
+*/
+ 
+.pointer {
+    cursor:pointer;
+}

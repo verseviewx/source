@@ -1,0 +1,187 @@
+<!--index.html-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src *; img-src * 'self' data: https:; script-src 'self' 'unsafe-inline'  *; style-src  'self' 'unsafe-inline' *">
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self';">-->
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+
+    <title>VerseVIEW 10.0.0 #30</title>
+    <!-- 10.0.0.20 Dec 22, 2023 -->
+    <!-- 10.0.0.21 Jan 13, 2024 -->
+    <!-- 10.0.0.22 Jan 23, 2024 -->
+    <!-- 10.0.0.23 Feb 24, 2024 -->
+    <!-- 10.0.0.24 Mar 30, 2024 -->
+    <!-- 10.0.0.25 May 19, 2024 -->
+    <!-- 10.0.0.26 Jun 25, 2024 -->
+    <!-- 10.0.0.27 Aug 3, 2024 -->
+    <!-- 10.0.0.28 Sept 8, 2024 -->
+    <!-- 10.0.0.29 Sept 23, 2024 -->
+     <!-- 10.0.0.30 Nov 30, 2024 -->
+
+
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="./node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" crossorigin="anonymous">
+
+    <link href="./lib/spectrum/spectrum.css" rel="stylesheet">
+
+    <link href="./verseview.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./fonts.css">
+
+
+    <script src="./node_modules/jquery/dist/jquery.min.js" crossorigin="anonymous"></script>
+
+    <script src="./js/updatedata.js"></script>
+    <script src="./js/fonts.js"></script>
+
+    <script src="./js/uiloader.js"></script>
+    <script src="./js/mainevents.js"></script>
+    <script src="./js/biblenavigation.js"></script>
+    <script src="./js/bibletab.js"></script>
+    <script src="./js/biblesearch.js"></script>
+    <script src="./js/bibleremote.js"></script>
+    <script src="./js/presentationsetup.js"></script>
+    <script src="./js/menufunctions.js"></script>
+    <script src="./js/configmanage.js"></script>
+    <script src="./js/recent.js"></script>
+
+    <script src="./js/songnavigation.js"></script>
+    <script src="./js/songedit.js"></script>
+    <script src="./js/munglish.js"></script>
+    <script src="./js/songremote.js"></script>
+    <script src="./js/bibleversion.js"></script>
+
+    <script src="./js/booknames.js"></script>
+
+    <script src="./js/remotecommand.js"></script>
+
+
+
+    <script src="./navigation/js/common.js"></script>
+
+    <script src="./navigation/js/uilogic/thememanager.js"></script>
+
+    <script src="./navigation/js/uilogic/graphictab.js"></script>
+    <script src="./navigation/js/uilogic/screenstab.js"></script>
+    <script src="./navigation/js/uilogic/scheduletab.js"></script>
+    <script src="./navigation/js/uilogic/theme.js"></script>
+    
+
+    <script src="./navigation/js/uilogic/bibleversionmanage.js"></script>
+    <script src="./navigation/js/uilogic/bibleversionselect.js"></script>
+
+    <script src="./navigation/js/uilogic/remotesetup.js"></script>
+
+</head>
+
+
+
+<!--<body class="bg-dark" onkeyup="mainWindowKey(event)">-->
+<!-- data-bs-theme="dark" -->
+
+<body class="" id="mainbox">
+    <!--
+    <h1>VerseVIEW</h1>
+    We are using Node.js <span id="node-version"></span>,
+    Chromium <span id="chrome-version"></span>,
+    and Electron <span id="electron-version"></span>.
+        -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col vv_navbar" id="vv_appbar">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 vv_mainlefttab lefttabcss" id="basicLeftTab">
+                Column
+            </div>
+            <div class="col vv_mainrighttab" id="basidRightTab">
+                Column
+            </div>
+        </div>
+
+    </div>
+
+    <div id="panel1"></div> <!-- For Remote VV screens -->
+    <div id="themebuilderpanel"></div> <!-- For Theme Builder Screens -->
+    <div id="bibleSelectVersionPanel"></div> <!-- For Bible Select Version panel -->
+    <div id="bibleManageVersionPanel"></div> <!-- For Bible Manage Version panel -->
+    <div id="editSongLyricsPanel"></div> <!-- For edit song lyrics panel -->
+    <div id="editSongLyricsCreatePanel"></div> <!-- For edit song lyrics create panel -->
+
+
+    <!-- NOTIFICATION MESSAGE BOX -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div class="toast text-white bg-secondary" role="alert" data-bs-autohide="true" id="somemessage">
+            <div class="toast-header">
+                <strong class="me-auto" id="vvdialog_header"></strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"
+                    id="toast_button_close"></button>
+            </div>
+            <div class="toast-body" id="vvdialog_message">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- CONFIRM BOX -->
+    <div class="modal fade" id="vvConfirm_main" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="vvConfirm_header"></h5>
+                    <!--<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
+                </div>
+                <div class="modal-body" id="vvConfirm_message">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" id="vvConfirm_yes">YES</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="vvConfirm_no">NO</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- COLOR PICKER BOX -->
+    <div class="modal fade" id="vvColorPicker_main" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="vvColorPicker_header"></h5>
+                </div>
+                <div class="modal-body" id="vvColorPicker_message">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" id="vvColorPicker_set">SET</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                        id="vvColorPicker_cancel">CANCEL</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- You can also require other files to run in this process -->
+    <!--script src="./renderer.js"></script>-->
+
+    <!--<script src="./node_modules/popper.js/dist/popper.min.js" crossorigin="anonymous"></script>-->
+    <script src="./lib/spectrum/spectrum.js"></script>
+    <script src="./lib/markjs/jquery.mark.js"></script>
+    <script src="./lib/qrcode/qrcode.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+    <script src="./js/verseview.js"></script>
+
+</body>
+
+</html>

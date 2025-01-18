@@ -1,0 +1,158 @@
+<!--
+    HTML FOR THE GRAPHICS TAB
+-->
+
+<div class="container-fluid">
+    <div class="row py-2">
+        <div class="col-3" id="preview_still_id">
+            <label for="preview_id" class="form-label">PREVIEW</label><br>
+            <div class="floatleftClass"><img src="./imagesrc/g.jpg" id="selectedx_still_id" class="img-thumbnail"></div>
+        </div>
+
+        <div class="col-3" id="preview_video_id">
+            <label for="preview_id" class="form-label">PREVIEW</label><br>
+                <video id="setVideoID" class="img-thumbnail" muted></video>
+        </div>
+
+        <div class="col-3"></div>
+
+        <div class="col-3" id="selected_still_div_id">
+            <label for="selected_still_id" class="form-label">BACKGROUND IMAGE</label><br>
+            <img src="./imagesrc/a.jpg" id="selected_still_id" class="img-thumbnail">
+        </div>
+
+        <div class="col-3" id="selectedVideoDivID">
+            <label for="selectedVideoID" class="form-label">BACKGROUND VIDEO</label><br>
+            <video id="selectedVideoID" class="img-thumbnail" muted autoplay></video>
+        </div>
+
+        <div class="col-3">
+            <label for="selected_logostill_id" class="form-label">LOGO IMAGE</label><br>
+            <img src="./imagesrc/b.jpg" id="selected_logostill_id" class="img-thumbnail">
+        </div>
+    </div>
+
+
+    <div class="row py-2">
+        <div class="col">
+            <div id="textColorID" name="textColorID" class="btn-sm">
+                <!-- SET AS.... -->
+                <div class="btn-group btn-group-sm" role="group" aria-label="Control">
+                    <button type="button" id="setAsBackgroundButtonID" class="btn btn-secondary" data-bs-toggle="tooltip"
+                        data-bs-placement="bottom" title="Set as Background"><i class="bi-image"></i></button>
+                    
+                    <button type="button" id="setAsLogoButtonID" class="btn btn-secondary" data-bs-toggle="tooltip"
+                        data-bs-placement="bottom" title="Set as Logo"><i class="bi-fullscreen"></i></button>
+                </div>
+
+                <!-- PLAYBACK -->
+                <div class="btn-group btn-group-sm" role="group" aria-label="Control">
+                    <button type="button" id="rewind15ButtonID" class="btn btn-secondary" data-bs-toggle="tooltip"
+                        data-bs-placement="bottom" title="Rewind 15 sec"><i class="bi-skip-backward"></i></button>
+
+                    <button type="button" id="playpauseButtonID" class="btn btn-secondary" data-bs-toggle="tooltip"
+                        data-bs-placement="bottom" title="Play"><i id="playpauseButtonIconID" class="bi-play"></i></button> <!--pause-btn-->
+                   
+                    <button type="button" id="pauseButtonID" class="btn btn-secondary" data-bs-toggle="tooltip"
+                        data-bs-placement="bottom" title="Pause"><i id="pauseButtonIconID" class="bi-pause"></i></button> <!--pause-btn-->
+                    
+                    <button type="button" id="muteButtonID" class="btn btn-secondary" data-bs-toggle="tooltip"
+                        data-bs-placement="bottom" title="Mute/Unmute"><i id="muteButtonIconID" class="bi-volume-up"></i></button> <!--pause-btn-->
+                   
+                    <button type="button" id="forward15ButtonID" class="btn btn-secondary" data-bs-toggle="tooltip"
+                        data-bs-placement="bottom" title="Fast Forward 15 sec"><i class="bi-skip-forward"></i></button>
+                </div>
+
+                <!-- ADD DELETE -->
+                <div class="btn-group btn-group-sm" role="group" aria-label="Control">
+                    <button type="button" id="addStillBkgndButtonID" class="btn btn-secondary" data-bs-toggle="tooltip"
+                        data-bs-placement="bottom" title="Add Media"><i class="bi-plus-square"></i></button>
+                
+                    <button type="button" id="delStillBkgndButton" class="btn btn-secondary" data-bs-toggle="tooltip"
+                        data-bs-placement="bottom" title="Delete Selected Media"><i class="bi-x-square"></i></button>
+                </div>
+                <!--<a href="#" class="btn btn-secondary btn-sm" id="setAsBackgroundButtonID">SET AS BACKGROUND</a>
+                <a href="#" class="btn btn-secondary btn-sm" id="setAsLogoButtonID">SET AS LOGO</a>
+                <a href="#" class="btn btn-secondary btn-sm" id="addStillBkgndButtonID">ADD</a>
+                <a href="#" class="btn btn-secondary btn-sm" id="delStillBkgndButton">DELETE</a>-->
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row py-2">
+        <div class="col-6">
+            
+            
+        </div>
+    </div>
+
+
+
+
+    <div class="row py-2">
+        <div class="col-4">
+            <label for="motionBkgndSelection" class="form-label">MOTION BACKGROUND</label>
+            <select class="form-select" size="5" id="motionBkgndSelection"  aria-label="size 3 select example">
+            </select>
+        </div>
+        <div class="col-2"></div>
+        <div class="col-5">
+            <div class="row py-2">
+                <!-- TEXT COLOR -->
+                <label for="textColorID" class="form-label">TEXT COLOR</label><br>
+                <div id="textColorID" name="textColorID" class="btn-sm">
+                    <a href="#" class="btn btn-secondary btn-sm" id="changeText1ColorButton"><i class="bi bi-circle-fill"
+                            id="Text1ColorBox"></i> TEXT 1</a>
+        
+                    <a href="#" class="btn btn-secondary btn-sm" id="changeText2ColorButton"><i class="bi bi-circle-fill"
+                            id="Text2ColorBox"></i> TEXT 2</a>
+        
+                    <a href="#" class="btn btn-secondary btn-sm" id="resetTextColorButton"><i class="bi bi-arrow-clockwise"></i></a>
+                </div>
+            </div>
+        
+            <div class="row py-2">
+                <label for="textColorID" class="form-label">OVERLAY COLOR</label><br>
+                <div id="textColorID" name="textColorID" class="btn-sm">
+                    <a href="#" class="btn btn-secondary btn-sm" id="changeLayerColorButton"><i class="bi bi-circle-fill"
+                            id="LayerColorBox"></i> OVERLAY</a>
+        
+                    <a href="#" class="btn btn-secondary btn-sm" id="resetOverlayColorButton"><i class="bi bi-x-square"></i></a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
+    <div class="row py-2">
+        <div class="col-3">
+            
+        </div>
+    </div>
+
+
+    
+    <div id="still_bkgnd_grid">
+        <div class="row py-2">
+            <div class="col-2"><img src="./imagesrc/a.jpg" id="still_1" class="img-thumbnail"></div>
+            <div class="col-2"><img src="./imagesrc/b.jpg" id="still_1" class="img-thumbnail"></div>
+            <div class="col-2"><img src="./imagesrc/a.jpg" id="still_1" class="img-thumbnail"></div>
+            <div class="col-2"><img src="./imagesrc/c.jpg" id="still_1" class="img-thumbnail"></div>
+            <div class="col-2"><img src="./imagesrc/a.jpg" id="still_1" class="img-thumbnail"></div>
+            <div class="col-2"><img src="./imagesrc/b.jpg" id="still_1" class="img-thumbnail"></div>
+        </div>
+
+        <div class="row py-2">
+            <div class="col-2"><img src="./imagesrc/d.jpg" id="still_1" class="img-thumbnail"></div>
+            <div class="col-2"><img src="./imagesrc/b.jpg" id="still_1" class="img-thumbnail"></div>
+            <div class="col-2"><img src="./imagesrc/f.jpg" id="still_1" class="img-thumbnail"></div>
+            <div class="col-2"><img src="./imagesrc/d.jpg" id="still_1" class="img-thumbnail"></div>
+            <div class="col-2"><img src="./imagesrc/a.jpg" id="still_1" class="img-thumbnail"></div>
+            <div class="col-2"><img src="./imagesrc/c.jpg" id="still_1" class="img-thumbnail"></div>
+        </div>
+    </div>
+
+</div>
